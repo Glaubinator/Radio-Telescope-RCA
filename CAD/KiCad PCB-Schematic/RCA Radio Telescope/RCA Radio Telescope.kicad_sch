@@ -511,6 +511,141 @@
 				)
 			)
 		)
+		(symbol "Radio Telescope:12vTo5vDC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U3"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "12vTo5vDC_0_1"
+				(rectangle
+					(start -7.62 3.81)
+					(end 7.62 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "12vTo5vDC_1_1"
+				(pin power_in line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -6.35 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -6.35 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Radio Telescope:ADALM_Pluto_SDR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -573,8 +708,8 @@
 					)
 				)
 				(rectangle
-					(start -6.35 16.51)
-					(end 8.89 6.35)
+					(start -7.62 16.51)
+					(end 10.16 6.35)
 					(stroke
 						(width 0)
 						(type default)
@@ -584,8 +719,8 @@
 					)
 				)
 				(rectangle
-					(start -6.35 24.13)
-					(end 8.89 16.51)
+					(start -7.62 26.67)
+					(end 10.16 16.51)
 					(stroke
 						(width 0)
 						(type default)
@@ -1085,35 +1220,83 @@
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 149.86 35.56) (xy 156.21 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01500146-e3f0-44c0-83db-adf2f5fa6587")
+	(junction
+		(at 146.05 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01040332-68c2-43c2-9650-b5a6e18da642")
+	)
+	(junction
+		(at 146.05 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbedf2e3-580c-4dab-8e44-8ad516eb810d")
+	)
+	(junction
+		(at 49.53 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1621d20-a84d-4470-b4b0-a673510a52a9")
 	)
 	(wire
 		(pts
-			(xy 104.14 55.88) (xy 144.78 55.88)
+			(xy 146.05 110.49) (xy 149.86 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1728f96a-df52-4c6e-b7d4-d864c71eea73")
+		(uuid "0b2507b8-d7d2-4a32-8e6c-dddf46b46fe9")
 	)
 	(wire
 		(pts
-			(xy 156.21 35.56) (xy 156.21 36.83)
+			(xy 146.05 102.87) (xy 152.4 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "405baf6f-4e60-4c5d-8edd-8545945a0ac6")
+		(uuid "224f3987-ceaa-4646-be36-db755050b88b")
+	)
+	(wire
+		(pts
+			(xy 104.14 55.88) (xy 138.43 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "350273ba-69c1-48d1-b701-1cd79d60913f")
+	)
+	(wire
+		(pts
+			(xy 152.4 74.93) (xy 152.4 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c3075a2-914f-4977-9e3c-1e2d7cf9ce8b")
+	)
+	(wire
+		(pts
+			(xy 43.18 102.87) (xy 49.53 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42b8a8c1-c3ba-45ab-972e-b4a29a9a100f")
+	)
+	(wire
+		(pts
+			(xy 149.86 74.93) (xy 149.86 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50fe553a-1b24-43e3-8cdf-1e1655f517be")
 	)
 	(wire
 		(pts
@@ -1127,6 +1310,36 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 110.49) (xy 125.73 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a46a7f93-87c0-4b12-b652-abcbdf5d94a8")
+	)
+	(wire
+		(pts
+			(xy 146.05 110.49) (xy 146.05 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3a6115d-a9d0-4289-a69f-75eed65c32a7")
+	)
+	(wire
+		(pts
+			(xy 49.53 102.87) (xy 125.73 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e97956-9803-4b33-8d79-a9d20518bbb6")
+	)
+	(wire
+		(pts
 			(xy 30.48 55.88) (xy 88.9 55.88)
 		)
 		(stroke
@@ -1137,13 +1350,23 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 102.87) (xy 44.45 102.87)
+			(xy 27.94 102.87) (xy 41.91 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d3544ddf-bd84-4dfc-8f74-70b348b0fd18")
+	)
+	(wire
+		(pts
+			(xy 146.05 101.6) (xy 146.05 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7aab304-1021-48d7-8dd3-5915eaea0a12")
 	)
 	(rectangle
 		(start 21.59 21.59)
@@ -1172,8 +1395,21 @@
 		(uuid 50c32acb-a28d-4fe5-8a8e-d8e10d51eea2)
 	)
 	(rectangle
-		(start 72.39 92.71)
-		(end 96.52 121.92)
+		(start 133.35 26.67)
+		(end 173.99 85.09)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5fea97db-8ac0-4b8a-9351-76a01f4ce2c0)
+	)
+	(rectangle
+		(start 124.46 92.71)
+		(end 148.59 121.92)
 		(stroke
 			(width 0)
 			(type default)
@@ -1185,8 +1421,8 @@
 		(uuid 77ce73a2-10db-4ca5-b79e-5bbfc300f63e)
 	)
 	(rectangle
-		(start 24.13 92.71)
-		(end 53.34 121.92)
+		(start 21.59 92.71)
+		(end 50.8 121.92)
 		(stroke
 			(width 0)
 			(type default)
@@ -1196,6 +1432,19 @@
 			(type none)
 		)
 		(uuid 884c684c-4450-4ff3-89b8-0a8e11fad005)
+	)
+	(rectangle
+		(start 53.34 92.71)
+		(end 121.92 121.92)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ea401b1f-5cc1-412a-a6ab-9ca892792804)
 	)
 	(text "Low Noise Amplifier"
 		(exclude_from_sim no)
@@ -1210,7 +1459,7 @@
 	)
 	(text "12V DC 300aHr 100W SOLAR\n"
 		(exclude_from_sim no)
-		(at 38.608 94.742 0)
+		(at 36.068 94.742 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1229,6 +1478,39 @@
 			)
 		)
 		(uuid "5cfc0745-2dca-4d52-977a-397dcfcdbeed")
+	)
+	(text "Power Over Ethernet\n(Insert More Details)\n"
+		(exclude_from_sim no)
+		(at 64.262 95.758 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "70ac7fe2-ff13-4080-b6d2-889ebdfafc98")
+	)
+	(text "12V TO 5V DC BUCK\n"
+		(exclude_from_sim no)
+		(at 134.874 94.996 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "e6f3dae1-a255-45ce-bf83-dc340785fbdf")
+	)
+	(text "Software Defined Radio (SDR)"
+		(exclude_from_sim no)
+		(at 148.844 28.956 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "fbdd3839-1c02-4c54-ba33-7bfdb9dcb621")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1298,7 +1580,8 @@
 	)
 	(symbol
 		(lib_id "Radio Telescope:ADALM_Pluto_SDR")
-		(at 158.75 55.88 0)
+		(at 152.4 55.88 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1306,7 +1589,7 @@
 		(dnp no)
 		(uuid "13b47696-e618-4b1f-9914-46451d4c112c")
 		(property "Reference" "U2"
-			(at 172.974 40.386 0)
+			(at 146.304 34.6711 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1315,7 +1598,7 @@
 			)
 		)
 		(property "Value" "ADALM Pluto SDR"
-			(at 172.974 42.2911 0)
+			(at 146.304 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1324,7 +1607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 55.88 0)
+			(at 152.4 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1333,7 +1616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 55.88 0)
+			(at 152.4 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1342,7 +1625,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 55.88 0)
+			(at 152.4 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1378,16 +1661,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 158.75 36.83 0)
+		(lib_id "power:GND")
+		(at 146.05 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3395ac11-c162-4d24-8fb8-3af07c670663")
-		(property "Reference" "#PWR05"
-			(at 158.75 40.64 0)
+		(fields_autoplaced yes)
+		(uuid "1eae6933-4f10-42c5-a3bb-45010274b083")
+		(property "Reference" "#PWR07"
+			(at 146.05 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1395,16 +1679,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 158.496 33.02 0)
+		(property "Value" "GND"
+			(at 146.05 118.11 0)
 			(effects
 				(font
-					(size 1.143 1.143)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 36.83 0)
+			(at 146.05 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1413,7 +1697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 36.83 0)
+			(at 146.05 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1421,8 +1705,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 158.75 36.83 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1431,12 +1715,85 @@
 			)
 		)
 		(pin "1"
-			(uuid "c803fddc-68c9-4f18-9c22-c257b04ab98f")
+			(uuid "b0357827-33a1-4fe1-9bf5-5de2a7770018")
 		)
 		(instances
 			(project "RCA Radio Telescope"
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
-					(reference "#PWR05")
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Radio Telescope:12vTo5vDC")
+		(at 135.89 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "393b0064-7589-4337-8589-787b50437073")
+		(property "Reference" "U3"
+			(at 135.89 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 135.89 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac7e16c4-c758-4ff2-9e64-e52ebc0a38c9")
+		)
+		(pin "5"
+			(uuid "6ddd364b-18d5-4dd1-8daa-a21fc8d7d028")
+		)
+		(pin "5"
+			(uuid "f42c9cc5-5902-43d7-988e-792d15b06b4e")
+		)
+		(pin "1"
+			(uuid "6b2325fd-1f7b-497d-a460-60966136f153")
+		)
+		(instances
+			(project ""
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -1590,7 +1947,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 30.48 107.95 0)
+		(at 27.94 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1599,7 +1956,7 @@
 		(fields_autoplaced yes)
 		(uuid "63c896d3-d8f6-487f-92d8-69130226cbec")
 		(property "Reference" "BT1"
-			(at 34.29 104.8384 0)
+			(at 31.75 104.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1608,7 +1965,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 34.29 107.3784 0)
+			(at 31.75 107.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1617,7 +1974,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 106.426 90)
+			(at 27.94 106.426 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1626,7 +1983,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 106.426 90)
+			(at 27.94 106.426 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1635,7 +1992,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 30.48 107.95 0)
+			(at 27.94 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1660,7 +2017,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 48.26 102.87 90)
+		(at 45.72 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1668,7 +2025,7 @@
 		(dnp no)
 		(uuid "681e2ae1-55a6-4e9f-8f19-35ff048c498f")
 		(property "Reference" "F1"
-			(at 48.26 97.79 90)
+			(at 45.72 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1676,7 +2033,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 48.26 100.33 90)
+			(at 45.72 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,7 +2041,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 104.648 90)
+			(at 45.72 104.648 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,7 +2050,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 102.87 0)
+			(at 45.72 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1702,7 +2059,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 48.26 102.87 0)
+			(at 45.72 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1726,17 +2083,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 149.86 35.56 0)
+		(lib_id "power:+5V")
+		(at 146.05 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70b865fd-da13-4e97-b07e-f82f1450f1ab")
+		(uuid "cc5f015a-88df-409a-a87e-66962d711531")
 		(property "Reference" "#PWR03"
-			(at 149.86 41.91 0)
+			(at 146.05 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1744,8 +2100,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 149.86 40.64 0)
+		(property "Value" "+5V"
+			(at 145.542 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1753,7 +2109,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 35.56 0)
+			(at 146.05 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1762,7 +2118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 35.56 0)
+			(at 146.05 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1770,8 +2126,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 35.56 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 146.05 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1780,10 +2136,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "0cc286a3-1868-463d-9154-f2bd36403902")
+			(uuid "a6953dd1-c452-471a-942d-c04eec788dbf")
 		)
 		(instances
-			(project ""
+			(project "RCA Radio Telescope"
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
 					(reference "#PWR03")
 					(unit 1)
@@ -1852,72 +2208,6 @@
 			(project ""
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 30.48 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f11b35b9-21bb-4ea3-a61f-fe1c74b91f3b")
-		(property "Reference" "#PWR06"
-			(at 30.48 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 30.48 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "973b09b2-4241-4071-b53e-df9a35cd0f61")
-		)
-		(instances
-			(project ""
-				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
