@@ -236,7 +236,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Radio Telescope"
+    ]
   },
   "meta": {
     "filename": "RCA Radio Telescope.kicad_pro",
