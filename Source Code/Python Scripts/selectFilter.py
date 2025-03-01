@@ -3,7 +3,7 @@ RCA Radio Telescope - Pluto SDR Filter Control Script
     Sponsor(s): Rose City Astronomers
     Team: PSU Capstone Team 11 2025     
 
-    Version: 1.0
+    Version: 1.1
     Author(s): Truong Le
     Date: 2/28/2025
 
@@ -22,6 +22,14 @@ RCA Radio Telescope - Pluto SDR Filter Control Script
         - C: Filter C is selected
         - RST: Reset configurations to default
         - EXIT: Exit program with no changes (good for checking state of SDR) 
+
+    Dependencies: 
+        - Python
+            - Installation Page: https://www.python.org/downloads/
+        - pyadi-iio (Available using pip installer)
+            - Wiki: https://analogdevicesinc.github.io/pyadi-iio/index.html
+        - libiio (Not available from pip, need to go to repo to install)
+            - GitHub Releases: https://github.com/analogdevicesinc/libiio/releases
 """
 # Import Libraries
 import adi
