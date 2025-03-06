@@ -7,7 +7,7 @@
 	(title_block
 		(title "RCA Radio Telescope System")
 		(date "2025-02-09")
-		(rev "Version 1.4")
+		(rev "Version 1.5")
 	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
@@ -2917,6 +2917,12 @@
 		(uuid "41e66a02-6160-4678-98d0-7cc8afa9a48c")
 	)
 	(junction
+		(at 68.58 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4851ab12-366e-4f1f-8fae-53d16d320d5e")
+	)
+	(junction
 		(at 190.5 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2973,7 +2979,7 @@
 		(uuid "02f94991-f48b-48fa-844c-fea5aec278c3")
 	)
 	(no_connect
-		(at 223.52 46.99)
+		(at 228.6 46.99)
 		(uuid "1a0a33ae-d4a5-4c1e-af6e-7faec8b41650")
 	)
 	(no_connect
@@ -3130,7 +3136,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 55.88) (xy 68.58 58.42)
+			(xy 68.58 55.88) (xy 68.58 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3210,6 +3216,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 60.96) (xy 71.12 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c0703d7-5a47-4de1-a0f5-a8878442ea86")
+	)
+	(wire
+		(pts
 			(xy 196.85 57.15) (xy 196.85 63.5)
 		)
 		(stroke
@@ -3267,6 +3283,16 @@
 			(type default)
 		)
 		(uuid "2c54d36e-a3cf-41f8-a977-07b84ffc79f9")
+	)
+	(wire
+		(pts
+			(xy 68.58 60.96) (xy 68.58 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "314f72e8-b967-423c-9654-09ebf20c5971")
 	)
 	(wire
 		(pts
@@ -3547,6 +3573,16 @@
 			(type default)
 		)
 		(uuid "6d334bdc-72c2-4a2a-8a20-5ebebb8375ff")
+	)
+	(wire
+		(pts
+			(xy 228.6 46.99) (xy 223.52 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e06dde7-38d0-49ee-ae41-92c399653299")
 	)
 	(wire
 		(pts
@@ -4240,9 +4276,9 @@
 		)
 		(uuid "bc3dbf37-b641-4b01-9c98-1529d1e5b030")
 	)
-	(text "TODO:\n- Add RF Connector components to filter schematic\n- Select Buck for 5V to 3V Step Down\n- Add Filter Components for Filter Board\n- ENSURE EVERY COMPONENT HAS A PROPER FOOTPRINT\n- Determine how to route cable from SDR to Filter Board"
+	(text "TODO:\n- Add RF Connector components to filter schematic\n- Select Buck for 5V to 3V Step Down\n- Add Filter Components for Filter Board\n- ENSURE EVERY COMPONENT HAS A PROPER FOOTPRINT\n- Determine how to route cable from SDR to Filter Board\n- Add decoup caps to any voltage lines near components"
 		(exclude_from_sim no)
-		(at 15.24 161.036 0)
+		(at 16.51 169.164 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -4286,6 +4322,16 @@
 		)
 		(uuid "03d00a97-aa06-41e1-919c-df4a6a570982")
 	)
+	(label "SDR_GPO_GND"
+		(at 228.6 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43449654-2df2-4db5-a2a4-5c9f29e2410a")
+	)
 	(label "SDR_GPO_1"
 		(at 228.6 39.37 0)
 		(effects
@@ -4295,6 +4341,16 @@
 			(justify left bottom)
 		)
 		(uuid "56f78266-3064-47ad-9a7b-0489e7860bdc")
+	)
+	(label "SDR_GPO_GND"
+		(at 71.12 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e851ec4-5413-4fa8-9d1e-313ecdf936cf")
 	)
 	(label "SDR_GPO_VDD"
 		(at 228.6 34.29 0)
@@ -4606,7 +4662,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f1137b3-33db-4e3f-be77-c5bf3ae702de")
-		(property "Reference" "J9"
+		(property "Reference" "J2"
 			(at 172.72 116.8399 0)
 			(effects
 				(font
@@ -4660,7 +4716,7 @@
 		(instances
 			(project "RCA Radio Telescope"
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
-					(reference "J9")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4675,7 +4731,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2814307f-1ad6-4652-a433-890fbaac5155")
-		(property "Reference" "U5"
+		(property "Reference" "U9"
 			(at 142.24 107.95 0)
 			(effects
 				(font
@@ -4733,7 +4789,7 @@
 		(instances
 			(project ""
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
-					(reference "U5")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -4814,7 +4870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33017eec-2173-448d-a9a7-6e19e01aa7d2")
-		(property "Reference" "J6"
+		(property "Reference" "J3"
 			(at 243.84 99.0599 0)
 			(effects
 				(font
@@ -4868,7 +4924,7 @@
 		(instances
 			(project "RCA Radio Telescope"
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
-					(reference "J6")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5026,7 +5082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "425bfd61-b0b1-4e29-adb6-10ff9e82fa5b")
-		(property "Reference" "J8"
+		(property "Reference" "J4"
 			(at 257.81 113.0299 0)
 			(effects
 				(font
@@ -5080,7 +5136,7 @@
 		(instances
 			(project "RCA Radio Telescope"
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
-					(reference "J8")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5559,7 +5615,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 58.42 0)
+		(at 68.58 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5568,7 +5624,7 @@
 		(fields_autoplaced yes)
 		(uuid "7faa51e3-66dc-4873-9478-288f7bd7a17a")
 		(property "Reference" "#PWR029"
-			(at 68.58 64.77 0)
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5577,7 +5633,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 63.5 0)
+			(at 68.58 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5585,7 +5641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 58.42 0)
+			(at 68.58 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,7 +5650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 58.42 0)
+			(at 68.58 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5603,7 +5659,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 58.42 0)
+			(at 68.58 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5764,7 +5820,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87caf1ef-7f1c-46ee-abc6-53b774eb1ba2")
-		(property "Reference" "J2"
+		(property "Reference" "J6"
 			(at 206.756 80.264 90)
 			(effects
 				(font
@@ -5833,7 +5889,7 @@
 		(instances
 			(project ""
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
-					(reference "J2")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -5914,7 +5970,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c5cc6d7-6a18-4cd8-a131-d108493aa225")
-		(property "Reference" "U13"
+		(property "Reference" "U12"
 			(at 59.69 118.872 0)
 			(effects
 				(font
@@ -5972,7 +6028,7 @@
 		(instances
 			(project ""
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
-					(reference "U13")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -5988,7 +6044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a07cc5c5-211c-4fe6-8728-93cc887f7941")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 125.73 22.8599 0)
 			(effects
 				(font
@@ -6042,7 +6098,7 @@
 		(instances
 			(project "RCA Radio Telescope"
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6189,7 +6245,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a98123e2-4328-45c1-8376-4471bdf5d8de")
-		(property "Reference" "U6"
+		(property "Reference" "U10"
 			(at 116.586 107.95 0)
 			(effects
 				(font
@@ -6247,7 +6303,7 @@
 		(instances
 			(project ""
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
-					(reference "U6")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -6329,7 +6385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0ae3691-21f7-4b59-8888-1c0e752f486a")
-		(property "Reference" "J7"
+		(property "Reference" "J5"
 			(at 58.42 62.23 0)
 			(effects
 				(font
@@ -6387,7 +6443,7 @@
 		(instances
 			(project "RCA Radio Telescope"
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
-					(reference "J7")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6468,7 +6524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d476c332-9a71-4659-b306-99aeee44d53b")
-		(property "Reference" "U4"
+		(property "Reference" "U8"
 			(at 180.594 135.636 0)
 			(effects
 				(font
@@ -6529,7 +6585,7 @@
 		(instances
 			(project ""
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
-					(reference "U4")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -6544,7 +6600,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f20bc33f-908f-4d5d-9e43-59d17a958fdf")
-		(property "Reference" "U7"
+		(property "Reference" "U11"
 			(at 92.964 119.38 0)
 			(effects
 				(font
@@ -6602,7 +6658,7 @@
 		(instances
 			(project ""
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
-					(reference "U7")
+					(reference "U11")
 					(unit 1)
 				)
 			)

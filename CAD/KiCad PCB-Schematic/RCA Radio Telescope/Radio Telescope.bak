@@ -2302,7 +2302,7 @@
 			)
 		)
 		(symbol "PoE_Spliter_1_1"
-			(text "Input: PoE (44-56V)\nOutput: 12V"
+			(text "Input: PoE (44-56V)\nOutput: 5V"
 				(at 0 -12.7 0)
 				(effects
 					(font

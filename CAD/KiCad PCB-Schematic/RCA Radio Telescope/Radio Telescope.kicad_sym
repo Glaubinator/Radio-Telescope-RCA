@@ -2471,54 +2471,6 @@
 			)
 		)
 		(symbol "SKY13588-460LF_0_1"
-			(polyline
-				(pts
-					(xy 7.62 -22.86) (xy 25.4 -22.86)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -22.86)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 25.4 -22.86) (xy 25.4 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 25.4 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin power_out line
 				(at 33.02 -12.7 180)
 				(length 7.62)
@@ -2719,6 +2671,17 @@
 			)
 		)
 		(symbol "SKY13588-460LF_1_1"
+			(rectangle
+				(start 7.62 5.08)
+				(end 25.4 -22.86)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin bidirectional line
 				(at 33.02 2.54 180)
 				(length 7.62)
