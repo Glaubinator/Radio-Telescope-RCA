@@ -4276,7 +4276,7 @@
 		)
 		(uuid "bc3dbf37-b641-4b01-9c98-1529d1e5b030")
 	)
-	(text "TODO:\n- Add RF Connector components to filter schematic\n- Select Buck for 5V to 3V Step Down\n- Add Filter Components for Filter Board\n- ENSURE EVERY COMPONENT HAS A PROPER FOOTPRINT\n- Determine how to route cable from SDR to Filter Board\n- Add decoup caps to any voltage lines near components"
+	(text "TODO:\n- Add RF Connector components to filter schematic\n- Add Filter Components for Filter Board\n- ENSURE EVERY COMPONENT HAS A PROPER FOOTPRINT\n- Determine how to route cable from SDR to Filter Board\n- Add decoup caps to any voltage lines near components\n- Select polyfuse and PMOS for power filter board"
 		(exclude_from_sim no)
 		(at 16.51 169.164 0)
 		(effects
@@ -4314,6 +4314,7 @@
 	)
 	(label "SDR_GPO_0"
 		(at 228.6 36.83 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4324,6 +4325,7 @@
 	)
 	(label "SDR_GPO_GND"
 		(at 228.6 46.99 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4334,6 +4336,7 @@
 	)
 	(label "SDR_GPO_1"
 		(at 228.6 39.37 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4344,6 +4347,7 @@
 	)
 	(label "SDR_GPO_GND"
 		(at 71.12 60.96 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4354,6 +4358,7 @@
 	)
 	(label "SDR_GPO_VDD"
 		(at 228.6 34.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4364,6 +4369,7 @@
 	)
 	(label "SDR_GPO_1"
 		(at 86.36 55.88 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4374,6 +4380,7 @@
 	)
 	(label "SDR_GPO_VDD"
 		(at 86.36 46.99 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4384,6 +4391,7 @@
 	)
 	(label "SDR_GPO_0"
 		(at 86.36 52.07 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
