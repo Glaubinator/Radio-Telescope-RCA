@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "SKY13588-460LF ")
 	(property "Reference" "REF**"
-		(at -1.0569 2.7 0)
+		(at -2.5 -2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "e9df3cf9-c583-4038-b190-2732d77db1dc")
@@ -888,19 +888,7 @@
 		(uuid "e64710c5-ad34-4112-a0b3-17d87a8f5041")
 	)
 	(fp_text user "*"
-		(at -3 2.2 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "6ceb14ad-2adb-499d-a5ab-771764a8017c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -3 2.2 0)
+		(at -2 -1 0)
 		(layer "F.SilkS")
 		(uuid "848e4ed6-4c8a-424b-8b50-3d0f29197935")
 		(effects
@@ -927,17 +915,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "648e34a4-b861-49f8-bb34-118741a0120b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -1.7 -1.75 0)
-		(layer "F.Fab")
-		(uuid "fff19fa9-f14d-4f51-a9e7-020b04e11de4")
 		(effects
 			(font
 				(size 1 1)

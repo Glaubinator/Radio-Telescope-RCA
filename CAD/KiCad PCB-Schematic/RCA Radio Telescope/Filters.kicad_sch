@@ -3004,7 +3004,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN12_SKY"
+		(property "Footprint" "Library:QFN12_SKY"
 			(at 76.2 53.086 0)
 			(effects
 				(font
@@ -3222,7 +3222,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN12_SKY"
+		(property "Footprint" "Library:QFN12_SKY"
 			(at 72.644 84.074 0)
 			(effects
 				(font

@@ -6,7 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "PowerDataDistribute")
-		(rev "Version 1.3")
+		(date "2025-03-15")
+		(rev "Version 1.4")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_A"
@@ -625,6 +626,169 @@
 				)
 			)
 		)
+		(symbol "Device:D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:L"
 			(pin_numbers hide)
 			(pin_names
@@ -1033,6 +1197,147 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Radio Telescope:0ZCK0020FF2G"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 5.08 3.175 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "0ZCK0020FF2G"
+				(at 5.08 -3.175 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "0ZCK_BEL"
+				(at -2.032 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "0ZCK0020FF2G"
+				(at -3.302 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "0ZCK0020FF2G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "0ZCK_BEL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0ZCK0020FF2G_0_1"
+				(arc
+					(start 5.08 0)
+					(mid 3.81 1.2645)
+					(end 2.54 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 6.35 -1.2645)
+					(end 7.62 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2393,6 +2698,12 @@
 		(uuid "1dd9591b-4bde-46fc-b1ef-92d678b67539")
 	)
 	(junction
+		(at 123.19 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e74f467-f11a-4966-b9a1-007d5d7a93f5")
+	)
+	(junction
 		(at 53.34 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2463,12 +2774,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5e7dad6-0977-4a04-a6c5-70796fa581f7")
-	)
-	(junction
-		(at 123.19 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9547e69-1b2d-4a1f-bfe6-6530b5b1eb88")
 	)
 	(junction
 		(at 118.11 27.94)
@@ -2573,6 +2878,16 @@
 			(type default)
 		)
 		(uuid "1c9a839e-31af-4365-9695-7c5bb860cbbd")
+	)
+	(wire
+		(pts
+			(xy 95.25 60.96) (xy 95.25 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d55c77d-ffa0-4f60-91d5-6ef7783187f1")
 	)
 	(wire
 		(pts
@@ -2876,6 +3191,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 25.4) (xy 166.37 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae2491fc-74b1-4ffb-bbf2-d94114868be6")
+	)
+	(wire
+		(pts
 			(xy 104.14 66.04) (xy 106.68 66.04)
 		)
 		(stroke
@@ -2913,6 +3238,16 @@
 			(type default)
 		)
 		(uuid "b60e207f-e5f4-4eea-964f-f56068662dfc")
+	)
+	(wire
+		(pts
+			(xy 123.19 25.4) (xy 140.97 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b99d5a6f-383e-4bfe-a1a4-8ef65d6142b4")
 	)
 	(wire
 		(pts
@@ -2976,16 +3311,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 25.4) (xy 166.37 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9116d5f-f810-4375-9af5-2bc498de58a6")
-	)
-	(wire
-		(pts
 			(xy 106.68 35.56) (xy 109.22 35.56)
 		)
 		(stroke
@@ -2996,7 +3321,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 50.8) (xy 95.25 66.04)
+			(xy 95.25 50.8) (xy 95.25 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3593,7 +3918,7 @@
 				)
 			)
 		)
-		(property "Value" "Polyfuse"
+		(property "Value" "RGEF300K-2"
 			(at 27.94 26.67 90)
 			(effects
 				(font
@@ -3601,7 +3926,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:RGEF300K-2"
 			(at 33.02 29.21 0)
 			(effects
 				(font
@@ -3669,7 +3994,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 113.03 31.242 0)
 			(effects
 				(font
@@ -3737,7 +4062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MLF-8_ML_MCH"
+		(property "Footprint" "Library:MLF-8_ML_MCH"
 			(at 72.39 51.308 0)
 			(effects
 				(font
@@ -3828,7 +4153,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:CONN_AU-Y1005-2_ASM"
 			(at 124.46 69.85 0)
 			(effects
 				(font
@@ -3966,7 +4291,7 @@
 				)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "DMP2008UFG-7"
 			(at 45.72 26.67 90)
 			(effects
 				(font
@@ -3974,7 +4299,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:DMP2008UFG-7_DIO"
 			(at 43.18 27.94 0)
 			(effects
 				(font
@@ -4074,7 +4399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 68.58 34.29 0)
 			(effects
 				(font
@@ -4117,6 +4442,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 95.25 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a181ef1-c77b-4704-b504-e17b25352019")
+		(property "Reference" "D2"
+			(at 97.79 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D"
+			(at 97.79 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 95.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 95.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 95.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f4058d4d-0a5a-43e1-9705-723f09d4da82")
+		)
+		(pin "1"
+			(uuid "462fd0fc-85c4-4dd7-929f-6edbb0a03821")
+		)
+		(instances
+			(project ""
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/27e6aa46-cfac-490f-80c1-5c0f7cb6c2e8"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 39.37 44.45 270)
 		(unit 1)
@@ -4142,7 +4555,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 39.37 42.672 90)
 			(effects
 				(font
@@ -4179,6 +4592,76 @@
 			(project ""
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/27e6aa46-cfac-490f-80c1-5c0f7cb6c2e8"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Radio Telescope:0ZCK0020FF2G")
+		(at 140.97 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98e70e2a-1339-4d70-9d36-bd02c9b188b0")
+		(property "Reference" "F3"
+			(at 146.05 19.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "0ZCK0020FF2G"
+			(at 146.05 21.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Library:0ZCK_BEL"
+			(at 138.938 19.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "0ZCK0020FF2G"
+			(at 137.668 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "68cd4dd9-1947-4f1f-b9ee-fcc631e4e935")
+		)
+		(pin "1"
+			(uuid "55ccc5bf-cc1e-4869-8f8f-6e7cdf277039")
+		)
+		(instances
+			(project ""
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/27e6aa46-cfac-490f-80c1-5c0f7cb6c2e8"
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -4278,7 +4761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 123.19 29.21 0)
 			(effects
 				(font
@@ -4478,7 +4961,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 101.6 66.04 0)
 			(effects
 				(font
@@ -4547,7 +5030,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:CONN_AU-Y1005-2_ASM"
 			(at 43.18 81.28 0)
 			(effects
 				(font
@@ -4624,7 +5107,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 113.03 25.4 0)
 			(effects
 				(font

@@ -4560,7 +4560,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "13b47696-e618-4b1f-9914-46451d4c112c")
 		(property "Reference" "U2"
@@ -4688,7 +4688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:CONN_1729128_PXC"
 			(at 175.26 116.84 0)
 			(effects
 				(font
@@ -4736,7 +4736,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "2814307f-1ad6-4652-a433-890fbaac5155")
 		(property "Reference" "U9"
@@ -4896,7 +4896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:CONN_1729128_PXC"
 			(at 241.3 99.06 0)
 			(effects
 				(font
@@ -4944,7 +4944,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "3cae40cc-936e-47d1-b498-38960f9b303f")
 		(property "Reference" "U1"
@@ -5108,7 +5108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:CONN_1729128_PXC"
 			(at 255.27 113.03 0)
 			(effects
 				(font
@@ -5288,7 +5288,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fe3f27f-a27c-4084-a618-93b196b88ecb")
@@ -5560,7 +5560,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "681e2ae1-55a6-4e9f-8f19-35ff048c498f")
 		(property "Reference" "F1"
@@ -5825,7 +5825,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "87caf1ef-7f1c-46ee-abc6-53b774eb1ba2")
 		(property "Reference" "J6"
@@ -5975,7 +5975,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "9c5cc6d7-6a18-4cd8-a131-d108493aa225")
 		(property "Reference" "U12"
@@ -6250,7 +6250,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "a98123e2-4328-45c1-8376-4471bdf5d8de")
 		(property "Reference" "U10"
@@ -6529,7 +6529,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "d476c332-9a71-4659-b306-99aeee44d53b")
 		(property "Reference" "U8"
@@ -6605,7 +6605,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "f20bc33f-908f-4d5d-9e43-59d17a958fdf")
 		(property "Reference" "U11"
