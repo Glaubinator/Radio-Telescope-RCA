@@ -2520,7 +2520,7 @@
 		)
 		(uuid "958d8919-5cbd-4742-b1f1-32f2b31e7244")
 	)
-	(text "Voltages on Filter Board:\n-Input: 5V from distribution board\n	-Converted to:\n		-3.3V for RF Switch VDD\n		-1.8V for RF Switch Control Voltage\n(LDOs are used since control circuitry will use \nvery little current, thus not much power will be \nlost due to heat)"
+	(text "Voltages on Filter Board:\n-Input: 5V from distribution board\n	-Converted to:\n		>3.3V for RF Switch VDD\n		>1.8V for RF Switch Control Voltage\n(LDOs are used since control circuitry will use \nvery little current, thus not much power will be \nlost due to heat)"
 		(exclude_from_sim no)
 		(at 101.092 180.34 0)
 		(effects

@@ -1,4 +1,4 @@
-24208479961784242
+24210223111610982
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65258,7 +65258,7 @@ CONN_AU-Y1005-2_ASM
 
 AU-Y1005-2 
 0
-4
+6
 4
 Library
 DIOM5336X250N
@@ -65302,6 +65302,13 @@ RGEF300K-2
 0
 2
 2
+Library
+RNM0015A
+
+TPS630701RNMR 
+0
+15
+15
 Library
 SON35P140X100X40-8N
 

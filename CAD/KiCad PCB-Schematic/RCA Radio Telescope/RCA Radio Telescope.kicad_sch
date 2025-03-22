@@ -4276,7 +4276,7 @@
 		)
 		(uuid "bc3dbf37-b641-4b01-9c98-1529d1e5b030")
 	)
-	(text "TODO:\n- Add RF Connector components to filter schematic\n- Add Filter Components for Filter Board\n- ENSURE EVERY COMPONENT HAS A PROPER FOOTPRINT\n- Determine how to route cable from SDR to Filter Board\n- Add decoup caps to any voltage lines near components\n- Select polyfuse and PMOS for power filter board"
+	(text "TODO:\n- Add RF Connector components to filter schematic\n- Add Filter Components for Filter Board\n- ENSURE EVERY COMPONENT HAS A PROPER FOOTPRINT\n- Determine how to route cable from SDR to Filter Board\n- Add decoup caps to any voltage lines near components\n- Select polyfuse and PMOS for power filter board\n- Find a voltage regulator that can accept 5-24V input"
 		(exclude_from_sim no)
 		(at 16.51 169.164 0)
 		(effects
