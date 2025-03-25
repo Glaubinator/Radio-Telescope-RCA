@@ -7,9 +7,111 @@
 	(title_block
 		(title "PowerDataDistribute")
 		(date "2025-03-15")
-		(rev "Version 1.5")
+		(rev "Version 1.6")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:USB_A"
 			(pin_names
 				(offset 1.016)
@@ -3080,6 +3182,18 @@
 		)
 	)
 	(junction
+		(at 95.25 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "027d8169-5c83-4df2-beed-99496232ca2e")
+	)
+	(junction
+		(at 35.56 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02a60a8a-648a-455e-9c42-6ef4016af461")
+	)
+	(junction
 		(at 95.25 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3138,6 +3252,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a87dddb-91f6-4874-b58f-9c8d425f582e")
+	)
+	(junction
+		(at 78.74 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fa97317-a286-437e-9198-e1608a5fe549")
 	)
 	(junction
 		(at 64.77 104.14)
@@ -3224,10 +3344,22 @@
 		(uuid "96b7845e-3a2b-4476-acb8-4ad1d0e8081e")
 	)
 	(junction
+		(at 45.72 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a296e0f2-8fb3-4e42-be6a-d5216603c299")
+	)
+	(junction
 		(at 167.64 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a344ce4d-cd4c-4a19-8c89-f49b0191d813")
+	)
+	(junction
+		(at 74.93 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adf9e00a-032c-412c-a772-d7a1c23357b6")
 	)
 	(junction
 		(at 118.11 30.48)
@@ -3246,6 +3378,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2dfd577-98b8-4840-95f5-6a406af52613")
+	)
+	(junction
+		(at 205.74 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c48b7ff2-1319-41c8-966d-b7d0763da6d7")
 	)
 	(junction
 		(at 121.92 30.48)
@@ -3272,6 +3410,12 @@
 		(uuid "da630e37-0b56-4706-92c2-ad9baff817d6")
 	)
 	(junction
+		(at 59.69 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dada383f-bebb-4e9a-babd-f39c61942589")
+	)
+	(junction
 		(at 119.38 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3282,6 +3426,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef1c8c12-88ab-4b3f-838b-4aab354102d2")
+	)
+	(junction
+		(at 127 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6dd9676-1214-49ec-8b88-473f2d4d7d0d")
 	)
 	(junction
 		(at 39.37 116.84)
@@ -3311,7 +3461,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 104.14) (xy 110.49 104.14)
+			(xy 64.77 104.14) (xy 74.93 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3331,13 +3481,13 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 30.48) (xy 40.64 30.48)
+			(xy 59.69 114.3) (xy 59.69 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06d0fc74-7b06-4f52-9fed-718ebe5679a7")
+		(uuid "07f16a16-6b27-4e54-bb8c-904343fb5d52")
 	)
 	(wire
 		(pts
@@ -3381,6 +3531,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 22.86) (xy 181.61 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10494ce7-2b7e-4669-ab15-80d7618fd93c")
+	)
+	(wire
+		(pts
 			(xy 36.83 116.84) (xy 39.37 116.84)
 		)
 		(stroke
@@ -3418,6 +3578,16 @@
 			(type default)
 		)
 		(uuid "1c9a839e-31af-4365-9695-7c5bb860cbbd")
+	)
+	(wire
+		(pts
+			(xy 45.72 44.45) (xy 45.72 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2062ce49-c6f4-48af-baeb-af787dfac4bb")
 	)
 	(wire
 		(pts
@@ -3501,7 +3671,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 50.8) (xy 231.14 50.8)
+			(xy 124.46 50.8) (xy 205.74 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3601,6 +3771,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 26.67) (xy 58.42 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b000f94-c4c7-4636-9cea-70f5bbae775e")
+	)
+	(wire
+		(pts
 			(xy 181.61 26.67) (xy 181.61 25.4)
 		)
 		(stroke
@@ -3671,6 +3851,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 96.52) (xy 78.74 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5122ae8c-f78f-4c54-a36d-2af896866acb")
+	)
+	(wire
+		(pts
 			(xy 181.61 31.75) (xy 181.61 33.02)
 		)
 		(stroke
@@ -3731,7 +3921,17 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 30.48) (xy 33.02 30.48)
+			(xy 35.56 24.13) (xy 35.56 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58673681-c4d1-4d8c-8e65-90c65d0d8890")
+	)
+	(wire
+		(pts
+			(xy 30.48 30.48) (xy 33.02 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3881,6 +4081,26 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 24.13) (xy 121.92 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92fefaab-4282-4e00-8d08-11cabc1a3356")
+	)
+	(wire
+		(pts
+			(xy 35.56 30.48) (xy 33.02 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9388417a-212a-4b89-ad9c-a45ccbf04722")
+	)
+	(wire
+		(pts
 			(xy 58.42 35.56) (xy 64.77 35.56)
 		)
 		(stroke
@@ -3921,7 +4141,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 116.84) (xy 119.38 116.84)
+			(xy 39.37 116.84) (xy 59.69 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3941,6 +4161,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 30.48) (xy 40.64 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a61f10de-2c28-4ea5-8487-76bac0beefaf")
+	)
+	(wire
+		(pts
 			(xy 124.46 30.48) (xy 124.46 50.8)
 		)
 		(stroke
@@ -3948,6 +4178,16 @@
 			(type default)
 		)
 		(uuid "a79f8740-df2a-427b-8a6f-9113557850e3")
+	)
+	(wire
+		(pts
+			(xy 95.25 77.47) (xy 95.25 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7a70534-9a25-455c-b73c-87010abed773")
 	)
 	(wire
 		(pts
@@ -4071,6 +4311,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 92.71) (xy 74.93 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfde4cf8-736e-4086-9604-ee1693d34158")
+	)
+	(wire
+		(pts
 			(xy 121.92 36.83) (xy 121.92 39.37)
 		)
 		(stroke
@@ -4091,7 +4341,17 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 106.68) (xy 110.49 106.68)
+			(xy 74.93 104.14) (xy 110.49 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c32697ba-5137-4eef-b957-92b784a5bda0")
+	)
+	(wire
+		(pts
+			(xy 64.77 106.68) (xy 78.74 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4151,6 +4411,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 48.26) (xy 205.74 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d18491ac-54f3-465e-8b05-40bf2ed9134b")
+	)
+	(wire
+		(pts
 			(xy 52.07 30.48) (xy 52.07 35.56)
 		)
 		(stroke
@@ -4158,6 +4428,16 @@
 			(type default)
 		)
 		(uuid "d2816205-c007-4d14-9e4d-da7f9c7b1939")
+	)
+	(wire
+		(pts
+			(xy 205.74 50.8) (xy 231.14 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d301261a-9b38-4a38-b926-270c282dfc3e")
 	)
 	(wire
 		(pts
@@ -4181,6 +4461,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 116.84) (xy 119.38 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1f3bfa-59c4-4167-af0b-3679e7ebb6b3")
+	)
+	(wire
+		(pts
 			(xy 52.07 48.26) (xy 58.42 48.26)
 		)
 		(stroke
@@ -4201,13 +4491,23 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 30.48) (xy 24.13 30.48)
+			(xy 20.32 30.48) (xy 22.86 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e367ad88-e5df-42b7-9cf2-2185a5934cec")
+	)
+	(wire
+		(pts
+			(xy 127 24.13) (xy 127 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4897ac6-44ba-466b-9c37-55cd66bcf8ec")
 	)
 	(wire
 		(pts
@@ -4308,6 +4608,16 @@
 			(type default)
 		)
 		(uuid "f25c6623-6fb6-4935-87f8-1a6e039591d1")
+	)
+	(wire
+		(pts
+			(xy 78.74 106.68) (xy 110.49 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2ac1c3f-00a9-44f6-8a41-20e6cecd96fb")
 	)
 	(wire
 		(pts
@@ -4440,7 +4750,7 @@
 	)
 	(text "PowerDataDistribute Board: Step-Down and Power Filters"
 		(exclude_from_sim no)
-		(at 57.15 18.288 0)
+		(at 50.038 17.272 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4453,7 +4763,6 @@
 	(hierarchical_label "VDD"
 		(shape input)
 		(at 20.32 30.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -4467,7 +4776,6 @@
 	(hierarchical_label "USB_D-_IN"
 		(shape bidirectional)
 		(at 59.69 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4479,7 +4787,6 @@
 	(hierarchical_label "USB_D+_IN"
 		(shape bidirectional)
 		(at 59.69 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4491,7 +4798,6 @@
 	(hierarchical_label "USB_5V_IN"
 		(shape output)
 		(at 49.53 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4505,7 +4811,6 @@
 	(hierarchical_label "USB_GND_IN"
 		(shape output)
 		(at 34.29 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4519,7 +4824,6 @@
 	(hierarchical_label "VOUT_3V"
 		(shape output)
 		(at 224.79 25.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -4533,7 +4837,6 @@
 	(hierarchical_label "USB_OUT"
 		(shape bidirectional)
 		(at 158.75 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -4547,7 +4850,6 @@
 	(hierarchical_label "VOUT_5V"
 		(shape output)
 		(at 231.14 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -4557,6 +4859,72 @@
 			(justify left)
 		)
 		(uuid "f74be83e-bc1c-402a-9dba-fb0f7afa949f")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 45.72 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b6ca650-a4df-4b73-96b6-8c6d96cad145")
+		(property "Reference" "TP3"
+			(at 43.18 51.5621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G_PMOS"
+			(at 43.942 48.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 40.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 45.72 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92f94348-01cc-4f32-b749-05fbc38854a7")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/27e6aa46-cfac-490f-80c1-5c0f7cb6c2e8"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4625,6 +4993,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 74.93 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1756fec3-fc2f-4ae1-b76d-d243061ec3ec")
+		(property "Reference" "TP9"
+			(at 72.39 88.1379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D+USB"
+			(at 72.39 90.6779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 69.85 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 74.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d9b4ede-2598-4d6d-97d7-e94c796b8d4b")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/27e6aa46-cfac-490f-80c1-5c0f7cb6c2e8"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Radio Telescope:SMBJ5.0A-13-F")
 		(at 33.02 36.83 270)
 		(unit 1)
@@ -4642,7 +5077,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMBJ5.0A-13-F"
+		(property "Value" "SMBJ12A-13-F"
 			(at 15.24 38.354 90)
 			(effects
 				(font
@@ -4651,7 +5086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMBJ5.0A-13-F:DIOM5336X250N"
+		(property "Footprint" "Library:SMB_DIO"
 			(at 40.64 38.354 0)
 			(effects
 				(font
@@ -4739,6 +5174,73 @@
 			(project "RCA Radio Telescope"
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/27e6aa46-cfac-490f-80c1-5c0f7cb6c2e8"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 127 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cc1bd35-a7f6-406f-bb79-d13eff1ec8d8")
+		(property "Reference" "TP5"
+			(at 129.54 19.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3VBUCKIN"
+			(at 129.54 22.0979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 132.08 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 127 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "945196bc-484a-4895-88dd-377dceaba461")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/27e6aa46-cfac-490f-80c1-5c0f7cb6c2e8"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -4879,17 +5381,83 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 27.94 30.48 90)
+		(lib_id "Connector:TestPoint")
+		(at 181.61 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "2827f295-d6f8-4b73-8920-abaccfe904dd")
+		(property "Reference" "TP6"
+			(at 184.15 18.2879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3VBUCKOUT"
+			(at 184.15 20.8279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 186.69 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 181.61 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e79f492d-0706-4780-84c8-7e39c335fd80")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/27e6aa46-cfac-490f-80c1-5c0f7cb6c2e8"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 26.67 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "2d739eb2-defc-47f3-bcab-12c12064cb8f")
 		(property "Reference" "F2"
-			(at 27.94 24.13 90)
+			(at 26.67 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4905,7 +5473,7 @@
 			)
 		)
 		(property "Footprint" "Library:RGEF300K-2"
-			(at 33.02 29.21 0)
+			(at 31.75 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4915,7 +5483,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 30.48 0)
+			(at 26.67 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4924,7 +5492,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 27.94 30.48 0)
+			(at 26.67 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5325,25 +5893,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5644e6ef-7a5f-425e-9137-f5b43193512e")
 		(property "Reference" "Q1"
-			(at 45.72 24.13 90)
+			(at 46.228 24.638 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "DMP2008UFG-7"
-			(at 45.72 26.67 90)
+		(property "Value" "DMP4047LFDE-7"
+			(at 47.244 26.924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Library:DMP2008UFG-7_DIO"
+		(property "Footprint" "Library:U-DFN2020-6_DIO"
 			(at 43.18 27.94 0)
 			(effects
 				(font
@@ -5410,6 +5977,73 @@
 			(project ""
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/27e6aa46-cfac-490f-80c1-5c0f7cb6c2e8"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 59.69 114.3 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ae411d2-cddc-4dca-aec8-5065a6f6d25d")
+		(property "Reference" "TP11"
+			(at 57.15 109.7279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GNDCLIP"
+			(at 57.15 112.2679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
+			(at 54.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 59.69 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34fc93c3-3771-46fc-8aa0-af4ef1536ea3")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/27e6aa46-cfac-490f-80c1-5c0f7cb6c2e8"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -5600,6 +6234,139 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 58.42 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7537a2a2-603e-4f4d-9dae-8832929ed8e2")
+		(property "Reference" "TP2"
+			(at 60.96 22.0979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5VBUCKVIN"
+			(at 60.198 24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 63.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 58.42 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48b1a922-0d46-4988-877c-fc20e973aaec")
+		)
+		(instances
+			(project ""
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/27e6aa46-cfac-490f-80c1-5c0f7cb6c2e8"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 95.25 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bfdaf74-4f49-45b7-b78c-17eaa3bab1a7")
+		(property "Reference" "TP8"
+			(at 97.79 72.8979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5VUSB"
+			(at 97.79 75.4379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 100.33 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 95.25 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "920932ab-9e8b-401f-88a9-d88e6d174fbb")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/27e6aa46-cfac-490f-80c1-5c0f7cb6c2e8"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 52.07 38.1 0)
 		(unit 1)
@@ -5723,10 +6490,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ec75db45-ed71-475f-b5ff-6c408e5f7d69")
+			(uuid "ec75db45-ed71-475f-b5ff-6c408e5f7d6a")
 		)
 		(pin "1"
-			(uuid "da605c73-6abe-423e-9628-52a607ac9b62")
+			(uuid "da605c73-6abe-423e-9628-52a607ac9b63")
 		)
 		(instances
 			(project ""
@@ -5929,7 +6696,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0ab232d0-3c56-4ced-8e6b-fb4ed51e113c")
+			(uuid "0ab232d0-3c56-4ced-8e6b-fb4ed51e113d")
 		)
 		(instances
 			(project ""
@@ -6147,6 +6914,207 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 121.92 24.13 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a71d403a-be98-449c-b9f9-7ba8f94e6fab")
+		(property "Reference" "TP4"
+			(at 119.38 19.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5VBUCKVOUT"
+			(at 120.142 22.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 116.84 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 121.92 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cee9beb-b0a1-40e9-bc26-a5d85722f9ac")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/27e6aa46-cfac-490f-80c1-5c0f7cb6c2e8"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 78.74 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c115f1c2-4940-4d19-9bd2-6472fa943d9d")
+		(property "Reference" "TP10"
+			(at 81.28 91.9479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D-USB"
+			(at 81.28 94.4879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 83.82 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e697c6f0-829a-4a28-a685-ee7dd594f02e")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/27e6aa46-cfac-490f-80c1-5c0f7cb6c2e8"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 35.56 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c22e6325-9144-4e82-b243-3e688f7f199c")
+		(property "Reference" "TP1"
+			(at 38.1 19.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PROCTVIN"
+			(at 38.1 22.0979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 40.64 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 35.56 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f85c9d32-ecc4-4618-bf24-7580562c77bd")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/27e6aa46-cfac-490f-80c1-5c0f7cb6c2e8"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 106.68 91.44 0)
 		(unit 1)
@@ -6333,10 +7301,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ec75db45-ed71-475f-b5ff-6c408e5f7d69")
+			(uuid "ec75db45-ed71-475f-b5ff-6c408e5f7d6b")
 		)
 		(pin "1"
-			(uuid "da605c73-6abe-423e-9628-52a607ac9b62")
+			(uuid "da605c73-6abe-423e-9628-52a607ac9b64")
 		)
 		(instances
 			(project ""
@@ -6548,6 +7516,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 205.74 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f576bc5c-d541-4c4b-86a2-cf23835c695b")
+		(property "Reference" "TP7"
+			(at 208.28 43.6879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5VOUT"
+			(at 208.28 46.2279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 210.82 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 205.74 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1c08de0-b3cc-41f9-b4ae-30069df72ef8")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/27e6aa46-cfac-490f-80c1-5c0f7cb6c2e8"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_A")
 		(at 39.37 104.14 0)
 		(unit 1)
@@ -6746,10 +7781,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ec75db45-ed71-475f-b5ff-6c408e5f7d69")
+			(uuid "ec75db45-ed71-475f-b5ff-6c408e5f7d6c")
 		)
 		(pin "1"
-			(uuid "da605c73-6abe-423e-9628-52a607ac9b62")
+			(uuid "da605c73-6abe-423e-9628-52a607ac9b65")
 		)
 		(instances
 			(project ""
