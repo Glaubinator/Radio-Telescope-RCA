@@ -66,8 +66,8 @@
 	)
 	(attr through_hole)
 	(fp_circle
-		(center -5.605899 0)
-		(end -5.224899 0)
+		(center -3.2 -2.1)
+		(end -2.819 -2.1)
 		(stroke
 			(width 0.508)
 			(type solid)
@@ -137,8 +137,8 @@
 		(uuid "a51754a2-cb11-4d78-9c3f-4ce367e478e7")
 	)
 	(fp_circle
-		(center -5.605899 0)
-		(end -5.224899 0)
+		(center -3.2 -2.1)
+		(end -2.819 -2.1)
 		(stroke
 			(width 0.508)
 			(type solid)
