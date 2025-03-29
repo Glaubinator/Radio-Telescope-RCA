@@ -83,8 +83,8 @@
 		(uuid "852ef34f-8801-4611-9067-bca4e0adc5d4")
 	)
 	(fp_circle
-		(center -2.1 -0.9)
-		(end -2 -0.9)
+		(center -1.7 -1.6)
+		(end -1.6 -1.6)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -185,22 +185,22 @@
 		(uuid "9c073dae-1c18-422b-8aba-934de9a3fd95")
 	)
 	(pad "1" smd rect
-		(at -0.97 -0.675)
-		(size 1.17 0.35)
+		(at -0.97 -0.6875)
+		(size 1.17 0.375)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.102)
 		(uuid "20719d7f-c9b4-4a33-af81-02947aef5580")
 	)
 	(pad "2" smd rect
 		(at -0.97 0)
-		(size 1.17 0.35)
+		(size 1.17 0.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.102)
 		(uuid "b955c07f-1b96-4f87-ba47-77d206c5ac8c")
 	)
 	(pad "3" smd rect
-		(at -0.97 0.675)
-		(size 1.17 0.35)
+		(at -0.97 0.6625)
+		(size 1.17 0.375)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.102)
 		(uuid "e9b964bc-d2ca-4bc3-8156-f3c1ef4715fd")
