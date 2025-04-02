@@ -1,0 +1,5 @@
+This is an example command to separate an annotated PCB from the main project
+Note: On windows, you need to enclose file names with spaces or ";" with quotes to make the command work
+
+
+kikit separate --source "annotation; ref: B1" "RCA Radio Telescope.kicad_pcb" "FC_PCB_Rev1-0.kicad_pcb"

@@ -1,0 +1,30 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8c618455-1e04-4a6c-9523-f1875b5d0504")
+	(paper "A5")
+	(lib_symbols)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 25.4 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0a022f11-9345-434b-a9b1-c75b9093407f")
+	)
+	(hierarchical_label "VOUT"
+		(shape output)
+		(at 179.07 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f74be83e-bc1c-402a-9dba-fb0f7afa949f")
+	)
+)

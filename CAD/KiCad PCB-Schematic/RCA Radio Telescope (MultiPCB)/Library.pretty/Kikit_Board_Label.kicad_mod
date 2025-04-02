@@ -1,0 +1,107 @@
+(footprint "Kikit_Board_Label"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mark board for extraction")
+	(property "Reference" "REF**"
+		(at -4.5 -5 0)
+		(layer "Dwgs.User")
+		(uuid "d6380d24-616c-4141-a453-00bf5e993e9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "Kikit_Board_Label"
+		(at -7.25 -5 0)
+		(layer "Dwgs.User")
+		(uuid "367b4101-7991-46d0-a184-3bfc18bf01d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00000000-0000-0000-0000-000000000000")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00000000-0000-0000-0000-000000000000")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00000000-0000-0000-0000-000000000000")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_line
+		(start -1.25 -4)
+		(end -9.25 -4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "f99aff2e-1472-460c-a924-eef76fbe0186")
+	)
+	(fp_line
+		(start 0 0)
+		(end -1.25 -4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "49bf87eb-0046-48f1-9344-d7208266c3ea")
+	)
+	(fp_line
+		(start 0 0)
+		(end -1 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "33e223af-68c4-4d87-aab2-54f94008f8cf")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "8fb33ab7-119e-4ee9-9623-d5be172daa34")
+	)
+)
