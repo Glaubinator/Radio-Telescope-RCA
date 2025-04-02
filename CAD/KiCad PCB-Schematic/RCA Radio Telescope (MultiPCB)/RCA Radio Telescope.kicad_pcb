@@ -1395,7 +1395,7 @@
 			(uuid "979bd634-558b-4174-8004-b7eef1aa8577")
 		)
 	)
-	(footprint "PCM_kikit:Board"
+	(footprint "Library:Kikit_Board_Label"
 		(layer "F.Cu")
 		(uuid "29f0397e-3b96-4975-bf5c-0db1a535939d")
 		(at 38.6 24.6)
@@ -1403,7 +1403,7 @@
 		(property "Reference" "PD"
 			(at -4.5 -5 0)
 			(layer "Dwgs.User")
-			(uuid "62ab3302-3629-4f2c-889a-77b0416df325")
+			(uuid "4b65dca7-f90f-4001-a673-acd348c6506f")
 			(effects
 				(font
 					(size 1 1)
@@ -1412,10 +1412,10 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Board"
-			(at -7.25 -5 0)
+		(property "Value" "Kikit_Board_Label"
+			(at -11.6 -5.1 0)
 			(layer "Dwgs.User")
-			(uuid "1fc4f2ae-d54b-4c72-833c-d984bc3f1b2a")
+			(uuid "400e0491-fbaa-41a6-af90-30ae1b037c3b")
 			(effects
 				(font
 					(size 1 1)
@@ -1423,11 +1423,11 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_kikit:Board"
+		(property "Footprint" "Library:Kikit_Board_Label"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "11918a11-89fb-45c5-aedb-de72118bdfbe")
+			(uuid "c8f17ed6-fbf8-40e9-9995-fdc5e55fbe4b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1439,7 +1439,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f37178cc-4fe6-406a-ba1c-24f50a3ddbce")
+			(uuid "52f27751-051f-4eda-9f42-cfa81ab6f050")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1451,7 +1451,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f0a89fdf-c752-42a9-9c2e-eee661b127fb")
+			(uuid "7d7913fd-3935-421b-a1d7-9aebbec16f63")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1468,7 +1468,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "ae583fe2-8e8e-4607-b459-f61dfd0b44f8")
+			(uuid "e75ed2dd-56ec-4b79-a70b-4e34278778d4")
 		)
 		(fp_line
 			(start 0 0)
@@ -1478,7 +1478,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "3d290293-920d-45bb-afaf-6372aeb3fa11")
+			(uuid "2fe07b1c-a802-4f8d-9cd1-c928e47cfdec")
 		)
 		(fp_line
 			(start 0 0)
@@ -1488,7 +1488,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "4981f136-612f-4026-961f-753c180b02b4")
+			(uuid "d9bd6c13-f92d-4b0d-9871-052383f97893")
 		)
 		(fp_line
 			(start 0 0)
@@ -1498,7 +1498,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "8163e082-aa65-4e48-ab04-6cebd5a54a53")
+			(uuid "6509eb55-2de5-4fb9-9adc-595f18f1a981")
 		)
 	)
 	(footprint "Library:TestPoint_Pad_D1.0mm_Edit"
@@ -1616,7 +1616,7 @@
 			(uuid "1a844f77-18f3-454c-921c-26713ebe1b9d")
 		)
 	)
-	(footprint "PCM_kikit:Board"
+	(footprint "Library:Kikit_Board_Label"
 		(layer "F.Cu")
 		(uuid "3eab41a9-1bc0-4c83-bd97-e84fd6d96f5d")
 		(at 133.4 19.7)
@@ -1624,7 +1624,7 @@
 		(property "Reference" "FC"
 			(at -4.5 -5 0)
 			(layer "Dwgs.User")
-			(uuid "650538d1-4b5d-4e38-94bc-5e01e9e7a7d7")
+			(uuid "3a29dbd7-89be-4e79-a23d-8ecdedf941c6")
 			(effects
 				(font
 					(size 1 1)
@@ -1633,10 +1633,10 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Board"
-			(at -7.25 -5 0)
+		(property "Value" "Kikit_Board_Label"
+			(at -11.5 -5 0)
 			(layer "Dwgs.User")
-			(uuid "18172635-cc20-4ea6-91d4-8b6c21b754de")
+			(uuid "6194b11c-4cc2-4391-b95e-c2b0868268fb")
 			(effects
 				(font
 					(size 1 1)
@@ -1644,11 +1644,11 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_kikit:Board"
+		(property "Footprint" "Library:Kikit_Board_Label"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c928b19d-8fa6-432d-93fa-d1a5126e9215")
+			(uuid "4c2593fe-6e94-43a8-a0ab-7d9657f2e071")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1660,7 +1660,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "00357d86-9d95-4d0b-8f3c-21fe2c085cb6")
+			(uuid "451cc33c-3726-4fbe-a567-33dd6fa0283a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1672,7 +1672,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "675c526f-e89e-42fd-ab40-c34bebaf0a12")
+			(uuid "8c60cec2-1d3b-4e0c-9e6b-854b84806717")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1689,7 +1689,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "f909d2ad-d230-41e6-9e49-dd407b1f65f0")
+			(uuid "53233da2-7b5f-4864-98a0-c1b754e41214")
 		)
 		(fp_line
 			(start 0 0)
@@ -1699,7 +1699,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "cc4e09ba-2e80-4c0b-a55a-dc1640a50054")
+			(uuid "2acb08e9-3a81-45b3-be99-54a702822c2b")
 		)
 		(fp_line
 			(start 0 0)
@@ -1709,7 +1709,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "73fa4484-3d82-40ed-9511-a58492e1ca4a")
+			(uuid "758574dd-64f1-4dc5-8a94-4106179dd1da")
 		)
 		(fp_line
 			(start 0 0)
@@ -1719,7 +1719,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "73e71a3d-424b-48b6-b68a-f5bf138d5362")
+			(uuid "3356fd2e-f5aa-4677-92d9-a8cc3f40445e")
 		)
 	)
 	(footprint "Library:RGEF300K-2"
@@ -8346,7 +8346,7 @@
 			)
 		)
 		(property "Value" "Input from SDR"
-			(at 9.525 1.115 360)
+			(at 9.525 1.115 0)
 			(layer "F.Fab")
 			(uuid "2e16ea18-7154-46a1-87aa-a816d6b528b4")
 			(effects
@@ -8357,7 +8357,7 @@
 			)
 		)
 		(property "Footprint" "Library:PHOENIX_1729144"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "089560aa-4770-4ae5-b470-a9dd9d212de6")
@@ -8369,7 +8369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fdf76275-310b-4c67-bac0-391b3a836673")
@@ -8381,7 +8381,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ab6aeffc-1e60-4e3e-a3da-b81b9d47ef7e")
@@ -8615,7 +8615,7 @@
 			)
 		)
 		(property "Value" "MIC5365-3.3YC5-TR"
-			(at 4.7024 1.8064 360)
+			(at 4.7024 1.8064 0)
 			(layer "F.Fab")
 			(uuid "7d08feed-18bd-4c4c-99e1-2ee3870518fa")
 			(effects
@@ -8626,7 +8626,7 @@
 			)
 		)
 		(property "Footprint" "Library:SOT65P210X110-5N"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7e71b63b-1c1f-4feb-85c1-837a99159f30")
@@ -8638,7 +8638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "56d734d1-9827-4008-8f93-5e7df01be09e")
@@ -8650,7 +8650,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "709d57c6-e0a5-4060-a5fb-a7708d861317")
@@ -9135,7 +9135,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP13"
-			(at 0.025 -2.55 270)
+			(at 0.025 -2.55 -90)
 			(layer "F.SilkS")
 			(uuid "ff930ea0-c81d-4b5f-abbf-5d51eef2268c")
 			(effects
@@ -10632,7 +10632,7 @@
 			)
 		)
 		(property "Value" "MIC5365-1.8YC5-TR"
-			(at 4.7024 1.8064 360)
+			(at 4.7024 1.8064 0)
 			(layer "F.Fab")
 			(uuid "34e06a0d-3696-4d5a-8591-d519295488d7")
 			(effects
@@ -10643,7 +10643,7 @@
 			)
 		)
 		(property "Footprint" "Library:SOT65P210X110-5N"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b5aec478-d1ac-4ae2-a913-4018d8edd4d5")
@@ -10655,7 +10655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ff5fd58f-8fab-459a-a2ff-8a94a0f26ea4")
@@ -10667,7 +10667,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f2b3c1e0-2de6-4139-a33d-94f78091ed89")
@@ -12030,7 +12030,7 @@
 			(uuid "e5a8e701-d0f6-42b2-8b8a-ef1e5da25a62")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -3.81 360)
+			(at 0 -3.81 0)
 			(layer "B.Fab")
 			(uuid "e0d3d851-88e3-483b-a4e9-fabd8b188f06")
 			(effects
