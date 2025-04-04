@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.3,
-          "height": 0.6,
-          "width": 0.6
+          "drill": 0.0,
+          "height": 4.191,
+          "width": 2.667
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -131,7 +131,7 @@
         "min_track_width": 0.12,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.3,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -218,6 +218,22 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.4
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.5
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.55
         }
       ],
       "zones_allow_external_fillets": false
@@ -626,7 +642,7 @@
     ],
     [
       "ad82b89e-d7a1-4556-8af3-fc7c2f36b520",
-      "Filters"
+      "MatchNetwork"
     ]
   ],
   "text_variables": {}
