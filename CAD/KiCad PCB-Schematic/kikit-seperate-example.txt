@@ -1,5 +1,21 @@
-This is an example command to separate an annotated PCB from the main project
-Note: On windows, you need to enclose file names with spaces or ";" with quotes to make the command work
+This is an example command to separate an annotated PCB from the main project.
+
+1. Open up KiCAD console (type kicad in search bar)
+2. Navigate to location of project files using console commands 
+3. Once there, type in the following command as shown below
+
+kikit separate --source "annotation; ref: X" "EXAMPLE_PROJ.kicad_pcb" "PROJECT_EXPORT.kicad_pcb"
+
+X: Reference Designator on main project PCB
+EXAMPLE_PROJ: placeholder name for main project name
+PROJECT_EXPORT: name that you want to assign to project export (good practice to enter a revision number)
+
+EX: kikit separate --source "annotation; ref: FC" "RCA Radio Telescope.kicad_pcb" "FC_PCB_Rev1-1.kicad_pcb"
+
+Note: On windows, you need to enclose file names that contain spaces or ";" with quotes to make the command work
 
 
-kikit separate --source "annotation; ref: B1" "RCA Radio Telescope.kicad_pcb" "FC_PCB_Rev1-0.kicad_pcb"
+Current Boards:
+FC: Filter Control Board
+MN: Matching Network Board
+PD: Power Data Distribute Board
