@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "142-0711-821 ")
 	(property "Reference" "REF**"
-		(at -7.8 -2.95 0)
+		(at -12 5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "7aced99c-10d9-45cf-bc25-fe7f9e4a82bc")
@@ -97,7 +97,7 @@
 		(uuid "bffc7e27-db4b-430c-b571-1c5a20110e06")
 	)
 	(fp_line
-		(start -5.08 -6.9215)
+		(start -5.08 2.5)
 		(end -5.08 7.3025)
 		(stroke
 			(width 0.1524)
@@ -117,8 +117,8 @@
 		(uuid "b701e41a-7010-4bc2-b5f1-6e1b35183f03")
 	)
 	(fp_line
-		(start 5.08 -6.9215)
-		(end -5.08 -6.9215)
+		(start 5.08 2.5)
+		(end -5.08 2.5)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -128,33 +128,13 @@
 	)
 	(fp_line
 		(start 5.08 7.3025)
-		(end 5.08 -6.9215)
+		(end 5.08 2.5)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(layer "F.CrtYd")
 		(uuid "9a67d763-7bf7-4bbc-9a3c-97be8cd4010d")
-	)
-	(fp_line
-		(start -3.302 -6.7945)
-		(end -3.302 2.52476)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "939be1ae-7329-48d6-8913-15d61f19be2e")
-	)
-	(fp_line
-		(start -3.175 -6.6675)
-		(end -3.175 6.6675)
-		(stroke
-			(width 0.0254)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "67f9ae43-8a01-4ec5-bbb6-3de88c727112")
 	)
 	(fp_line
 		(start -3.175 6.6675)
@@ -167,16 +147,6 @@
 		(uuid "953c2d25-34c7-4e97-8ef8-0fe87161050e")
 	)
 	(fp_line
-		(start 3.175 -6.6675)
-		(end -3.175 -6.6675)
-		(stroke
-			(width 0.0254)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "f2f96d7c-04ed-49eb-b531-2b66df173e3d")
-	)
-	(fp_line
 		(start 3.175 2.8575)
 		(end -3.175 2.8575)
 		(stroke
@@ -187,34 +157,14 @@
 		(uuid "748d3cf2-0b64-4217-adc9-4ae9fc5ea57d")
 	)
 	(fp_line
-		(start 3.175 6.6675)
-		(end 3.175 -6.6675)
-		(stroke
-			(width 0.0254)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "609135e9-fd88-4e57-927a-1663ef5f195b")
-	)
-	(fp_line
-		(start 3.302 -6.7945)
-		(end -3.302 -6.7945)
+		(start 3.302 2.5)
+		(end -3.302 2.5)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "4ebb6bbd-79ee-4ff3-8aa0-dd40a70afaf5")
-	)
-	(fp_line
-		(start 3.302 2.52476)
-		(end 3.302 -6.7945)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "22728b49-66cd-4041-aca6-19ae36c7460b")
 	)
 	(fp_circle
 		(center 0 8.2)
@@ -228,7 +178,7 @@
 		(uuid "954eadf5-d189-4fa4-ae4a-1e7e08a4b06f")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -0.3 -7.6 0)
+		(at 0 13 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "8d15c19e-b2b4-49eb-81b3-ba93b6afe67e")

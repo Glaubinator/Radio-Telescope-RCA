@@ -19,3 +19,5 @@ Current Boards:
 FC: Filter Control Board
 MN: Matching Network Board
 PD: Power Data Distribute Board
+
+kikit separate --source "annotation; ref: SF" "RCA Radio Telescope.kicad_pcb" "SF_PCB_Rev1-2.kicad_pcb"
