@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -235,6 +235,14 @@
         {
           "diameter": 0.9,
           "drill": 0.55
+        },
+        {
+          "diameter": 1.4,
+          "drill": 1.0
+        },
+        {
+          "diameter": 2.7,
+          "drill": 1.8
         }
       ],
       "zones_allow_external_fillets": false
@@ -644,6 +652,10 @@
     [
       "ad82b89e-d7a1-4556-8af3-fc7c2f36b520",
       "MatchNetwork"
+    ],
+    [
+      "b1bd03bb-513c-4075-8ea8-0ed535b26dec",
+      "SMDFilter"
     ]
   ],
   "text_variables": {}
