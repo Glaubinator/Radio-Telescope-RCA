@@ -18633,6 +18633,32 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Length: 135 mm\nWidth: 46 mm\nHole Diameter: 8 mm"
+		(at 261 147 0)
+		(layer "User.3")
+		(uuid "1df1ba06-0260-43e9-b965-44c581a7b004")
+		(effects
+			(font
+				(size 4 4)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Length: 48 mm\nWidth: 28 mm\nHole Diameter: 6 mm"
+		(at 69 85 0)
+		(layer "User.3")
+		(uuid "74118349-b0b1-4973-8b61-5a3d8dc1619b")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.375)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(dimension
 		(type aligned)
 		(layer "User.1")
