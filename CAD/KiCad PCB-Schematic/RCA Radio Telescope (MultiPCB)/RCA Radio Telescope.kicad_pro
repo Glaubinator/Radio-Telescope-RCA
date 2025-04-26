@@ -656,6 +656,18 @@
     [
       "b1bd03bb-513c-4075-8ea8-0ed535b26dec",
       "SMDFilter"
+    ],
+    [
+      "ed1ef573-f899-48e8-bb37-c5537adb3c53",
+      "1-6GHz-SMDFilter"
+    ],
+    [
+      "d56a2cda-b123-4fba-9e43-f9d7e5baedc8",
+      "SMDFilter2"
+    ],
+    [
+      "b4999127-d4ab-471a-8016-d4958c63707b",
+      "SMDFilter3"
     ]
   ],
   "text_variables": {}

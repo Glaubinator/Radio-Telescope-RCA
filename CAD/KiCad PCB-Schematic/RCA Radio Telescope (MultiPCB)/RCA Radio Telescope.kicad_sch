@@ -1901,16 +1901,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 40.64) (xy 64.77 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d17210e-d86b-4e9d-ae71-a592661da0c6")
-	)
-	(wire
-		(pts
 			(xy 330.2 121.92) (xy 347.98 121.92)
 		)
 		(stroke
@@ -2008,6 +1998,16 @@
 			(type default)
 		)
 		(uuid "2b25936a-a646-4c5a-afc3-7d4fe42ff964")
+	)
+	(wire
+		(pts
+			(xy 92.71 35.56) (xy 104.14 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2db4e691-cbe5-43c4-95f2-97aa3f5cee93")
 	)
 	(wire
 		(pts
@@ -2168,16 +2168,6 @@
 			(type default)
 		)
 		(uuid "59d806f9-2403-4966-9dbb-3832ec5685e1")
-	)
-	(wire
-		(pts
-			(xy 41.91 35.56) (xy 64.77 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cc6dbc4-2b3c-4024-a2d8-81a3d3a7e76c")
 	)
 	(wire
 		(pts
@@ -2391,6 +2381,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 40.64) (xy 64.77 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "794041d0-f1d9-409d-b442-5dda6cd2caa2")
+	)
+	(wire
+		(pts
 			(xy 187.96 74.93) (xy 187.96 77.47)
 		)
 		(stroke
@@ -2581,6 +2581,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 35.56) (xy 64.77 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5ba4d06-117f-4818-a7af-70b2bb76d3e6")
+	)
+	(wire
+		(pts
 			(xy 106.68 147.32) (xy 119.38 147.32)
 		)
 		(stroke
@@ -2628,16 +2638,6 @@
 			(type default)
 		)
 		(uuid "bf03f525-8802-4565-9059-3e8a28f593df")
-	)
-	(wire
-		(pts
-			(xy 92.71 35.56) (xy 104.14 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1cfc5e6-1591-46d2-872a-1a186024f200")
 	)
 	(wire
 		(pts
@@ -4870,7 +4870,7 @@
 		)
 	)
 	(sheet
-		(at 64.77 27.94)
+		(at 25.4 54.61)
 		(size 27.94 17.78)
 		(fields_autoplaced yes)
 		(stroke
@@ -4882,7 +4882,7 @@
 		)
 		(uuid "b1bd03bb-513c-4075-8ea8-0ed535b26dec")
 		(property "Sheetname" "SMDFilter"
-			(at 64.77 27.2284 0)
+			(at 25.4 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4891,7 +4891,7 @@
 			)
 		)
 		(property "Sheetfile" "SMDFilter.kicad_sch"
-			(at 64.77 46.3046 0)
+			(at 25.4 72.9746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4900,7 +4900,7 @@
 			)
 		)
 		(pin "GND" passive
-			(at 64.77 40.64 180)
+			(at 25.4 67.31 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4910,7 +4910,7 @@
 			(uuid "5bfb35a4-6895-48f7-9f49-c5b86eda4055")
 		)
 		(pin "SIGNAL_OUT" output
-			(at 92.71 35.56 0)
+			(at 53.34 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4920,7 +4920,7 @@
 			(uuid "a027e61e-3bd7-4852-b3c8-de47bf743801")
 		)
 		(pin "SIGNAL_IN" input
-			(at 64.77 35.56 180)
+			(at 25.4 62.23 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4933,6 +4933,74 @@
 			(project "RCA Radio Telescope"
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 87.63)
+		(size 27.94 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b4999127-d4ab-471a-8016-d4958c63707b")
+		(property "Sheetname" "SMDFilter3"
+			(at 64.77 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SMDFilter.kicad_sch"
+			(at 64.77 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" passive
+			(at 64.77 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f77a62a1-3c26-4ab4-aeff-6c5b230e8bdb")
+		)
+		(pin "SIGNAL_OUT" output
+			(at 92.71 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7d2a7a3a-6689-4743-9196-25b50bdb59d8")
+		)
+		(pin "SIGNAL_IN" input
+			(at 64.77 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ed7f16bf-5f2a-4bf3-9386-22be51874e74")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
+					(page "9")
 				)
 			)
 		)
@@ -5000,6 +5068,142 @@
 			(project "RCA Radio Telescope"
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 87.63)
+		(size 27.94 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d56a2cda-b123-4fba-9e43-f9d7e5baedc8")
+		(property "Sheetname" "SMDFilter2"
+			(at 26.67 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SMDFilter.kicad_sch"
+			(at 26.67 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" passive
+			(at 26.67 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bdb54e8d-33da-4eba-ad24-14ef0ffb41cc")
+		)
+		(pin "SIGNAL_OUT" output
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4788ce65-d2f7-4375-a42a-ac0265d57d8d")
+		)
+		(pin "SIGNAL_IN" input
+			(at 26.67 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "07db5404-7125-43bc-bcd4-9493c3323b81")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 27.94)
+		(size 27.94 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ed1ef573-f899-48e8-bb37-c5537adb3c53")
+		(property "Sheetname" "1-6GHz-SMDFilter"
+			(at 64.77 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1-6GHz-SMDFilter.kicad_sch"
+			(at 64.77 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" passive
+			(at 64.77 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7b68451a-bb80-46cb-b989-8a0b91d1815f")
+		)
+		(pin "SIGNAL_OUT" output
+			(at 92.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a07986df-db29-40a1-9e34-c505cf270e45")
+		)
+		(pin "SIGNAL_IN" input
+			(at 64.77 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "db0e76d2-54b3-4376-a820-a3ae577dddb7")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
+					(page "7")
 				)
 			)
 		)
