@@ -5084,7 +5084,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d56a2cda-b123-4fba-9e43-f9d7e5baedc8")
-		(property "Sheetname" "SMDFilter2"
+		(property "Sheetname" "Coupled Lines Filter"
 			(at 26.67 86.9184 0)
 			(effects
 				(font
@@ -5093,7 +5093,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "SMDFilter.kicad_sch"
+		(property "Sheetfile" "coupledLinesFilter.kicad_sch"
 			(at 26.67 105.9946 0)
 			(effects
 				(font
