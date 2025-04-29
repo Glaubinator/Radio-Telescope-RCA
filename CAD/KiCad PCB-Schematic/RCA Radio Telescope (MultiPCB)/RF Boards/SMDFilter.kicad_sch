@@ -679,27 +679,16 @@
 		)
 		(uuid "c78e061f-eea0-4eed-b49f-af68862572b3")
 	)
-	(hierarchical_label "GND"
-		(shape passive)
-		(at 85.09 60.96 270)
+	(hierarchical_label "SIGNAL_OUT"
+		(shape output)
+		(at 77.47 49.53 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "130bf725-f97e-43bb-bf06-01eab2779bca")
-	)
-	(hierarchical_label "GND"
-		(shape passive)
-		(at 55.88 66.04 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "20307e5a-58df-453e-b86b-2b3c501b5db8")
+		(uuid "3b0f8cd7-c26d-43a3-be78-8527051d8062")
 	)
 	(hierarchical_label "GND"
 		(shape passive)
@@ -710,7 +699,7 @@
 			)
 			(justify right)
 		)
-		(uuid "46136d47-891a-4c75-9201-0a04e178ba99")
+		(uuid "680c9b45-0b9d-46cc-a96b-f2fd366fcf68")
 	)
 	(hierarchical_label "SIGNAL_IN"
 		(shape input)
@@ -721,18 +710,29 @@
 			)
 			(justify left)
 		)
-		(uuid "7b5f7af0-7d35-4bf0-932b-fea67d4f7b4c")
+		(uuid "6a3ba3f4-a576-4c03-a1a5-f23452349bb0")
 	)
-	(hierarchical_label "SIGNAL_OUT"
-		(shape output)
-		(at 77.47 49.53 90)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 55.88 66.04 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "acb6d25b-37bc-4a88-ab49-9d3f54aafe8f")
+		(uuid "845cf89f-b1b2-4a5f-9c80-6321ef71eb11")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 85.09 60.96 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9b62078-4121-4b6c-a842-6501df9b7089")
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
@@ -742,8 +742,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2a6f46d5-35b0-444c-9a60-52c2e8e80059")
-		(property "Reference" "J17"
+		(uuid "244c042e-7970-4d99-a4f1-c1f230f09edb")
+		(property "Reference" "J15"
 			(at 84.7726 49.53 0)
 			(effects
 				(font
@@ -787,119 +787,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "6e2a31ee-510a-466d-808e-a41390fe67ed")
+			(uuid "4e491e4d-e2f1-4ce5-a921-4b49273fc900")
 		)
 		(pin "2"
-			(uuid "1ed8ef1f-8f5d-4e51-a666-7bc205f3481b")
+			(uuid "7d0a16a1-8b4b-447d-b7d3-f8b8736a7140")
 		)
 		(instances
 			(project "RCA Radio Telescope"
-				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/ed1ef573-f899-48e8-bb37-c5537adb3c53"
-					(reference "J17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RF_Filter:BPF-A355")
-		(at 60.96 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6dfed42a-4909-4a57-a171-841ef3539df7")
-		(property "Reference" "U16"
-			(at 60.96 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BPF-A1340+"
-			(at 60.96 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RF_Mini-Circuits:Mini-Circuits_HQ1157"
-			(at 60.96 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.minicircuits.com/pdfs/BPF-A355+.pdf"
-			(at 60.96 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bandpass Filter, 310 to 400 MHz, 50 Ohm, Mini-Circuits HQ1157"
-			(at 60.96 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "2250bff6-36a8-4bd7-88cb-268fc8853835")
-		)
-		(pin "9"
-			(uuid "8e9f3618-67b9-4d50-abfe-c8883099931d")
-		)
-		(pin "12"
-			(uuid "527d2f08-faa5-4e2f-a0f8-f1fecb63f840")
-		)
-		(pin "13"
-			(uuid "dee7ebb0-6d3a-4526-9e47-cfe4ec483268")
-		)
-		(pin "6"
-			(uuid "64aeba3d-0a69-4a4e-a24c-6fb9ed2d74ff")
-		)
-		(pin "4"
-			(uuid "5bf9ebde-3505-4527-9e49-7fc8ef3fd992")
-		)
-		(pin "10"
-			(uuid "6fb34588-bcb8-484d-80bc-e1f580220a6f")
-		)
-		(pin "7"
-			(uuid "3e3e7a8a-782f-4d1b-acef-b1515d0bed53")
-		)
-		(pin "11"
-			(uuid "618d395c-7548-473e-8b55-d04ea616039d")
-		)
-		(pin "14"
-			(uuid "ce451ee1-b93d-4d16-8fd5-671eb5f30212")
-		)
-		(pin "1"
-			(uuid "45e940fd-acd1-4e29-a400-2eb84a0dc9fd")
-		)
-		(pin "5"
-			(uuid "462f9f03-f349-42da-8d99-b89ff0f9ccd9")
-		)
-		(pin "8"
-			(uuid "8ffe3ba8-45ae-4e9c-b535-c8a4baffbb46")
-		)
-		(pin "2"
-			(uuid "592cbfea-367e-448f-afef-936197d87b82")
-		)
-		(instances
-			(project "RCA Radio Telescope"
-				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/ed1ef573-f899-48e8-bb37-c5537adb3c53"
-					(reference "U16")
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/b1bd03bb-513c-4075-8ea8-0ed535b26dec"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -915,8 +811,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "954e72dd-a00c-4a55-bf75-3a335b9af52b")
-		(property "Reference" "J16"
+		(uuid "64c7ac42-dbb5-4613-ae94-8791b94f1450")
+		(property "Reference" "J11"
 			(at 35.8774 49.53 0)
 			(effects
 				(font
@@ -960,15 +856,119 @@
 			)
 		)
 		(pin "1"
-			(uuid "fe0699df-f880-483a-9c53-617cd7bc7b80")
+			(uuid "86f00401-77fa-4d96-acbb-44baf60f5a9c")
 		)
 		(pin "2"
-			(uuid "d9384f80-e055-4f43-a810-aede77bf0a7b")
+			(uuid "05789ec3-4bbe-4ca5-aa93-0aadba8605b7")
 		)
 		(instances
 			(project "RCA Radio Telescope"
-				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/ed1ef573-f899-48e8-bb37-c5537adb3c53"
-					(reference "J16")
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/b1bd03bb-513c-4075-8ea8-0ed535b26dec"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF_Filter:BPF-A355")
+		(at 60.96 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f65050f7-6a85-4f38-99b7-069aa98cc491")
+		(property "Reference" "U15"
+			(at 60.96 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BPF-A1340+"
+			(at 60.96 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RF_Mini-Circuits:Mini-Circuits_HQ1157"
+			(at 60.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/BPF-A355+.pdf"
+			(at 60.96 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bandpass Filter, 310 to 400 MHz, 50 Ohm, Mini-Circuits HQ1157"
+			(at 60.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b2fdc4d3-fce9-438a-91d2-2f069f4a1ea9")
+		)
+		(pin "9"
+			(uuid "ae1f1373-c596-4200-a505-0f2cdb295360")
+		)
+		(pin "12"
+			(uuid "63d68dbc-d90d-4b09-b7da-02119257c532")
+		)
+		(pin "13"
+			(uuid "2e481549-6118-4062-8cbb-2daca146a131")
+		)
+		(pin "6"
+			(uuid "bc9cba56-c85f-480e-9bd2-51035a345f0b")
+		)
+		(pin "4"
+			(uuid "bb8f361b-c31e-4e24-abf4-bf359d2618d6")
+		)
+		(pin "10"
+			(uuid "f6811501-10c9-459f-b4e5-a871e9540045")
+		)
+		(pin "7"
+			(uuid "29e68a40-4c5d-427a-a76f-6d4a4454071a")
+		)
+		(pin "11"
+			(uuid "132becfa-a3ea-43be-ab90-480674bddd3c")
+		)
+		(pin "14"
+			(uuid "15be39d6-25e6-44e0-8a99-04412318e3e5")
+		)
+		(pin "1"
+			(uuid "e2c114d5-e355-477f-8f93-446d18a00613")
+		)
+		(pin "5"
+			(uuid "5971266b-b696-4291-9a2c-60dff9c80cb5")
+		)
+		(pin "8"
+			(uuid "c759aeb2-bac9-49b6-9265-3d3c51333474")
+		)
+		(pin "2"
+			(uuid "5c221123-edf5-416d-a452-7d24bf702e72")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/b1bd03bb-513c-4075-8ea8-0ed535b26dec"
+					(reference "U15")
 					(unit 1)
 				)
 			)

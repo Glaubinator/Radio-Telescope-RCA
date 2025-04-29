@@ -5,7 +5,7 @@
 	(uuid "5153367f-f58a-454b-8145-19b54ead62a0")
 	(paper "A5")
 	(title_block
-		(title "SMDFilter")
+		(title "Matched Distributive Filter")
 		(date "2025-04-08")
 		(rev "v1.0")
 	)
@@ -293,7 +293,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75cdeb82-b63f-40e7-9ca1-1802bc7697b2")
-		(property "Reference" "J15"
+		(property "Reference" "J19"
 			(at 84.7726 49.53 0)
 			(effects
 				(font
@@ -344,15 +344,7 @@
 		)
 		(instances
 			(project "RCA Radio Telescope"
-				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/b1bd03bb-513c-4075-8ea8-0ed535b26dec"
-					(reference "J15")
-					(unit 1)
-				)
-				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/b4999127-d4ab-471a-8016-d4958c63707b"
-					(reference "J21")
-					(unit 1)
-				)
-				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/d56a2cda-b123-4fba-9e43-f9d7e5baedc8"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/ed1ef573-f899-48e8-bb37-c5537adb3c53"
 					(reference "J19")
 					(unit 1)
 				)
@@ -370,7 +362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa071bd0-7b9b-4062-804b-cf2727888fd5")
-		(property "Reference" "J11"
+		(property "Reference" "J18"
 			(at 35.8774 49.53 0)
 			(effects
 				(font
@@ -421,15 +413,7 @@
 		)
 		(instances
 			(project "RCA Radio Telescope"
-				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/b1bd03bb-513c-4075-8ea8-0ed535b26dec"
-					(reference "J11")
-					(unit 1)
-				)
-				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/b4999127-d4ab-471a-8016-d4958c63707b"
-					(reference "J20")
-					(unit 1)
-				)
-				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/d56a2cda-b123-4fba-9e43-f9d7e5baedc8"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/ed1ef573-f899-48e8-bb37-c5537adb3c53"
 					(reference "J18")
 					(unit 1)
 				)

@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "new_smd_filter.kicad_prl",
+    "filename": "matchedSMDFilter.kicad_prl",
     "version": 3
   },
   "project": {

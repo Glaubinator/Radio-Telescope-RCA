@@ -2030,43 +2030,43 @@
 			)
 		)
 		(pin "8"
-			(uuid "625a4ec9-cac4-4fa3-919b-8bf41fb166ac")
+			(uuid "4d943483-24dc-409d-8365-b0c8036d932f")
 		)
 		(pin "5"
-			(uuid "e6e6f4c8-222e-4ca4-8f7e-6ac575c5000a")
+			(uuid "ce92ffba-cd6a-4765-9a59-d59fe5d47023")
 		)
 		(pin "2"
-			(uuid "9f0ccadd-f6f6-41f3-bb58-229a2a52c4bb")
+			(uuid "031a406e-7613-4c01-81c8-f649f69530d0")
 		)
 		(pin "9"
-			(uuid "2f49af08-387a-4d2b-8d44-74b775350383")
+			(uuid "aa0f4f6f-951e-478f-82eb-10eb87256557")
 		)
 		(pin "1"
-			(uuid "d2df85bd-5d02-48ff-95a0-f06ec219a121")
+			(uuid "51b74c53-b4b4-486b-800c-b461bae0d159")
 		)
 		(pin "11"
-			(uuid "eddaf3ce-8428-4be2-8901-dec54ac38da9")
+			(uuid "a780aa4f-2bdd-43be-8a34-832ef1c45739")
 		)
 		(pin "3"
-			(uuid "bfb283ca-25f1-4e26-b36e-3dde055c6b7c")
+			(uuid "aff378a3-9ad6-4f4d-bdc2-196a2342cfc5")
 		)
 		(pin "6"
-			(uuid "358bdbfb-70c4-42fe-9bbd-7acbe19fefec")
+			(uuid "471f3766-e02e-4f6c-8493-b43dac8390a1")
 		)
 		(pin "7"
-			(uuid "12800294-b00f-483d-a889-d58f54582428")
+			(uuid "3d627a9a-5748-4dcb-b9c2-b74910b41c00")
 		)
 		(pin "10"
-			(uuid "578526fe-6272-4fda-8420-6b31ba82e64a")
+			(uuid "f42ec47b-c950-4d80-a417-6b1cb370051d")
 		)
 		(pin "13"
-			(uuid "7da42fad-8946-4d66-8d51-3773b7ae1273")
+			(uuid "b31cc679-2766-4328-bb3d-4cca0a012be2")
 		)
 		(pin "12"
-			(uuid "6b4792c4-a5ce-496b-9f20-100281966032")
+			(uuid "dead700e-d843-43bb-8528-a1ed1e6db427")
 		)
 		(pin "4"
-			(uuid "96bfd5c6-140e-4570-b219-d29ddfd14076")
+			(uuid "3263bd66-ae77-4942-aaa3-986f276e6ab5")
 		)
 		(instances
 			(project "RCA Radio Telescope"
@@ -2133,10 +2133,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "acfd3a57-38d0-4962-9878-ca79ac095028")
+			(uuid "123cc0e3-24b6-45f4-933d-d658279ea630")
 		)
 		(pin "1"
-			(uuid "c8b1f055-4e78-4fd0-8962-828f1d805156")
+			(uuid "14eb8202-4b24-4d3d-a1ee-b89011c84ec8")
 		)
 		(instances
 			(project "RCA Radio Telescope"
@@ -2203,10 +2203,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "4d21de88-d8bd-4085-bb85-a03cf3585842")
+			(uuid "47c252af-aa1b-47dd-935c-22f9f7d22377")
 		)
 		(pin "1"
-			(uuid "dd46d6ff-9fb0-4304-877d-5014cc8c0643")
+			(uuid "d4b6bf96-1aee-4bfd-bb51-8566b96cdd8a")
 		)
 		(instances
 			(project "RCA Radio Telescope"
@@ -2271,10 +2271,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "29dbc513-7758-4988-b738-70963794bcff")
+			(uuid "ab90b3db-5d13-47f8-a366-7650c1f5015e")
 		)
 		(pin "2"
-			(uuid "e4712e3b-8a03-49d9-9e17-5dd88f2a0859")
+			(uuid "80987526-5f97-4f1e-953b-54e0ab824c57")
 		)
 		(instances
 			(project "RCA Radio Telescope"
@@ -2339,10 +2339,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "25b148fd-8e2e-4334-a8d4-a71b5df77800")
+			(uuid "95287a3c-de4a-4e1d-ae5e-3c9c749d4a00")
 		)
 		(pin "2"
-			(uuid "502309e0-2468-430f-95bc-f61e76273d36")
+			(uuid "9a5f6e63-0879-41df-9fc9-e5ef128848cb")
 		)
 		(instances
 			(project "RCA Radio Telescope"
@@ -2408,10 +2408,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "61e5a3ec-3d3b-4e7e-bdfa-947fb2087cc3")
+			(uuid "e05498b7-0a48-41e7-94b0-2688c17260f0")
 		)
 		(pin "2"
-			(uuid "bf1b5cb7-1b99-4754-a9be-05f4cf138e71")
+			(uuid "460816a4-51e2-4b87-a4e8-ea30eeb99088")
 		)
 		(instances
 			(project "RCA Radio Telescope"
@@ -2478,43 +2478,43 @@
 			)
 		)
 		(pin "9"
-			(uuid "86b9274d-fb81-4116-b820-0dabf7d88f06")
+			(uuid "d836163a-3786-492f-813b-cc7fb67c4111")
 		)
 		(pin "4"
-			(uuid "f7a1cc5e-0906-4a6e-ba2d-cabbefdbdd0a")
+			(uuid "6c2fd0b3-2df0-471a-8a49-63dd62a9a66e")
 		)
 		(pin "1"
-			(uuid "5391447a-e0b8-42ef-8ff0-0e3bcc2baa3d")
+			(uuid "c985a053-5f9a-4bf2-9de7-9e4ffefcf035")
 		)
 		(pin "2"
-			(uuid "c63e24da-e2e2-4f13-86d9-32fd345e8630")
+			(uuid "1ee2ba67-4ceb-4d01-883b-0a2f623e0b75")
 		)
 		(pin "3"
-			(uuid "33175929-ad53-4704-9414-a1ba0988140f")
+			(uuid "f3f4ee0c-17e8-4b3f-94b2-6eb764537ce4")
 		)
 		(pin "7"
-			(uuid "14805a36-8530-4c0b-9dc8-4d4e959c20f6")
+			(uuid "39af9132-5a64-4c14-aad4-2a9e306e7b92")
 		)
 		(pin "8"
-			(uuid "7ca42e90-4d27-407d-a053-aaafed757e67")
+			(uuid "2dd78d2d-a3db-4cb4-b032-82749f51c84e")
 		)
 		(pin "11"
-			(uuid "af932b8a-7c84-4a09-b845-1b8833645efd")
+			(uuid "d5318f9c-abbf-435b-a56e-2f5f1c3fbff4")
 		)
 		(pin "13"
-			(uuid "f6dcf154-4d09-45e9-be00-021fa0661eac")
+			(uuid "eff6a224-a7ae-463d-be67-c6441777d3b5")
 		)
 		(pin "12"
-			(uuid "85cbe70a-b298-4e86-94bf-35c35e279dfb")
+			(uuid "3e0c03a6-cee2-4a0f-ad8c-c2fcfbc48f62")
 		)
 		(pin "10"
-			(uuid "db441a87-af37-4e99-906e-f8cf5e353817")
+			(uuid "0319fee8-aa31-4601-ab2f-18a6d1bfa492")
 		)
 		(pin "6"
-			(uuid "2993e2f8-6ec0-4807-88f8-0bb1e1aed98c")
+			(uuid "64cb9242-44ea-4c98-9c44-1e0e66f524bb")
 		)
 		(pin "5"
-			(uuid "347f66cc-b2f5-44e3-8131-92d46a64a37f")
+			(uuid "98c81a9c-1600-46c2-8384-697c5e000861")
 		)
 		(instances
 			(project "RCA Radio Telescope"
@@ -2581,10 +2581,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "91cc767d-93fb-4a78-9533-4a3ad75b0ac3")
+			(uuid "671858b0-fde7-4ba1-a65a-05b45f871ea3")
 		)
 		(pin "1"
-			(uuid "92a8fccb-f1ad-4e0b-b74e-4d4a38bc6069")
+			(uuid "9cebb820-cb97-47b4-a06f-0cf30cb2661b")
 		)
 		(instances
 			(project "RCA Radio Telescope"
@@ -2649,10 +2649,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c83b288b-e428-4414-a2b7-26184ee79090")
+			(uuid "bbad3296-a121-43e0-be58-059c1f651144")
 		)
 		(pin "2"
-			(uuid "cc2553b8-28ed-4c5d-8212-397457e27cc5")
+			(uuid "544fc86b-05dd-443c-8a5b-329e4845737b")
 		)
 		(instances
 			(project "RCA Radio Telescope"
@@ -2719,10 +2719,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "60fa1ce8-3867-470b-bba6-0be293bfb33b")
+			(uuid "01f9b16a-a06d-4106-bbe0-f6ba822f8e56")
 		)
 		(pin "2"
-			(uuid "f31e8753-0038-4355-afc9-85591b6f16fb")
+			(uuid "3dcef8d3-7f97-4867-8760-1ea4592751a7")
 		)
 		(instances
 			(project "RCA Radio Telescope"

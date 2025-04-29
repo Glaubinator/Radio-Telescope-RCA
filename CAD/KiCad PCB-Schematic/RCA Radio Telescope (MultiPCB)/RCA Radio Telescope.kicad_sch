@@ -1768,40 +1768,10 @@
 		)
 	)
 	(junction
-		(at 347.98 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04016e76-1c22-45d3-bc8b-9a71efa41cf5")
-	)
-	(junction
 		(at 153.67 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e83aaff-d941-4bde-90c3-ccea3a71b1b7")
-	)
-	(junction
-		(at 332.74 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "306ac13f-5ba5-4663-95a6-f30ee53fd21e")
-	)
-	(junction
-		(at 347.98 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a2480cb-2c23-442b-be18-8cc6efba5d63")
-	)
-	(junction
-		(at 325.12 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5374dd2b-0b3c-4e75-8300-e95572fc2e0c")
-	)
-	(junction
-		(at 334.01 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81bccc92-353d-48c6-a581-ec59e2b829fd")
 	)
 	(junction
 		(at 187.96 74.93)
@@ -1810,22 +1780,10 @@
 		(uuid "8cc8d2ed-fe4c-4fe9-99fd-68d1101dee4b")
 	)
 	(junction
-		(at 347.98 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3424892-7ef7-407a-9421-4e73901613c6")
-	)
-	(junction
 		(at 107.95 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab8a02d5-6681-4e4c-8081-50502966e6b6")
-	)
-	(junction
-		(at 328.93 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af43bba6-798a-4000-93e4-f7569aae926b")
 	)
 	(junction
 		(at 177.8 57.15)
@@ -1844,12 +1802,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e88df133-acb2-4e52-9d3e-27ae5634d5f7")
-	)
-	(junction
-		(at 345.44 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb262dae-7cdb-4445-8c07-6edd401dac87")
 	)
 	(no_connect
 		(at 204.47 44.45)
@@ -1871,16 +1823,6 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 120.65) (xy 347.98 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08da37cd-839b-4070-93f2-c2689ebf0bf3")
-	)
-	(wire
-		(pts
 			(xy 172.72 63.5) (xy 172.72 57.15)
 		)
 		(stroke
@@ -1888,26 +1830,6 @@
 			(type default)
 		)
 		(uuid "0b200585-5bea-465e-b7c1-9a3e7b92e284")
-	)
-	(wire
-		(pts
-			(xy 346.71 46.99) (xy 346.71 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b89637a-439b-4a38-8266-253463afc7df")
-	)
-	(wire
-		(pts
-			(xy 330.2 121.92) (xy 347.98 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ee5d600-f1ee-4784-8c7e-87ee95c12939")
 	)
 	(wire
 		(pts
@@ -1938,16 +1860,6 @@
 			(type default)
 		)
 		(uuid "1767df29-65ba-4ffc-91b4-beb574ef87cd")
-	)
-	(wire
-		(pts
-			(xy 325.12 124.46) (xy 332.74 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c0703d7-5a47-4de1-a0f5-a8878442ea86")
 	)
 	(wire
 		(pts
@@ -2011,26 +1923,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 142.24) (xy 345.44 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "304fd663-9876-4fd3-8ffc-230650def17e")
-	)
-	(wire
-		(pts
-			(xy 330.2 120.65) (xy 330.2 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34860df6-c60e-4e9b-9e52-d47d8f2bffea")
-	)
-	(wire
-		(pts
 			(xy 229.87 137.16) (xy 231.14 137.16)
 		)
 		(stroke
@@ -2041,16 +1933,6 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 50.8) (xy 349.25 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42b9d6fe-2946-4abb-9d3b-84204639a125")
-	)
-	(wire
-		(pts
 			(xy 104.14 35.56) (xy 104.14 45.72)
 		)
 		(stroke
@@ -2058,16 +1940,6 @@
 			(type default)
 		)
 		(uuid "436c74f9-d682-41ef-8043-d00e39cdcb54")
-	)
-	(wire
-		(pts
-			(xy 326.39 142.24) (xy 332.74 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4515a03c-2e07-4206-a0a5-db28d7069c2d")
 	)
 	(wire
 		(pts
@@ -2091,13 +1963,13 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 121.92) (xy 353.06 121.92)
+			(xy 120.65 78.74) (xy 120.65 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46cfc71a-8ea2-4aec-a18d-0245b05d4754")
+		(uuid "46f3ebd7-30c8-4921-862d-30a96dcbac4e")
 	)
 	(wire
 		(pts
@@ -2108,6 +1980,16 @@
 			(type default)
 		)
 		(uuid "47e0a808-6ca8-440e-9ded-b00ab9bf9af2")
+	)
+	(wire
+		(pts
+			(xy 133.35 81.28) (xy 133.35 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a3a0155-8e1e-4907-a61b-538829dcc8e5")
 	)
 	(wire
 		(pts
@@ -2151,16 +2033,6 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 97.79) (xy 369.57 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5940ef45-2601-458e-b243-50f6c3264824")
-	)
-	(wire
-		(pts
 			(xy 209.55 34.29) (xy 204.47 34.29)
 		)
 		(stroke
@@ -2181,6 +2053,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 74.93) (xy 121.92 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6025d69d-6ccd-48ac-8834-e94f01822f6c")
+	)
+	(wire
+		(pts
 			(xy 176.53 63.5) (xy 176.53 67.31)
 		)
 		(stroke
@@ -2188,16 +2070,6 @@
 			(type default)
 		)
 		(uuid "6176c01b-29a2-4e8b-89b9-1c43157808cf")
-	)
-	(wire
-		(pts
-			(xy 345.44 116.84) (xy 347.98 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6262252b-9840-4817-b24e-a135724d2fd6")
 	)
 	(wire
 		(pts
@@ -2211,16 +2083,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 116.84) (xy 347.98 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64f09659-5ce9-41c6-a02f-929c1b05e811")
-	)
-	(wire
-		(pts
 			(xy 186.69 74.93) (xy 187.96 74.93)
 		)
 		(stroke
@@ -2228,56 +2090,6 @@
 			(type default)
 		)
 		(uuid "67271211-1f4a-4b60-9338-4b7ae753f6e8")
-	)
-	(wire
-		(pts
-			(xy 325.12 123.19) (xy 325.12 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68aa0da3-d3e8-4cfb-b039-556bbf3b3c37")
-	)
-	(wire
-		(pts
-			(xy 322.58 118.11) (xy 347.98 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68b76825-f85b-4e13-b544-ff3bca791d7f")
-	)
-	(wire
-		(pts
-			(xy 326.39 44.45) (xy 328.93 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "691ce9c4-a655-49fa-a049-fd04f02386bb")
-	)
-	(wire
-		(pts
-			(xy 322.58 115.57) (xy 325.12 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b261404-49de-4f76-bc07-538c6383cfe6")
-	)
-	(wire
-		(pts
-			(xy 332.74 137.16) (xy 332.74 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bbd8520-7d0e-47c6-b80a-a76a9476c1a8")
 	)
 	(wire
 		(pts
@@ -2291,16 +2103,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 127) (xy 325.12 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d49b552-c576-4437-92c4-6169486b9321")
-	)
-	(wire
-		(pts
 			(xy 209.55 46.99) (xy 204.47 46.99)
 		)
 		(stroke
@@ -2308,16 +2110,6 @@
 			(type default)
 		)
 		(uuid "6e06dde7-38d0-49ee-ae41-92c399653299")
-	)
-	(wire
-		(pts
-			(xy 349.25 50.8) (xy 349.25 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f54e86b-44db-4fe0-a9bc-8f61abed1ea9")
 	)
 	(wire
 		(pts
@@ -2331,16 +2123,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 123.19) (xy 325.12 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71f7270e-b046-4a5f-838a-7cd18ef63a2c")
-	)
-	(wire
-		(pts
 			(xy 138.43 45.72) (xy 163.83 45.72)
 		)
 		(stroke
@@ -2348,16 +2130,6 @@
 			(type default)
 		)
 		(uuid "73d8130a-b63b-4d78-9a5a-17770b75da3c")
-	)
-	(wire
-		(pts
-			(xy 326.39 134.62) (xy 334.01 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75658e44-3555-4124-bb02-c2f1dcb5b63f")
 	)
 	(wire
 		(pts
@@ -2401,46 +2173,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 127) (xy 325.12 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "804119fb-477b-4d08-97f4-fae0c478edc0")
-	)
-	(wire
-		(pts
-			(xy 334.01 134.62) (xy 353.06 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80ba2fc5-9e9b-47a9-bf4d-662a86399f61")
-	)
-	(wire
-		(pts
-			(xy 364.49 97.79) (xy 364.49 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81250c9e-9c2b-4306-af8c-cae831d93ad9")
-	)
-	(wire
-		(pts
-			(xy 347.98 111.76) (xy 347.98 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85ba2922-3022-419b-bde8-63b459fd88b2")
-	)
-	(wire
-		(pts
 			(xy 139.7 53.34) (xy 130.81 53.34)
 		)
 		(stroke
@@ -2458,16 +2190,6 @@
 			(type default)
 		)
 		(uuid "8cf0e33c-ee27-4f7d-a3c1-a42b5839881b")
-	)
-	(wire
-		(pts
-			(xy 325.12 113.03) (xy 328.93 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cf1365f-93ce-4c1f-bcc9-6d66e00a5a86")
 	)
 	(wire
 		(pts
@@ -2531,6 +2253,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 81.28) (xy 138.43 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c78f852-2c77-4c1d-97fd-d8ac05e66d87")
+	)
+	(wire
+		(pts
 			(xy 229.87 113.03) (xy 232.41 113.03)
 		)
 		(stroke
@@ -2548,36 +2280,6 @@
 			(type default)
 		)
 		(uuid "9ed3944e-9221-4f39-b754-0842554bfef7")
-	)
-	(wire
-		(pts
-			(xy 326.39 137.16) (xy 332.74 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f2413b8-cf71-4fbe-a3ef-e860fd3158fe")
-	)
-	(wire
-		(pts
-			(xy 347.98 113.03) (xy 353.06 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1f57ea9-f4bc-4aa6-83fe-2afc9705ef50")
-	)
-	(wire
-		(pts
-			(xy 328.93 40.64) (xy 330.2 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a23751bd-1077-493a-91a2-bbae30b531b2")
 	)
 	(wire
 		(pts
@@ -2601,26 +2303,6 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 97.79) (xy 367.03 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba8f32f9-60ea-4eae-bc99-2f8c69e3bd5b")
-	)
-	(wire
-		(pts
-			(xy 347.98 118.11) (xy 353.06 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bac79b9a-3aae-41c9-aad3-7fa7328485e1")
-	)
-	(wire
-		(pts
 			(xy 139.7 35.56) (xy 139.7 53.34)
 		)
 		(stroke
@@ -2641,16 +2323,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 120.65) (xy 347.98 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c790c76b-62c6-4bbb-b104-a87536eaa5af")
-	)
-	(wire
-		(pts
 			(xy 153.67 119.38) (xy 172.72 119.38)
 		)
 		(stroke
@@ -2658,26 +2330,6 @@
 			(type default)
 		)
 		(uuid "c7bcd645-fc6e-440b-9ce8-b0a23c9badd7")
-	)
-	(wire
-		(pts
-			(xy 345.44 111.76) (xy 347.98 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c934bbc9-7fd8-4187-b166-6af6caee3ed0")
-	)
-	(wire
-		(pts
-			(xy 372.11 97.79) (xy 372.11 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9c5d751-779f-4d94-b970-4938d4686376")
 	)
 	(wire
 		(pts
@@ -2691,23 +2343,13 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 101.6) (xy 372.11 101.6)
+			(xy 118.11 78.74) (xy 120.65 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cceca3a1-ff13-4b5d-a0d7-32527556cc4a")
-	)
-	(wire
-		(pts
-			(xy 344.17 46.99) (xy 344.17 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce2d3545-17eb-4cce-aec0-f700ff182867")
+		(uuid "cc7b03e1-cae6-4b4d-8313-618f9c1d94a4")
 	)
 	(wire
 		(pts
@@ -2731,16 +2373,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 113.03) (xy 347.98 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9443f8d-e025-43c8-8f0d-4ef176563071")
-	)
-	(wire
-		(pts
 			(xy 139.7 33.02) (xy 130.81 33.02)
 		)
 		(stroke
@@ -2751,13 +2383,13 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 46.99) (xy 341.63 57.15)
+			(xy 143.51 85.09) (xy 140.97 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd93bb4b-78a6-47b2-9916-69b1b02b9645")
+		(uuid "db06c8fd-33ab-47d3-9a54-74f676e2517f")
 	)
 	(wire
 		(pts
@@ -2771,26 +2403,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 120.65) (xy 330.2 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0041717-c46e-478c-8681-53ec50595a0d")
-	)
-	(wire
-		(pts
-			(xy 325.12 115.57) (xy 325.12 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2cbdea7-36bf-49b9-921d-9732394b807e")
-	)
-	(wire
-		(pts
 			(xy 107.95 119.38) (xy 153.67 119.38)
 		)
 		(stroke
@@ -2798,6 +2410,16 @@
 			(type default)
 		)
 		(uuid "e389d27c-6d83-455c-b828-c01ee5480069")
+	)
+	(wire
+		(pts
+			(xy 135.89 81.28) (xy 135.89 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e73ff608-3bb6-4650-9d01-4e7e692bcf4a")
 	)
 	(wire
 		(pts
@@ -2818,16 +2440,6 @@
 			(type default)
 		)
 		(uuid "ee68bb4a-54b4-4d6c-93cc-6727f6d8a998")
-	)
-	(wire
-		(pts
-			(xy 328.93 44.45) (xy 328.93 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3532c85-f309-43ea-82ee-114040bf4c3d")
 	)
 	(wire
 		(pts
@@ -2881,16 +2493,6 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 142.24) (xy 353.06 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fad3f789-ab6a-4293-a967-daa69cda372d")
-	)
-	(wire
-		(pts
 			(xy 180.34 63.5) (xy 181.61 63.5)
 		)
 		(stroke
@@ -2908,6 +2510,16 @@
 			(type default)
 		)
 		(uuid "feb9f2f2-cfb7-44a4-86b4-6b829c9b1000")
+	)
+	(wire
+		(pts
+			(xy 140.97 85.09) (xy 140.97 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb85046-a8a8-4764-a18f-964500f3291d")
 	)
 	(rectangle
 		(start 17.272 17.272)
@@ -2949,18 +2561,6 @@
 		(uuid 5fea97db-8ac0-4b8a-9351-76a01f4ce2c0)
 	)
 	(rectangle
-		(start 283.21 17.78)
-		(end 400.05 163.83)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 633396a5-93fd-45e9-af71-fda3d2d3c921)
-	)
-	(rectangle
 		(start 118.11 134.62)
 		(end 142.24 157.48)
 		(stroke
@@ -2972,16 +2572,6 @@
 			(type none)
 		)
 		(uuid e5663d21-484e-4c3d-a40e-65eccf749116)
-	)
-	(text "Extra Designs"
-		(exclude_from_sim no)
-		(at 300.228 22.86 0)
-		(effects
-			(font
-				(size 2.286 2.286)
-			)
-		)
-		(uuid "39503a75-9462-4add-b251-570642173d00")
 	)
 	(text "Low Noise Amplifier"
 		(exclude_from_sim no)
@@ -3016,12 +2606,12 @@
 		)
 		(uuid "bc3dbf37-b641-4b01-9c98-1529d1e5b030")
 	)
-	(text "TODO:\n- Fix ERC Problems\n\n"
+	(text "TODO:\n- Fix ERC Problems\n- Add 5V Source from SDR\n"
 		(exclude_from_sim no)
 		(at 22.86 190.5 0)
 		(effects
 			(font
-				(size 2.032 2.032)
+				(size 3.048 3.048)
 				(thickness 0.4064)
 				(bold yes)
 			)
@@ -3060,16 +2650,6 @@
 		)
 		(uuid "1c1a43f9-e9e9-41e0-be44-6ac534819e41")
 	)
-	(label "FILTERCTRL_GND"
-		(at 332.74 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2454a164-df73-465a-8011-22bbe99fd1be")
-	)
 	(label "SDR_GPO_GND"
 		(at 209.55 46.99 0)
 		(effects
@@ -3100,26 +2680,6 @@
 		)
 		(uuid "56f78266-3064-47ad-9a7b-0489e7860bdc")
 	)
-	(label "MN_GND"
-		(at 351.79 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5db1b816-0c97-430c-8598-4a6a018c8a84")
-	)
-	(label "SDR_GPO_GND"
-		(at 332.74 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6e851ec4-5413-4fa8-9d1e-313ecdf936cf")
-	)
 	(label "SDR_GPO_VDD"
 		(at 209.55 34.29 0)
 		(effects
@@ -3129,16 +2689,6 @@
 			(justify left bottom)
 		)
 		(uuid "752253c3-28ec-4e1c-9005-70084ff0b24f")
-	)
-	(label "MN_GND"
-		(at 326.39 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "80bc35e9-7229-4db2-bbf5-56d04b7fc2a2")
 	)
 	(label "POWERDATA_GND"
 		(at 229.87 113.03 180)
@@ -3160,55 +2710,25 @@
 		)
 		(uuid "b2828c4e-22c3-4431-8bcc-19ba9e19f0f8")
 	)
-	(label "SDR_GPO_1"
-		(at 345.44 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b3976f49-a407-4ffe-857e-fca368276916")
-	)
-	(label "FILTERCTRL_GND"
-		(at 326.39 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bff88caa-683d-4c9f-8bde-e63bfb8f5b5d")
-	)
-	(label "FILTERCTRL_GND"
-		(at 373.38 101.6 0)
+	(label "MN_GND"
+		(at 143.51 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "da448aeb-3e58-4243-9aea-57783251f048")
+		(uuid "d7baef28-8937-4b20-a996-df9ae8fd76be")
 	)
-	(label "SDR_GPO_VDD"
-		(at 345.44 111.76 180)
+	(label "MN_GND"
+		(at 118.11 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "e982650b-d266-435e-a9e2-89eee304d247")
-	)
-	(label "SDR_GPO_0"
-		(at 345.44 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ec524c0b-4158-457d-83fb-b2afeacea2df")
+		(uuid "e7c16407-a34d-4044-83c1-9e483e731985")
 	)
 	(symbol
 		(lib_id "Radio Telescope:ADALM_Pluto_SDR")
@@ -3307,149 +2827,6 @@
 			(project ""
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
 					(reference "U2")
-					(unit 1)
-				)
-				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/017a3eae-b6d3-453d-be97-44a0879a04d4"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 345.44 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1dcbb438-1c71-4263-8d85-eed2dd4da16b")
-		(property "Reference" "#FLG01"
-			(at 345.44 140.335 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 340.614 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 345.44 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 345.44 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 345.44 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e0a7bf01-560a-4d73-a929-6f7e9df86dd6")
-		)
-		(instances
-			(project "RCA Radio Telescope"
-				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 346.71 62.23 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1de63594-952b-42fd-abf6-17ffad0919d7")
-		(property "Reference" "J13"
-			(at 359.41 60.198 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x04"
-			(at 361.95 62.484 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 346.71 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 346.71 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 346.71 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d62dce72-8b6f-4b68-8bcb-9e5cb8968f85")
-		)
-		(pin "2"
-			(uuid "e66bf35b-6790-4489-8c7e-5d43213239c7")
-		)
-		(pin "3"
-			(uuid "e8166528-eb0a-483d-9bf1-75d409ab2a93")
-		)
-		(pin "4"
-			(uuid "9ecb0f46-8af8-4abb-a17a-0f67bbc20347")
-		)
-		(instances
-			(project "RCA Radio Telescope"
-				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
-					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -3808,6 +3185,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x04")
+		(at 138.43 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d14c295-9e58-492b-93c9-6880aa87586c")
+		(property "Reference" "J1"
+			(at 151.13 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x04"
+			(at 153.67 96.774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:PHOENIX_1729144"
+			(at 138.43 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 138.43 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e300506c-1fc5-4d46-923c-58b430d3caa5")
+		)
+		(pin "2"
+			(uuid "d91be563-a1fd-45ad-a9bd-b9db3880953c")
+		)
+		(pin "3"
+			(uuid "b692154c-c54c-4d41-bd1b-d0f7608be130")
+		)
+		(pin "4"
+			(uuid "98f05702-ecbe-4911-81b5-6c85f98d0892")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Antenna_Shield")
 		(at 41.91 26.67 0)
 		(mirror y)
@@ -3872,73 +3322,6 @@
 			(project ""
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
 					(reference "AE1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 334.01 134.62 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75aea6ed-a95a-44f8-b443-e372cf32ddea")
-		(property "Reference" "#FLG03"
-			(at 334.01 132.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 334.01 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 334.01 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 334.01 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 334.01 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95765a8f-c724-48ca-ae8f-a61e657f9d04")
-		)
-		(instances
-			(project ""
-				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -4023,151 +3406,6 @@
 			(project ""
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 321.31 134.62 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a07cc5c5-211c-4fe6-8728-93cc887f7941")
-		(property "Reference" "J1"
-			(at 318.77 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5V In For Filter Board"
-			(at 318.77 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Library:CONN_1729128_PXC"
-			(at 321.31 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 321.31 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 321.31 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "de8986b0-2e3c-41fd-aed1-6dae5f6243ea")
-		)
-		(pin "1"
-			(uuid "550f4447-9a93-4f46-b257-e195f5c46bad")
-		)
-		(instances
-			(project "RCA Radio Telescope"
-				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 317.5 118.11 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0ae3691-21f7-4b59-8888-1c0e752f486a")
-		(property "Reference" "J5"
-			(at 307.34 119.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Input from SDR"
-			(at 307.34 117.094 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:PHOENIX_1729144"
-			(at 317.5 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 317.5 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 317.5 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f552fd13-bbdf-47d8-92d6-15b6c5c13120")
-		)
-		(pin "1"
-			(uuid "7c7407a6-7cc5-476f-8e31-6c1a1453a6cc")
-		)
-		(pin "2"
-			(uuid "cce112b7-9233-421f-9ddc-7b2bae93be55")
-		)
-		(pin "4"
-			(uuid "6c46b354-b533-487b-9a2e-3b59487fb5b5")
-		)
-		(instances
-			(project "RCA Radio Telescope"
-				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4320,72 +3558,6 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 328.93 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f04aa951-c718-4880-8b88-12d37c47c7ef")
-		(property "Reference" "#FLG05"
-			(at 328.93 111.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 328.93 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 328.93 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 328.93 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 328.93 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73d1266d-f3c1-4438-bdd0-93b2a1929323")
-		)
-		(instances
-			(project "RCA Radio Telescope"
-				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
-					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
 		(at 107.95 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4446,199 +3618,6 @@
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
 					(reference "#FLG07")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 369.57 92.71 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(uuid "fc286d1b-d6b5-4050-bfaf-8e6f91d0f7f1")
-		(property "Reference" "J14"
-			(at 353.822 89.408 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x04"
-			(at 351.282 92.456 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 369.57 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 369.57 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 369.57 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f231e1dc-aaa1-440c-b3ff-e7fcfeacfa6e")
-		)
-		(pin "2"
-			(uuid "c10794a9-1ee0-45c4-8145-4237364b339c")
-		)
-		(pin "3"
-			(uuid "93a5208f-230c-41c7-b472-2fe211d19d8e")
-		)
-		(pin "4"
-			(uuid "3b3687e4-65b7-4dee-bd4d-8e3adca95f1e")
-		)
-		(instances
-			(project ""
-				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
-					(reference "J14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 353.06 109.22)
-		(size 26.67 44.45)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "017a3eae-b6d3-453d-be97-44a0879a04d4")
-		(property "Sheetname" "FiltersCTRL"
-			(at 353.314 149.352 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-					(thickness 0.3048)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "FiltersCTRL.kicad_sch"
-			(at 353.822 150.876 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "5V_IN" input
-			(at 353.06 134.62 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "fb5de1cf-f8f2-4966-aeb9-2fc4ad1f1f4b")
-		)
-		(pin "GND" passive
-			(at 353.06 142.24 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "72699394-c458-412b-b866-1c8c6eb6a7a4")
-		)
-		(pin "VDD_REF" input
-			(at 353.06 113.03 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "43f0969b-da4f-4387-b3dc-0d691bd0f3d1")
-		)
-		(pin "CNTR_V1" input
-			(at 353.06 118.11 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ae2f8f5d-b18f-49e9-aeeb-b928bbffeb81")
-		)
-		(pin "CNTR_V2" input
-			(at 353.06 121.92 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9ab77d4d-da74-4101-8a28-64d44daff951")
-		)
-		(pin "VSEL_1" output
-			(at 367.03 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "666efc05-43f5-436a-b7eb-f8674224f490")
-		)
-		(pin "VSEL_2" output
-			(at 369.57 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "374620db-427b-4d1a-9b47-7e3c55ca7f4d")
-		)
-		(pin "3V3_OUT" output
-			(at 364.49 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3986ba8a-9bd7-4787-a989-241cb7af1f94")
-		)
-		(instances
-			(project "RCA Radio Telescope"
-				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
-					(page "2")
 				)
 			)
 		)
@@ -4773,7 +3752,7 @@
 		)
 	)
 	(sheet
-		(at 330.2 29.21)
+		(at 121.92 63.5)
 		(size 30.48 17.78)
 		(stroke
 			(width 0.1524)
@@ -4782,9 +3761,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "ad82b89e-d7a1-4556-8af3-fc7c2f36b520")
-		(property "Sheetname" "MatchNetwork"
-			(at 330.2 28.4984 0)
+		(uuid "36b9572c-8d84-4f1d-b9ca-fcb79e1d463b")
+		(property "Sheetname" "RFSwitchFilter"
+			(at 121.92 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4792,8 +3771,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "MatchNetwork.kicad_sch"
-			(at 331.216 29.972 0)
+		(property "Sheetfile" "rfswitchFilter.kicad_sch"
+			(at 122.936 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4802,69 +3781,79 @@
 			)
 		)
 		(pin "GND" passive
-			(at 330.2 40.64 180)
+			(at 121.92 74.93 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c58018b0-0b38-4a70-aa36-d575473813be")
-		)
-		(pin "3V3_IN" output
-			(at 341.63 46.99 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c4222006-eeda-436a-9a09-92d3c9c8c829")
+			(uuid "251792f1-09fd-4d12-bf27-7840895e18fa")
 		)
 		(pin "ANT" bidirectional
-			(at 330.2 34.29 180)
+			(at 121.92 68.58 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cbd398ce-621f-405e-ac6a-f8883a64c3da")
+			(uuid "f5a28089-04a1-4afe-b8b4-2f521f5027f8")
 		)
 		(pin "FILTER_OUT" bidirectional
-			(at 360.68 34.29 0)
+			(at 152.4 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4ade276e-ba4d-4281-b9d6-da7076508752")
+			(uuid "4f8afb8e-e1e2-4713-b9d5-f000bc4496d8")
 		)
-		(pin "V_CTRL2" output
-			(at 346.71 46.99 270)
+		(pin "CNTR_V1" input
+			(at 135.89 81.28 270)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ebf515f2-15b4-4f1d-a874-da50765df92f")
+			(uuid "6b3c8ae5-d575-482b-a205-01b0b33b8028")
 		)
-		(pin "V_CTRL1" output
-			(at 344.17 46.99 270)
+		(pin "CNTR_V2" input
+			(at 138.43 81.28 270)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "95265512-9b7a-4aa7-b24c-6c8c2ba3912a")
+			(uuid "763e20e4-96b8-4312-87f0-cd529eca006b")
+		)
+		(pin "5V_IN" input
+			(at 129.54 81.28 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4c4c0f93-3592-4607-b41e-8aaf6d3bb532")
+		)
+		(pin "VDD_REF" input
+			(at 133.35 81.28 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6fb8f1f9-dc62-4807-8d1c-074fd8f14ca9")
 		)
 		(instances
 			(project "RCA Radio Telescope"
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
-					(page "5")
+					(page "9")
 				)
 			)
 		)
@@ -4890,7 +3879,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "SMDFilter.kicad_sch"
+		(property "Sheetfile" "RF Boards/SMDFilter.kicad_sch"
 			(at 25.4 72.9746 0)
 			(effects
 				(font
@@ -4933,74 +3922,6 @@
 			(project "RCA Radio Telescope"
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 64.77 87.63)
-		(size 27.94 17.78)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "b4999127-d4ab-471a-8016-d4958c63707b")
-		(property "Sheetname" "SMDFilter3"
-			(at 64.77 86.9184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "SMDFilter.kicad_sch"
-			(at 64.77 105.9946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "GND" passive
-			(at 64.77 100.33 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f77a62a1-3c26-4ab4-aeff-6c5b230e8bdb")
-		)
-		(pin "SIGNAL_OUT" output
-			(at 92.71 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7d2a7a3a-6689-4743-9196-25b50bdb59d8")
-		)
-		(pin "SIGNAL_IN" input
-			(at 64.77 95.25 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ed7f16bf-5f2a-4bf3-9386-22be51874e74")
-		)
-		(instances
-			(project "RCA Radio Telescope"
-				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
-					(page "9")
 				)
 			)
 		)
@@ -5084,7 +4005,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d56a2cda-b123-4fba-9e43-f9d7e5baedc8")
-		(property "Sheetname" "Coupled Lines Filter"
+		(property "Sheetname" "Matched SMD Filter"
 			(at 26.67 86.9184 0)
 			(effects
 				(font
@@ -5093,7 +4014,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "coupledLinesFilter.kicad_sch"
+		(property "Sheetfile" "RF Boards/matchedSMDFilter.kicad_sch"
 			(at 26.67 105.9946 0)
 			(effects
 				(font
@@ -5152,7 +4073,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ed1ef573-f899-48e8-bb37-c5537adb3c53")
-		(property "Sheetname" "1-6GHz-SMDFilter"
+		(property "Sheetname" "Matched Distributive Filter"
 			(at 64.77 27.2284 0)
 			(effects
 				(font
@@ -5161,7 +4082,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "1-6GHz-SMDFilter.kicad_sch"
+		(property "Sheetfile" "RF Boards/matchedDistributeFilter.kicad_sch"
 			(at 64.77 46.3046 0)
 			(effects
 				(font

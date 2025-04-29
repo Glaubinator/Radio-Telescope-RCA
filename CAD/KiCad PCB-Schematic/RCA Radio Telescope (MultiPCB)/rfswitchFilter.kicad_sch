@@ -1,0 +1,4129 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "80e2625d-e00b-4e67-840d-4c4a5be4b2ae")
+	(paper "A3")
+	(title_block
+		(title "Filter + Matching Networks")
+		(date "2025-04-02")
+		(rev "v1.1")
+	)
+	(lib_symbols
+		(symbol "Connector:Conn_Coaxial"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Coaxial_0_1"
+				(arc
+					(start -1.778 -0.508)
+					(mid 0.2311 -1.8066)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.2099 1.8101)
+					(end -1.778 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Radio Telescope:MIC5365-1.8YC5-TR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MIC5365-1.8YC5-TR"
+				(at -10.414 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "MIC5365-1.8YC5-TR:SOT65P210X110-5N"
+				(at 0.762 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "3.1 - July 16, 2013"
+				(at -20.574 -17.526 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC 7351B"
+				(at -0.254 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.10mm"
+				(at -24.638 -14.732 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Micrel"
+				(at -15.24 -14.732 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "MIC5365-1.8YC5-TR_0_0"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MIC5365-1.8YC5-TR_1_1"
+				(text "1.8V"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Radio Telescope:MIC5365-3.3YC5-TR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MIC5365-3.3YC5-TR"
+				(at -10.414 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "MIC5365-3.3YC5-TR:SOT65P210X110-5N"
+				(at -1.016 9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "3.1 - July 16, 2013"
+				(at -20.828 -17.018 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC 7351B"
+				(at -0.254 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.10mm"
+				(at -25.146 -13.716 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Micrel"
+				(at -14.732 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "MIC5365-3.3YC5-TR_0_0"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MIC5365-3.3YC5-TR_1_1"
+				(text "3.3V"
+					(at -0.254 0 0)
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Radio Telescope:SKY13588-460LF"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 16.764 9.906 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SKY13588-460LF"
+				(at 16.764 7.366 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "QFN12_SKY"
+				(at 16.256 -26.162 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "SKY13588-460LF"
+				(at 16.51 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SKY13588-460LF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "QFN12_SKY QFN12_SKY-M QFN12_SKY-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SKY13588-460LF_0_1"
+				(pin power_out line
+					(at 33.02 -12.7 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 33.02 -15.24 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 33.02 -10.16 180)
+					(length 7.62)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -1.27 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -2.54 180)
+					(length 7.62)
+					(name "J3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -16.51 0)
+					(length 7.62)
+					(name "V1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -19.05 0)
+					(length 7.62)
+					(name "V2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -3.81 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -6.35 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 0 180)
+					(length 7.62)
+					(name "J2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SKY13588-460LF_1_1"
+				(rectangle
+					(start 7.62 5.08)
+					(end 25.4 -22.86)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 2.54 180)
+					(length 7.62)
+					(name "J1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 2.54 0)
+					(length 7.62)
+					(name "RFC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Radio Telescope:SN74AVC2T45DCUR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 17.018 8.89 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SN74AVC2T45DCUR"
+				(at 17.018 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "DCU8"
+				(at 31.242 12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "SN74AVC2T45DCUR"
+				(at 17.272 11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SN74AVC2T45DCUR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DCU8 DCU8-M DCU8-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SN74AVC2T45DCUR_0_1"
+				(polyline
+					(pts
+						(xy 7.62 -17.78) (xy 26.67 -17.78)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -17.78)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 26.67 -17.78) (xy 26.67 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 26.67 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 7.62)
+					(name "VCCA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 34.29 -15.24 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -3.81 0)
+					(length 7.62)
+					(name "DIR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 34.29 -5.08 180)
+					(length 7.62)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 34.29 -2.54 180)
+					(length 7.62)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 0)
+					(length 7.62)
+					(name "VCCB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 132.08 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19ea57ea-abcd-44b5-bafa-eedf8a311012")
+	)
+	(junction
+		(at 100.33 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "227f7c08-e31d-4c4e-862e-682477220d14")
+	)
+	(junction
+		(at 66.04 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2aef1bbc-2269-4f25-a062-4f8069f4de92")
+	)
+	(junction
+		(at 69.85 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40523c46-8756-4999-ae47-ad606a13a58b")
+	)
+	(junction
+		(at 114.3 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bf16984-d634-4703-b369-87bf7760422e")
+	)
+	(junction
+		(at 114.3 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60f66788-f563-4e5e-89d6-7ee7acabbf4e")
+	)
+	(junction
+		(at 127 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "722c4fbf-14c1-4668-a11b-750bb90538e2")
+	)
+	(junction
+		(at 194.31 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dedefac-9cff-483e-80a3-00ce11c56746")
+	)
+	(junction
+		(at 78.74 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e0ef2aa-53fb-4b18-8726-66ae3775bd27")
+	)
+	(junction
+		(at 69.85 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8374ca98-e473-497d-af46-3fd2e6f54f73")
+	)
+	(junction
+		(at 66.04 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ad08519-8cd3-409f-9db4-11cdbaf8922b")
+	)
+	(junction
+		(at 119.38 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b81724c-29e6-4557-8682-e3f958e282fe")
+	)
+	(junction
+		(at 43.18 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9d6d8cb-a2f8-4e73-96f4-7b13e57ef046")
+	)
+	(junction
+		(at 100.33 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aca26033-97a4-4cc2-9101-e3fad8dc8f42")
+	)
+	(junction
+		(at 66.04 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c44c1223-0966-4764-81ff-3da86dad485a")
+	)
+	(junction
+		(at 78.74 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc8b5bb3-1752-443f-89a7-1e4a41f79de4")
+	)
+	(junction
+		(at 114.3 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdc1240b-a8bf-4f11-91b2-2add5638d570")
+	)
+	(junction
+		(at 114.3 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cff81b12-f450-4590-bcf8-b273ee684ac8")
+	)
+	(junction
+		(at 127 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d61e4be3-79e1-484a-9f40-d7eaa3f96f0a")
+	)
+	(junction
+		(at 119.38 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e120b117-81f2-4410-9dda-d225675a8881")
+	)
+	(junction
+		(at 157.48 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5ee3f2f-95d2-4b6d-91fb-e029e752045c")
+	)
+	(junction
+		(at 66.04 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc75bca1-bbed-4d2e-9ecc-be5df4c54e5f")
+	)
+	(wire
+		(pts
+			(xy 115.57 87.63) (xy 119.38 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02d2dbd5-80d5-4267-9511-cf04e5fc9149")
+	)
+	(wire
+		(pts
+			(xy 38.1 30.48) (xy 43.18 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06388f85-8620-4699-a588-50dcc376737b")
+	)
+	(wire
+		(pts
+			(xy 118.11 40.64) (xy 115.57 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f4be02-108e-46a9-a7b1-2d621ecd9d6d")
+	)
+	(wire
+		(pts
+			(xy 118.11 38.1) (xy 115.57 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08b56384-9d4d-42c5-8620-d3b81b301ab4")
+	)
+	(wire
+		(pts
+			(xy 180.34 53.34) (xy 195.58 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d32e1dd-d860-41c4-b516-df443da1a615")
+	)
+	(wire
+		(pts
+			(xy 119.38 48.26) (xy 119.38 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "128ab6c1-8180-4024-946e-95eeb9e3300f")
+	)
+	(wire
+		(pts
+			(xy 180.34 59.69) (xy 195.58 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14aa614a-297c-4ef7-b077-21f53cd0742b")
+	)
+	(wire
+		(pts
+			(xy 99.06 158.75) (xy 114.3 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1520d9ae-5dbd-41ab-94f1-b83380603fa8")
+	)
+	(wire
+		(pts
+			(xy 81.28 73.66) (xy 82.55 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16abccdf-1285-49f6-94c1-c60d4a34390f")
+	)
+	(wire
+		(pts
+			(xy 157.48 151.13) (xy 160.02 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16c9af43-4584-4fc0-a814-e622e4f8680c")
+	)
+	(wire
+		(pts
+			(xy 40.64 45.72) (xy 43.18 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16e93fbf-2b7d-4705-bf97-1cc447e0f08a")
+	)
+	(wire
+		(pts
+			(xy 69.85 45.72) (xy 69.85 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29babe7b-547e-487a-8d6e-2dc7ad292c18")
+	)
+	(wire
+		(pts
+			(xy 119.38 53.34) (xy 119.38 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bf1848b-5b51-4067-a70e-f52fb4f6e3f4")
+	)
+	(wire
+		(pts
+			(xy 82.55 39.37) (xy 69.85 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e6481f4-17a4-4e4e-8cf5-650f319270d8")
+	)
+	(wire
+		(pts
+			(xy 62.23 153.67) (xy 66.04 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef82e5f-733c-453c-a5ce-a8723922741a")
+	)
+	(wire
+		(pts
+			(xy 78.74 86.36) (xy 78.74 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35092c3c-3cad-4ea8-8ed6-b1706b4cb1b6")
+	)
+	(wire
+		(pts
+			(xy 114.3 158.75) (xy 114.3 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36fa8328-5e7e-4cdb-ada6-cc08c55707e8")
+	)
+	(wire
+		(pts
+			(xy 100.33 153.67) (xy 114.3 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37b2e948-7494-4eb9-ab77-6d9f047497cb")
+	)
+	(wire
+		(pts
+			(xy 66.04 129.54) (xy 66.04 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a0694b4-6296-48fb-aeff-9d80a88a68e4")
+	)
+	(wire
+		(pts
+			(xy 66.04 147.32) (xy 66.04 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a1208b5-337b-4e2b-91ef-5b77dfaba658")
+	)
+	(wire
+		(pts
+			(xy 134.62 68.58) (xy 132.08 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a2a01b1-f007-4e09-984a-d31d14151b73")
+	)
+	(wire
+		(pts
+			(xy 115.57 83.82) (xy 118.11 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a771d8a-c003-46bd-a371-da82ce4dee61")
+	)
+	(wire
+		(pts
+			(xy 66.04 134.62) (xy 66.04 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bec79de-e90a-4c8c-9a2a-f1154b78e62f")
+	)
+	(wire
+		(pts
+			(xy 82.55 86.36) (xy 78.74 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d7d5764-faef-4f98-8979-d4aa1c7b98ad")
+	)
+	(wire
+		(pts
+			(xy 66.04 124.46) (xy 66.04 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "439eb228-479a-4a3a-adbf-218c9a04ed66")
+	)
+	(wire
+		(pts
+			(xy 81.28 50.8) (xy 82.55 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b324430-489f-41af-bfb9-4160bcd4fac8")
+	)
+	(wire
+		(pts
+			(xy 115.57 74.93) (xy 127 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d42861a-cbab-4595-957c-00bec31c7294")
+	)
+	(wire
+		(pts
+			(xy 143.51 138.43) (xy 157.48 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f99e8bb-066e-4c8c-857b-0273c09c8bb6")
+	)
+	(wire
+		(pts
+			(xy 69.85 41.91) (xy 69.85 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59dbaea3-279b-4bd8-873f-574e2e4fe578")
+	)
+	(wire
+		(pts
+			(xy 77.47 57.15) (xy 82.55 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "608bc589-237a-4040-b214-0d58328f0f8f")
+	)
+	(wire
+		(pts
+			(xy 138.43 60.96) (xy 132.08 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6278b2ce-469d-4017-a3c6-35dd4209f99c")
+	)
+	(wire
+		(pts
+			(xy 82.55 81.28) (xy 78.74 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "655651d1-8a86-4a37-bedb-9ea4b703efc1")
+	)
+	(wire
+		(pts
+			(xy 157.48 138.43) (xy 160.02 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e207ff-0629-4f40-aa25-c703b22e0290")
+	)
+	(wire
+		(pts
+			(xy 69.85 39.37) (xy 69.85 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69df0a15-e292-4cce-a180-7bbd27e22495")
+	)
+	(wire
+		(pts
+			(xy 115.57 77.47) (xy 127 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c441d3d-4ac6-47cb-949c-07a10c2ba957")
+	)
+	(wire
+		(pts
+			(xy 115.57 90.17) (xy 119.38 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f58dd59-e30b-46fd-a12d-21c7fb9c3fa6")
+	)
+	(wire
+		(pts
+			(xy 99.06 153.67) (xy 100.33 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81e93565-72d5-481a-b258-8854c824af03")
+	)
+	(wire
+		(pts
+			(xy 66.04 129.54) (xy 68.58 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c27fff-50a9-4d36-af7c-95f147e09910")
+	)
+	(wire
+		(pts
+			(xy 180.34 67.31) (xy 195.58 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87283966-894c-4b1b-91d8-29ed173fea50")
+	)
+	(wire
+		(pts
+			(xy 195.58 140.97) (xy 194.31 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ac3cda0-e8e1-4e9f-9d0a-f7805645ba99")
+	)
+	(wire
+		(pts
+			(xy 63.5 124.46) (xy 66.04 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b12beb9-328b-4d61-b89e-d8b7d6204b8d")
+	)
+	(wire
+		(pts
+			(xy 77.47 54.61) (xy 82.55 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e95023-b389-476d-a3db-a994c088e9ca")
+	)
+	(wire
+		(pts
+			(xy 157.48 138.43) (xy 157.48 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "921e310a-ea49-4031-84ef-32daa68b94f9")
+	)
+	(wire
+		(pts
+			(xy 69.85 44.45) (xy 82.55 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93405a7e-c4e6-420b-8b05-ac3bb3ac6e77")
+	)
+	(wire
+		(pts
+			(xy 127 80.01) (xy 127 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93820a1d-335a-48d1-a176-ef4a8d2956a2")
+	)
+	(wire
+		(pts
+			(xy 62.23 129.54) (xy 66.04 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "978e572a-e7c9-425d-9123-652997a62d87")
+	)
+	(wire
+		(pts
+			(xy 195.58 153.67) (xy 195.58 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a0c26cb-edd9-46ef-984a-ba3fe969169f")
+	)
+	(wire
+		(pts
+			(xy 143.51 134.62) (xy 143.51 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bab855c-24f3-4647-983d-4896a62caa98")
+	)
+	(wire
+		(pts
+			(xy 160.02 135.89) (xy 143.51 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db589f9-5535-4e68-bb6a-ac6880ae2611")
+	)
+	(wire
+		(pts
+			(xy 66.04 153.67) (xy 68.58 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1937082-27ab-47fb-bdbb-aacb2d3343a4")
+	)
+	(wire
+		(pts
+			(xy 127 77.47) (xy 127 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7cda4a6-ef29-48e8-9693-9a00f4705550")
+	)
+	(wire
+		(pts
+			(xy 194.31 153.67) (xy 195.58 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abd9f722-f4ec-470c-87f2-21962e3a235a")
+	)
+	(wire
+		(pts
+			(xy 43.18 45.72) (xy 43.18 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ada6ba9d-ac17-4069-923b-80067ab47fe6")
+	)
+	(wire
+		(pts
+			(xy 115.57 72.39) (xy 127 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af9989ed-a76b-4d47-9d83-a5c2b071ac8d")
+	)
+	(wire
+		(pts
+			(xy 132.08 60.96) (xy 132.08 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b27dd523-5ab2-4e62-8b32-d2cbb4cb774f")
+	)
+	(wire
+		(pts
+			(xy 66.04 153.67) (xy 66.04 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b35a97e0-aa07-42d3-a2a1-40fcab1919ff")
+	)
+	(wire
+		(pts
+			(xy 119.38 50.8) (xy 119.38 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f58912-fdb1-452a-9070-89eccd961f9a")
+	)
+	(wire
+		(pts
+			(xy 157.48 142.24) (xy 160.02 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7603825-a7ee-4b05-abb6-80201332008d")
+	)
+	(wire
+		(pts
+			(xy 66.04 134.62) (xy 68.58 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8521f00-ad4b-4562-b957-1426be123ed4")
+	)
+	(wire
+		(pts
+			(xy 132.08 68.58) (xy 115.57 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be3a239e-15a7-49fb-92e8-200cd448ded2")
+	)
+	(wire
+		(pts
+			(xy 114.3 127) (xy 114.3 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb9ab4c-135a-4b16-b36c-e5a7257f0e20")
+	)
+	(wire
+		(pts
+			(xy 115.57 50.8) (xy 119.38 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfdbf660-add2-47aa-81d0-2251ffc1dd46")
+	)
+	(wire
+		(pts
+			(xy 99.06 134.62) (xy 114.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfe192e3-8ba6-4959-8c94-f71a4ef3a599")
+	)
+	(wire
+		(pts
+			(xy 43.18 35.56) (xy 82.55 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c89841b0-e45f-4ddc-97a0-5ed9fd9b707c")
+	)
+	(wire
+		(pts
+			(xy 100.33 129.54) (xy 114.3 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1e0f5a-6e93-4c48-ae34-7195c398e872")
+	)
+	(wire
+		(pts
+			(xy 81.28 71.12) (xy 82.55 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd9135b0-fcd7-40c3-8859-c15c04527862")
+	)
+	(wire
+		(pts
+			(xy 78.74 83.82) (xy 82.55 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d12f7279-bca6-42c5-9398-df3ea9e5efa3")
+	)
+	(wire
+		(pts
+			(xy 195.58 143.51) (xy 194.31 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63a8262-963c-4332-91e4-6cb696b24de9")
+	)
+	(wire
+		(pts
+			(xy 78.74 83.82) (xy 78.74 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b6e773-18e2-40ab-ac8d-9f080fd913cd")
+	)
+	(wire
+		(pts
+			(xy 114.3 134.62) (xy 114.3 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc6a8813-d744-400e-801a-0d30b61e4674")
+	)
+	(wire
+		(pts
+			(xy 69.85 41.91) (xy 82.55 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd3d52a4-9b52-4644-95eb-09f35174db73")
+	)
+	(wire
+		(pts
+			(xy 118.11 83.82) (xy 118.11 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deaff488-76d4-44b3-a6ac-17e09293ae5b")
+	)
+	(wire
+		(pts
+			(xy 81.28 68.58) (xy 82.55 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e214c677-9162-4602-9bc9-a2fbaf0a2385")
+	)
+	(wire
+		(pts
+			(xy 43.18 30.48) (xy 43.18 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4c17de4-cf45-4968-8cff-3dc35eb00c85")
+	)
+	(wire
+		(pts
+			(xy 118.11 35.56) (xy 115.57 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e71ba708-b66a-4f8c-9ae7-bb2b73473c96")
+	)
+	(wire
+		(pts
+			(xy 115.57 53.34) (xy 119.38 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e728c475-aa99-4105-801c-0fdb129c5552")
+	)
+	(wire
+		(pts
+			(xy 115.57 48.26) (xy 119.38 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e99ca33d-d6a3-4683-8b6d-fdcf13fc08f7")
+	)
+	(wire
+		(pts
+			(xy 99.06 129.54) (xy 100.33 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef282ad3-54ac-45e5-96e9-76f821008a6a")
+	)
+	(wire
+		(pts
+			(xy 78.74 88.9) (xy 78.74 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f09a90b8-7f9f-406d-9201-667b0d68e147")
+	)
+	(wire
+		(pts
+			(xy 127 74.93) (xy 127 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f27d9322-e735-4068-870e-baed76a71201")
+	)
+	(wire
+		(pts
+			(xy 81.28 48.26) (xy 81.28 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4cd624f-9764-4e72-b006-d298d0dfd510")
+	)
+	(wire
+		(pts
+			(xy 157.48 148.59) (xy 160.02 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f59bc203-b389-4252-8a8c-6521a94a3191")
+	)
+	(wire
+		(pts
+			(xy 114.3 151.13) (xy 114.3 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6f65c91-2afd-4d24-a329-b46a58f63d05")
+	)
+	(wire
+		(pts
+			(xy 66.04 158.75) (xy 68.58 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9bedff9-5b07-4e75-af7f-4441fc324aef")
+	)
+	(rectangle
+		(start 62.23 25.4)
+		(end 134.62 100.33)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 38bebb48-6632-4d94-95bb-eaf3ffbceddd)
+	)
+	(rectangle
+		(start 156.21 87.63)
+		(end 156.21 87.63)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4c1c8d2f-6b74-4b62-90da-d7ac7e8347c5)
+	)
+	(rectangle
+		(start 146.05 123.19)
+		(end 208.28 162.56)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5dcd4aee-a5cc-48d8-bd49-6d3644a68af6)
+	)
+	(rectangle
+		(start 49.53 118.11)
+		(end 132.08 167.64)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ad4c6520-e298-4095-af99-ad941150b96b)
+	)
+	(rectangle
+		(start 29.21 15.24)
+		(end 386.08 208.28)
+		(stroke
+			(width 0.508)
+			(type dash_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bd1e86d9-8766-41ff-a740-963f277caf24)
+	)
+	(text "Filter Board: Level Shifter"
+		(exclude_from_sim no)
+		(at 159.512 126.238 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "028e97ca-0de4-42b4-9949-892503d47763")
+	)
+	(text "Filter Board: Power Supply"
+		(exclude_from_sim no)
+		(at 63.246 119.888 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "27abdcdd-4a9a-4703-965b-011d6de8cdd7")
+	)
+	(text "Input Switch"
+		(exclude_from_sim no)
+		(at 99.314 59.944 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+			)
+		)
+		(uuid "7223cd68-f768-423f-8f01-02ebd6212458")
+	)
+	(text "Filter Board: RF Switching"
+		(exclude_from_sim no)
+		(at 75.692 28.194 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "949faadd-467e-40f0-8204-ab8aa7a55c78")
+	)
+	(text "Output Switch"
+		(exclude_from_sim no)
+		(at 99.314 92.71 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+			)
+		)
+		(uuid "c4cc824e-661a-46a9-a85d-706d0a2065a8")
+	)
+	(text "CONTROL CIRCUITRY ON RF BOARD (REF FOR ADS PROJECT)"
+		(exclude_from_sim no)
+		(at 79.248 20.574 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "cca6bd18-f036-43d3-ac27-7d1f1a6c9e68")
+	)
+	(label "+3V3"
+		(at 81.28 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0f114dee-5260-4c9d-9478-a96daeb98439")
+	)
+	(label "INT_CTRL_V1"
+		(at 77.47 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "145e9e38-05ff-49fb-95a2-8f086445d856")
+	)
+	(label "FILTERA_IN"
+		(at 118.11 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c2cc888-d5ad-478d-b83b-5956ef634f7e")
+	)
+	(label "INT_CTRL_V1"
+		(at 195.58 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37db59f1-b03b-4630-83b4-638806be83c9")
+	)
+	(label "FILTERB_IN"
+		(at 118.11 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "446c7d75-36a4-4bca-a93e-37606fe08bce")
+	)
+	(label "INT_CTRL_V1"
+		(at 119.38 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a8585f0-d662-4917-a788-a22abc3fbeb3")
+	)
+	(label "INT_CTRL_V2"
+		(at 119.38 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "586f5324-e910-4ce7-a131-eef2e7d8f7be")
+	)
+	(label "FILTERB_OUT"
+		(at 195.58 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "610e56c2-8304-426b-8116-fa491589c3a8")
+	)
+	(label "+3V3"
+		(at 114.3 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b66c783-9dd7-486e-92a7-2cb472564007")
+	)
+	(label "+1V8"
+		(at 143.51 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7c38aece-3f2f-46d4-8ac3-f8ba1c9604dd")
+	)
+	(label "FILTERC_OUT"
+		(at 195.58 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "843633d6-f6a7-457a-a936-14a9bf486e41")
+	)
+	(label "+3V3"
+		(at 118.11 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91a37ccb-47fb-4318-b834-be55d069dba5")
+	)
+	(label "FILTERB_IN"
+		(at 180.34 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e7c7b4e-8e46-4e8d-9526-127fe75fcb45")
+	)
+	(label "FILTERA_OUT"
+		(at 81.28 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0e26211-2fd8-4225-a25e-1aef01ebe75f")
+	)
+	(label "+1V8"
+		(at 114.3 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba7b6357-40e3-403c-baac-550721ef26e5")
+	)
+	(label "INT_CTRL_V2"
+		(at 195.58 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0b0ecb5-0fe2-4f6e-b7e5-825daee06b22")
+	)
+	(label "FILTERC_IN"
+		(at 118.11 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d44a5f53-7ea0-4da9-8468-98bce0d82cdf")
+	)
+	(label "FILTERC_IN"
+		(at 180.34 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dab570e1-f159-48f4-84cd-0a02af2baa01")
+	)
+	(label "FILTERC_OUT"
+		(at 81.28 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e1dc348b-46f3-4da0-88a4-9b299aabfda5")
+	)
+	(label "FILTERB_OUT"
+		(at 81.28 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eae765f2-1bde-4689-b1b8-594743d27063")
+	)
+	(label "INT_CTRL_V2"
+		(at 77.47 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eb9d053a-f1a3-4ba5-9368-8c081dd2203e")
+	)
+	(label "FILTERA_OUT"
+		(at 195.58 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed15cd70-9d7d-422c-9779-97e55d3b6eda")
+	)
+	(label "FILTERA_IN"
+		(at 180.34 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ff9331e2-69e5-46f3-a7c1-a9a06be1cb5d")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 119.38 54.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02ec3780-47b1-4679-adb5-b246d1f2a482")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 69.85 45.72 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0cc46848-56b7-4ec3-b278-4ce683174c65")
+	)
+	(hierarchical_label "5V_IN"
+		(shape input)
+		(at 63.5 124.46 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "401ee53b-e373-4559-b1b2-fc8ad46f000d")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 78.74 88.9 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ac4b31c-a8e6-4ba0-b419-231029c8185d")
+	)
+	(hierarchical_label "FILTER_OUT"
+		(shape bidirectional)
+		(at 138.43 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5dabc542-d732-4f47-88d4-df30399ec4a9")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 62.23 158.75 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "679260c5-a764-45ff-9423-f2b62c199ece")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 62.23 134.62 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f890692-6ca4-4f51-926a-abaa2918d1c0")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 139.7 73.66 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93d980dc-1e9a-469d-93a3-4958b57d4127")
+	)
+	(hierarchical_label "VDD_REF"
+		(shape input)
+		(at 143.51 138.43 180)
+		(effects
+			(font
+				(size 1.397 1.397)
+				(thickness 0.3556)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "959d8781-0106-40a2-b381-74e67d9fd7ad")
+	)
+	(hierarchical_label "ANT"
+		(shape bidirectional)
+		(at 38.1 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a19174d-5a52-42db-baa2-fa9e9cc521b8")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 195.58 154.94 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a433d86b-7395-4b92-9649-0600896ebff1")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 114.3 135.89 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b633250c-b84b-426d-ade8-c16f5c5a4ef1")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 127 80.01 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bbebef37-c16d-4060-8757-6ed07e50db16")
+	)
+	(hierarchical_label "CNTR_V2"
+		(shape input)
+		(at 157.48 151.13 180)
+		(effects
+			(font
+				(size 1.397 1.397)
+				(thickness 0.3048)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "c39c5e75-e401-4413-b7cc-357eef693931")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 114.3 160.02 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5905a0f-c4c1-4f20-8c09-6e0d30c8e5ba")
+	)
+	(hierarchical_label "CNTR_V1"
+		(shape input)
+		(at 157.48 148.59 180)
+		(effects
+			(font
+				(size 1.397 1.397)
+				(thickness 0.3556)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "e1a69d9e-aa70-4115-8a18-cc512bd1638f")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 35.56 50.8 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4b14ec0-e43e-4568-b4f2-d4c50e7ba1ad")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 100.33 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05081184-8f16-4c81-ad17-43da211fb2ce")
+		(property "Reference" "TP14"
+			(at 102.87 149.0979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FCTRL_3V3"
+			(at 102.87 151.6379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:TestPoint_Pad_D1.0mm_Edit"
+			(at 105.41 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 100.33 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b24d7aab-41a4-45d2-b887-bb23c2f2af88")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/36b9572c-8d84-4f1d-b9ca-fcb79e1d463b"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Radio Telescope:SKY13588-460LF")
+		(at 82.55 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "157d375d-e881-4f1f-90ad-aba669997aa9")
+		(property "Reference" "U3"
+			(at 99.314 27.686 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SKY13588-460LF"
+			(at 99.568 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Library:QFN12_SKY"
+			(at 102.87 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SKY13588-460LF"
+			(at 103.124 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "625a4ec9-cac4-4fa3-919b-8bf41fb166ac")
+		)
+		(pin "5"
+			(uuid "e6e6f4c8-222e-4ca4-8f7e-6ac575c5000a")
+		)
+		(pin "2"
+			(uuid "9f0ccadd-f6f6-41f3-bb58-229a2a52c4bb")
+		)
+		(pin "9"
+			(uuid "2f49af08-387a-4d2b-8d44-74b775350383")
+		)
+		(pin "1"
+			(uuid "d2df85bd-5d02-48ff-95a0-f06ec219a121")
+		)
+		(pin "11"
+			(uuid "eddaf3ce-8428-4be2-8901-dec54ac38da9")
+		)
+		(pin "3"
+			(uuid "bfb283ca-25f1-4e26-b36e-3dde055c6b7c")
+		)
+		(pin "6"
+			(uuid "358bdbfb-70c4-42fe-9bbd-7acbe19fefec")
+		)
+		(pin "7"
+			(uuid "12800294-b00f-483d-a889-d58f54582428")
+		)
+		(pin "10"
+			(uuid "578526fe-6272-4fda-8420-6b31ba82e64a")
+		)
+		(pin "13"
+			(uuid "7da42fad-8946-4d66-8d51-3773b7ae1273")
+		)
+		(pin "12"
+			(uuid "6b4792c4-a5ce-496b-9f20-100281966032")
+		)
+		(pin "4"
+			(uuid "96bfd5c6-140e-4570-b219-d29ddfd14076")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/36b9572c-8d84-4f1d-b9ca-fcb79e1d463b"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 114.3 132.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4faa6f67-a261-4e30-b139-a61e7c4c13d9")
+		(property "Reference" "C3"
+			(at 119.126 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 uF"
+			(at 121.412 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 114.3 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 114.3 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "84f876dc-9117-41c5-a639-4c48159f2189")
+		)
+		(pin "1"
+			(uuid "cc86d17e-30f6-4b3e-8d46-ceb5a001e443")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/36b9572c-8d84-4f1d-b9ca-fcb79e1d463b"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 62.23 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5136836e-580e-4572-a0b7-8e854705e84b")
+		(property "Reference" "C2"
+			(at 56.642 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 uF"
+			(at 55.626 157.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 62.23 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 62.23 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc33c07f-3ee0-44cc-a224-1556eb5ce765")
+		)
+		(pin "1"
+			(uuid "11283b61-3eca-4c3b-9a9c-27882b89bbbe")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/36b9572c-8d84-4f1d-b9ca-fcb79e1d463b"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Radio Telescope:MIC5365-1.8YC5-TR")
+		(at 83.82 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56b173b2-5803-4b9e-a667-7fd124b88f14")
+		(property "Reference" "U6"
+			(at 83.82 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MIC5365-1.8YC5-TR"
+			(at 83.82 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:SOT65P210X110-5N"
+			(at 84.582 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "3.1 - July 16, 2013"
+			(at 63.246 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 83.566 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.10mm"
+			(at 59.182 146.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Micrel"
+			(at 68.58 146.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "7e8cb954-a87e-480c-824d-0bdd4502e4c3")
+		)
+		(pin "2"
+			(uuid "50524601-87f9-4aeb-823d-ea65ce407c93")
+		)
+		(pin "3"
+			(uuid "6a3e13bf-67c9-4c27-8b9f-00c19cea37ad")
+		)
+		(pin "1"
+			(uuid "3397a9df-4a88-42c8-94cc-8b129d0a7733")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/36b9572c-8d84-4f1d-b9ca-fcb79e1d463b"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Radio Telescope:SN74AVC2T45DCUR")
+		(at 160.02 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7886c079-82bf-4c33-b9eb-37a92fc3b395")
+		(property "Reference" "U5"
+			(at 177.165 128.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SN74AVC2T244DQER"
+			(at 177.165 130.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Library:SON35P140X100X40-8N"
+			(at 191.262 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74avc2t45.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1743374409578&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74avc2t45"
+			(at 177.292 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "c2a6a0a8-0160-4b6e-9a2e-a582f98e1b0a")
+		)
+		(pin "1"
+			(uuid "acc52f68-45c9-4f88-a86b-67fe981e18a7")
+		)
+		(pin "7"
+			(uuid "197ca206-5554-49b8-b775-7707f0a82ae3")
+		)
+		(pin "2"
+			(uuid "4ff71693-64fc-4952-86b0-25e83db2ef00")
+		)
+		(pin "5"
+			(uuid "8a16b5a4-8b47-4473-9f02-8b762b867aad")
+		)
+		(pin "8"
+			(uuid "cdf3dce2-be59-4f19-b06d-2bf3c3649902")
+		)
+		(pin "4"
+			(uuid "faed3de9-70d9-4b7a-97e8-e740cedd153e")
+		)
+		(pin "3"
+			(uuid "e926cb74-c3d7-4c5f-b332-c65a013a9753")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/36b9572c-8d84-4f1d-b9ca-fcb79e1d463b"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 35.56 45.72 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d4e1ce7-b215-4e1e-94bb-0163c1747853")
+		(property "Reference" "J9"
+			(at 35.8774 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ANT"
+			(at 35.8774 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:CONN_142-0711-821_CIN"
+			(at 35.56 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 35.56 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61e5a3ec-3d3b-4e7e-bdfa-947fb2087cc3")
+		)
+		(pin "2"
+			(uuid "bf1b5cb7-1b99-4754-a9be-05f4cf138e71")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/36b9572c-8d84-4f1d-b9ca-fcb79e1d463b"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Radio Telescope:SKY13588-460LF")
+		(at 115.57 71.12 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90b3f834-cbe7-4a60-b917-9d599ccd52d5")
+		(property "Reference" "U4"
+			(at 99.314 98.552 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SKY13588-460LF"
+			(at 99.314 96.012 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Library:QFN12_SKY"
+			(at 99.314 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SKY13588-460LF"
+			(at 99.06 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "86b9274d-fb81-4116-b820-0dabf7d88f06")
+		)
+		(pin "4"
+			(uuid "f7a1cc5e-0906-4a6e-ba2d-cabbefdbdd0a")
+		)
+		(pin "1"
+			(uuid "5391447a-e0b8-42ef-8ff0-0e3bcc2baa3d")
+		)
+		(pin "2"
+			(uuid "c63e24da-e2e2-4f13-86d9-32fd345e8630")
+		)
+		(pin "3"
+			(uuid "33175929-ad53-4704-9414-a1ba0988140f")
+		)
+		(pin "7"
+			(uuid "14805a36-8530-4c0b-9dc8-4d4e959c20f6")
+		)
+		(pin "8"
+			(uuid "7ca42e90-4d27-407d-a053-aaafed757e67")
+		)
+		(pin "11"
+			(uuid "af932b8a-7c84-4a09-b845-1b8833645efd")
+		)
+		(pin "13"
+			(uuid "f6dcf154-4d09-45e9-be00-021fa0661eac")
+		)
+		(pin "12"
+			(uuid "85cbe70a-b298-4e86-94bf-35c35e279dfb")
+		)
+		(pin "10"
+			(uuid "db441a87-af37-4e99-906e-f8cf5e353817")
+		)
+		(pin "6"
+			(uuid "2993e2f8-6ec0-4807-88f8-0bb1e1aed98c")
+		)
+		(pin "5"
+			(uuid "347f66cc-b2f5-44e3-8131-92d46a64a37f")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/36b9572c-8d84-4f1d-b9ca-fcb79e1d463b"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 66.04 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91cbf8bb-acaf-4c1b-a65a-f50e19b55896")
+		(property "Reference" "TP12"
+			(at 58.928 142.494 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FCTRL_VIN"
+			(at 58.928 145.034 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:TestPoint_Pad_D1.0mm_Edit"
+			(at 66.04 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 66.04 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50be6f97-b33b-4788-96dc-369bb7f2e8be")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/36b9572c-8d84-4f1d-b9ca-fcb79e1d463b"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 62.23 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce5bc748-e586-4345-93f8-99295c1b2203")
+		(property "Reference" "C1"
+			(at 57.404 130.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 uF"
+			(at 55.118 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 62.23 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 62.23 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a3618941-170f-46cf-b2bf-8964be556061")
+		)
+		(pin "1"
+			(uuid "8e15902c-eb77-489c-aeb1-6b5ebb31a086")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/36b9572c-8d84-4f1d-b9ca-fcb79e1d463b"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 100.33 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf2e4365-1ce1-42da-adcb-ae7754c78f00")
+		(property "Reference" "TP13"
+			(at 102.87 124.9679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FCTRL_1V8"
+			(at 102.87 127.5079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:TestPoint_Pad_D1.0mm_Edit"
+			(at 105.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 100.33 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8058ca8-aa06-49e9-802c-a4aa7233a7bd")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/36b9572c-8d84-4f1d-b9ca-fcb79e1d463b"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Radio Telescope:MIC5365-3.3YC5-TR")
+		(at 83.82 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d30eeb32-a952-4403-acc9-3153946554d8")
+		(property "Reference" "U7"
+			(at 83.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MIC5365-3.3YC5-TR"
+			(at 83.82 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:SOT65P210X110-5N"
+			(at 82.804 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "3.1 - July 16, 2013"
+			(at 62.992 173.228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 83.566 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.10mm"
+			(at 58.674 169.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Micrel"
+			(at 69.088 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6c9316cb-6051-4ec3-9ceb-1673d57d8960")
+		)
+		(pin "1"
+			(uuid "81224546-bf3f-4903-b0e2-23b920727b57")
+		)
+		(pin "2"
+			(uuid "13402a78-e298-4c58-b9a6-b601075a4b2c")
+		)
+		(pin "5"
+			(uuid "8bdb0957-e304-4485-b360-0e1a3ce36cc3")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/36b9572c-8d84-4f1d-b9ca-fcb79e1d463b"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 114.3 156.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df066e42-ac24-40a7-8c92-d9fc25cddda1")
+		(property "Reference" "C4"
+			(at 120.142 158.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 uF"
+			(at 121.666 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 114.3 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 114.3 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a32bafca-e04e-4740-8dad-0cd4cf48b67f")
+		)
+		(pin "1"
+			(uuid "27b8fd7b-7c52-409f-b222-df8b9e5dd68b")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/36b9572c-8d84-4f1d-b9ca-fcb79e1d463b"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 194.31 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f684d4a1-c263-48c4-87c7-9e11f9f5630e")
+		(property "Reference" "TP15"
+			(at 196.85 149.0979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FCTRL_GND"
+			(at 196.85 151.6379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:TestPoint_Pad_1.5x1.5mm_Edit"
+			(at 199.39 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 194.31 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02d4ae1c-b829-4791-86e1-efb59d899786")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/36b9572c-8d84-4f1d-b9ca-fcb79e1d463b"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 139.7 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6f5f563-caa1-4e9d-8d1d-0be88a3d799e")
+		(property "Reference" "J10"
+			(at 143.51 67.6031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FILTER_OUT"
+			(at 143.51 70.1431 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:CONN_142-0711-821_CIN"
+			(at 139.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 139.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60fa1ce8-3867-470b-bba6-0be293bfb33b")
+		)
+		(pin "2"
+			(uuid "f31e8753-0038-4355-afc9-85591b6f16fb")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/36b9572c-8d84-4f1d-b9ca-fcb79e1d463b"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
