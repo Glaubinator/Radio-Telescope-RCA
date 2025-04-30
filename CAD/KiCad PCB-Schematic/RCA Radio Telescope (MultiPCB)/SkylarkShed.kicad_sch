@@ -1234,6 +1234,7 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 74.93 68.58 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1245,6 +1246,7 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 105.41 68.58 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1256,6 +1258,7 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 44.45 68.58 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1267,6 +1270,7 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 78.74 68.58 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1278,6 +1282,7 @@
 	(hierarchical_label "Ethernet"
 		(shape input)
 		(at 172.72 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1289,6 +1294,7 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 24.13 68.58 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1300,6 +1306,7 @@
 	(hierarchical_label "V_Out"
 		(shape input)
 		(at 172.72 50.8 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "RCA Radio Telescope System")
-		(date "2025-04-03")
-		(rev "Version 2.0")
+		(date "2025-04-29")
+		(rev "Version 2.1")
 	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
@@ -1833,6 +1833,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 93.98) (xy 127 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10464d5d-5d35-4948-865b-74d083c9ed54")
+	)
+	(wire
+		(pts
 			(xy 181.61 63.5) (xy 181.61 67.31)
 		)
 		(stroke
@@ -2113,6 +2123,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 81.28) (xy 129.54 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f67667c-1e7c-4acc-997c-82c789f1eff0")
+	)
+	(wire
+		(pts
 			(xy 182.88 63.5) (xy 187.96 63.5)
 		)
 		(stroke
@@ -2370,6 +2390,16 @@
 			(type default)
 		)
 		(uuid "d52a180f-1e9d-4f48-987f-e696556e0127")
+	)
+	(wire
+		(pts
+			(xy 124.46 93.98) (xy 127 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9011508-c72d-4745-8e21-956cf0f83da5")
 	)
 	(wire
 		(pts
@@ -2632,6 +2662,7 @@
 	)
 	(label "SDR_GPO_0"
 		(at 209.55 36.83 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2642,6 +2673,7 @@
 	)
 	(label "POWERDATA_GND"
 		(at 229.87 137.16 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2650,8 +2682,20 @@
 		)
 		(uuid "1c1a43f9-e9e9-41e0-be44-6ac534819e41")
 	)
+	(label "RFS_GND"
+		(at 124.46 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "30b44bca-2919-4f6e-bb4b-e63347b9d906")
+	)
 	(label "SDR_GPO_GND"
 		(at 209.55 46.99 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2662,6 +2706,7 @@
 	)
 	(label "POWERDATA_GND"
 		(at 222.25 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2672,6 +2717,7 @@
 	)
 	(label "SDR_GPO_1"
 		(at 209.55 39.37 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2682,6 +2728,7 @@
 	)
 	(label "SDR_GPO_VDD"
 		(at 209.55 34.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2692,6 +2739,7 @@
 	)
 	(label "POWERDATA_GND"
 		(at 229.87 113.03 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2702,6 +2750,7 @@
 	)
 	(label "POWERDATA_GND"
 		(at 156.21 124.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2710,8 +2759,9 @@
 		)
 		(uuid "b2828c4e-22c3-4431-8bcc-19ba9e19f0f8")
 	)
-	(label "MN_GND"
+	(label "RFS_GND"
 		(at 143.51 85.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2720,8 +2770,9 @@
 		)
 		(uuid "d7baef28-8937-4b20-a996-df9ae8fd76be")
 	)
-	(label "MN_GND"
+	(label "RFS_GND"
 		(at 118.11 78.74 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3482,6 +3533,76 @@
 			(project ""
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 129.54 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4cbff22-f47c-48a1-bf78-f7795d9081a3")
+		(property "Reference" "J5"
+			(at 132.08 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V From SDR"
+			(at 132.08 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:CONN_1729128_PXC"
+			(at 129.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 129.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "359b6b57-2496-4c63-a143-25557c87db8f")
+		)
+		(pin "1"
+			(uuid "896bd88a-c517-414f-bffa-f55316b22b0e")
+		)
+		(instances
+			(project "RCA Radio Telescope"
+				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
+					(reference "J5")
 					(unit 1)
 				)
 			)

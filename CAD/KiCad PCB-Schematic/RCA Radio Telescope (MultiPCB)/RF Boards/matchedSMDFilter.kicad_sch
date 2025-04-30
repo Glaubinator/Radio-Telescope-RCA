@@ -6,7 +6,7 @@
 	(paper "A5")
 	(title_block
 		(title "Matched SMD Filter")
-		(date "2025-04-08")
+		(date "2025-04-29")
 		(rev "v1.0")
 	)
 	(lib_symbols
@@ -682,6 +682,7 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 85.09 60.96 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -693,6 +694,7 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 55.88 66.04 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -704,6 +706,7 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 35.56 60.96 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -715,6 +718,7 @@
 	(hierarchical_label "SIGNAL_IN"
 		(shape input)
 		(at 43.18 50.8 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -726,6 +730,7 @@
 	(hierarchical_label "SIGNAL_OUT"
 		(shape output)
 		(at 77.47 49.53 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
