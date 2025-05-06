@@ -237,4 +237,15 @@
 		(keep_end_layers yes)
 		(uuid "d8948a65-3d07-46c2-9890-19aad6818775")
 	)
+	(model "${KIPRJMOD}/Models/142-0711-821.stp"
+		(offset
+			(xyz 0 -7.75 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
 )

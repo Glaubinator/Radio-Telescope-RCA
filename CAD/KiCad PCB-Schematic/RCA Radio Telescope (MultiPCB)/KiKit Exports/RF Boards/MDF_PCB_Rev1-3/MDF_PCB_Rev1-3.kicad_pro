@@ -271,7 +271,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MDF_PCB_Rev1-4.kicad_pro",
+    "filename": "MDF_PCB_Rev1-3.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -302,15 +302,19 @@
     "netclass_patterns": [
       {
         "netclass": "Default",
-        "pattern": "/RFSwitchFilter/5V_IN"
+        "pattern": "Net-(U14-SS_TR)"
       },
       {
         "netclass": "Default",
-        "pattern": "/Matched SMD Filter/SIGNAL_OUT"
+        "pattern": "/SMDFilter/SIGNAL_OUT"
       },
       {
         "netclass": "Default",
-        "pattern": "/PowerDataDistribute/VOUT_5V"
+        "pattern": "/PowerDataDistribute/USB_D+_IN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(Q1-S)"
       },
       {
         "netclass": "Default",
@@ -318,31 +322,23 @@
       },
       {
         "netclass": "Default",
-        "pattern": "/RFSwitchFilter/FILTERC_IN"
+        "pattern": "Net-(U13-BP)"
       },
       {
         "netclass": "Default",
-        "pattern": "/Matched Distributive Filter/GND"
+        "pattern": "/RFSwitchFilter/INT_CTRL_V1"
       },
       {
         "netclass": "Default",
-        "pattern": "/RFSwitchFilter/FILTERB_IN"
+        "pattern": "Net-(U14-PG)"
       },
       {
         "netclass": "Default",
-        "pattern": "/Matched SMD Filter/GND"
+        "pattern": "/PowerDataDistribute/USB_D-_IN"
       },
       {
         "netclass": "Default",
-        "pattern": "/RFSwitchFilter/CNTR_V1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(L2-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/RFSwitchFilter/+1V8"
+        "pattern": "/RFSwitchFilter/+3V3"
       },
       {
         "netclass": "Default",
@@ -354,15 +350,67 @@
       },
       {
         "netclass": "Default",
-        "pattern": "/PowerDataDistribute/USB_D+_IN"
+        "pattern": "/RFSwitchFilter/+1V8"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U13-OUT)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RFSwitchFilter/CNTR_V2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RFSwitchFilter/INT_CTRL_V2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/SMDFilter/SIGNAL_IN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Matched Distributive Filter/GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/SMDFilter/GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/PowerDataDistribute/VDD"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RFSwitchFilter/FILTER_OUT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RFSwitchFilter/FILTERB_IN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Matched SMD Filter/SIGNAL_IN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RFS_GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/PowerDataDistribute/VOUT_5V"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Matched SMD Filter/SIGNAL_OUT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RFSwitchFilter/5V_IN"
       },
       {
         "netclass": "Default",
         "pattern": "Net-(Q1-D)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U13-IN)"
       },
       {
         "netclass": "Default",
@@ -374,63 +422,7 @@
       },
       {
         "netclass": "Default",
-        "pattern": "/RFSwitchFilter/FILTERA_IN"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U13-OUT)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/PowerDataDistribute/USB_D-_IN"
-      },
-      {
-        "netclass": "Default",
         "pattern": "Net-(Q1-G)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q1-S)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U14-PG)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(U14-SS_TR)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/RFSwitchFilter/INT_CTRL_V1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Matched SMD Filter/SIGNAL_IN"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/RFSwitchFilter/CNTR_V2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/PowerDataDistribute/VDD"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/RFSwitchFilter/INT_CTRL_V2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/RFSwitchFilter/FILTER_OUT"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/RFS_GND"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/SMDFilter/SIGNAL_OUT"
       },
       {
         "netclass": "Default",
@@ -438,19 +430,27 @@
       },
       {
         "netclass": "Default",
-        "pattern": "Net-(U13-BP)"
+        "pattern": "/Matched SMD Filter/GND"
       },
       {
         "netclass": "Default",
-        "pattern": "/SMDFilter/GND"
+        "pattern": "/RFSwitchFilter/CNTR_V1"
       },
       {
         "netclass": "Default",
-        "pattern": "/SMDFilter/SIGNAL_IN"
+        "pattern": "/RFSwitchFilter/FILTERA_IN"
       },
       {
         "netclass": "Default",
-        "pattern": "/RFSwitchFilter/+3V3"
+        "pattern": "Net-(L2-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(U13-IN)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/RFSwitchFilter/FILTERC_IN"
       }
     ]
   },
@@ -462,7 +462,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "MDF_PCB_Rev1-4.step",
+      "step": "MDF_PCB_Rev1-3.step",
       "svg": "",
       "vrml": ""
     },
