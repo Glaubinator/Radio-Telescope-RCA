@@ -2175,6 +2175,17 @@
 			(solder_mask_margin 0.102)
 			(uuid "6023d9e3-11d3-4102-b48e-3062adbae075")
 		)
+		(model "${KIPRJMOD}/Models/1729144.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_4.3mm_M4"
 		(layer "F.Cu")
@@ -3912,6 +3923,17 @@
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(uuid "3fc2341c-3936-4430-9637-3c6b1e6c2cbe")
+		)
+		(model "${KIPRJMOD}/Models/1729128.stp"
+			(offset
+				(xyz 7.5 4 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 180)
+			)
 		)
 	)
 	(footprint "Library:CONN_142-0711-821_CIN"

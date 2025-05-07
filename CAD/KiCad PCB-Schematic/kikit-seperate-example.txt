@@ -25,6 +25,6 @@ kikit separate --source "annotation; ref: SF" "RCA Radio Telescope.kicad_pcb" "S
 
 
 kikit separate --source "annotation; ref: MSF" "RCA Radio Telescope.kicad_pcb" "KiKit Exports\RF Boards\MSF_PCB_Rev1-3.kicad_pcb"
-kikit separate --source "annotation; ref: RFS" "RCA Radio Telescope.kicad_pcb" "KiKit Exports\RF Boards\RFS_PCB_Rev1-3.kicad_pcb"
+kikit separate --source "annotation; ref: RFS" "RCA Radio Telescope.kicad_pcb" "KiKit Exports\RF Boards\RFS_PCB_Rev1-4.kicad_pcb"
 kikit separate --source "annotation; ref: MDF" "RCA Radio Telescope.kicad_pcb" "KiKit Exports\RF Boards\MDF_PCB_Rev1-3.kicad_pcb"
 kikit separate --source "annotation; ref: SF" "RCA Radio Telescope.kicad_pcb" "KiKit Exports\RF Boards\SF_PCB_Rev1-4.kicad_pcb"
