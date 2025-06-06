@@ -1,0 +1,29 @@
+
+hpeesofsim (*) 615.shp Nov  9 2024, MINT version 5
+    (64-bit windows built: Sat Nov 09, 2024 21:47:38 +0000)
+
+
+***** Simulation started at Fri Apr 18 12:23:35 2025
+      Running on host: "Brad"
+      In Directory: "C:\Users\bglau\OneDrive\Spring Term 24 25\ECE 413\RF_Board V2\RFBOARDV2\data"
+      Process ID: 17480
+
+
+7 spare nodes and 5 spare devices are removed.
+The details can be found in file 'C:\Users\bglau\OneDrive\Spring Term 24 25\ECE 413\RF_Board V2\RFBOARDV2\data\_1.6_GHz_Matching_Networks_data\spare_removal.txt'.
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 3
+
+
+SP SP2[1] <RFBOARDV2_lib:1.6 GHz Matching Networks:schematic>   freq=(10 MHz->3 GHz)
+Warning detected by hpeesofsim during SP analysis `SP2'.
+    Data in the Touchstone file `C:/Users/bglau/OneDrive/Spring Term 24 25/ECE 413/RF MEasurements 1/remeasuringantenna.s1p'
+    does not cover the requested value of `freq'.
+    Therefore, the required data was obtained by extrapolation.
+
+
+
+Resource usage:
+  Total stopwatch time     =     0.87 seconds.
+

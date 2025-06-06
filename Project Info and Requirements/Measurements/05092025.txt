@@ -1,0 +1,41 @@
+1420 MHz Testing
+Just LNA with Cable:
+
+Output = -7.041 dBm
+Injected Signal = -21.36 dBm
+500Khz Span
+Noise Floor = -65dBm
+
+System LNA, Filter and Cables (Coaxial Connector Adapter)
+
+Output = -7.69 dBm
+Injected Signal = -21.36 dBm
+500Khz Span
+Noise Floor = -65dBm
+
+
+
+
+500 MHz Testing
+
+System LNA, Filter and Cables (Coaxial Connector Adapter)
+
+Output = -18.05 dBm
+Injected Signal = -18.7 dBm
+500kHz Span
+Noise Floor = -85 dBm
+
+
+
+New Test With Antenna, LNA, Filter , Cables( Coaxial Adapter)
+
+2.2 GHz Test
+Injected Signal = -23.05 dBm (-9dB nanoVNA setting)
+20 MHz Span
+Gain from Mini (s -param file only) = 11.83 dB
+Return Loss Testing Monopole Antenna (Transimitting) @ 2.2 GHz = -6 dB
+Signal Transmitted from Antenna (Including return loss) = -30 dBm
+
+Receiving -52.21 dBm from 10 inches away.
+Receiving Antenna Alone Signal : -39.56 dBm from 10 inches away.
+Monopole Antenna Gain is around 5.2 dBi assumption (typical 2-5 dBi)

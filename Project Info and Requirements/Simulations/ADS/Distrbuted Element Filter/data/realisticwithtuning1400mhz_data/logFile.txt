@@ -1,0 +1,436 @@
+
+hpeesofsim (*) 615.shp Nov  9 2024, MINT version 5
+    (64-bit windows built: Sat Nov 09, 2024 21:47:38 +0000)
+
+
+***** Simulation started at Fri Apr 18 13:22:04 2025
+      Running on host: "DESKTOP-PHPTS71"
+      In Directory: "C:\Users\Owner\ece413capstonecoupledlinedesign_wrk\data"
+      Process ID: 23764
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 8
+
+
+OPTIM Optim1[1] <ece413capstonecoupledlinedesign_lib:realisticwithtuning1400mhz:schematic>  optIter=(0->400)
+Optim1: Seed = 982427381
+
+SP Optim1[1].SP1[0] <ece413capstonecoupledlinedesign_lib:realisticwithtuning1400mhz:schematic>  optIter=0  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #0:
+  CurrentEF: 518.226335846853
+  Optimization variables:
+    CLin1.L = 35.5014e-03
+    CLin1.S = 211.794e-06
+    CLin1.W = 852.352e-06
+    CLin2.L = 32.3472e-03
+    CLin2.S = 126.275e-06
+    CLin2.W = 1.13102e-03
+    CLin3.L = 31.8105e-03
+    CLin3.S = 101.753e-06
+    CLin3.W = 1.39623e-03
+    CLin4.L = 35.4731e-03
+    CLin4.S = 81.5315e-06
+    CLin4.W = 1.79053e-03
+
+SP Optim1[1].SP1[3] <ece413capstonecoupledlinedesign_lib:realisticwithtuning1400mhz:schematic>  optIter=3  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #3:
+  CurrentEF: 234.469125442397
+  Optimization variables:
+    CLin1.L = 26.80131855572939e-03
+    CLin1.S = 204.8511319046747e-06
+    CLin1.W = 1.37827557680044e-03
+    CLin2.L = 39.05402027776379e-03
+    CLin2.S = 103.144214392505e-06
+    CLin2.W = 1.619805258978746e-03
+    CLin3.L = 35.88257018154874e-03
+    CLin3.S = 136.5806026667376e-06
+    CLin3.W = 1.187328296032224e-03
+    CLin4.L = 28.70098778894402e-03
+    CLin4.S = 113.1726741542764e-06
+    CLin4.W = 788.4094672401983e-06
+
+SP Optim1[1].SP1[19] <ece413capstonecoupledlinedesign_lib:realisticwithtuning1400mhz:schematic>  optIter=19  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #19:
+  CurrentEF: 134.192934615051
+  Optimization variables:
+    CLin1.L = 31.88460241105665e-03
+    CLin1.S = 206.4057072865147e-06
+    CLin1.W = 1.321836870969732e-03
+    CLin2.L = 36.91121223658006e-03
+    CLin2.S = 117.2842208933089e-06
+    CLin2.W = 599.2565793619623e-06
+    CLin3.L = 32.07542274631515e-03
+    CLin3.S = 139.5477818697635e-06
+    CLin3.W = 1.235723786489654e-03
+    CLin4.L = 29.37445033250676e-03
+    CLin4.S = 123.7517267835078e-06
+    CLin4.W = 899.2072509901629e-06
+
+SP Optim1[1].SP1[29] <ece413capstonecoupledlinedesign_lib:realisticwithtuning1400mhz:schematic>  optIter=29  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #29:
+  CurrentEF: 50.8060827762512
+  Optimization variables:
+    CLin1.L = 31.48940087945561e-03
+    CLin1.S = 83.7103701384003e-06
+    CLin1.W = 1.28696300362756e-03
+    CLin2.L = 31.91372194343312e-03
+    CLin2.S = 113.5691575209668e-06
+    CLin2.W = 628.0569673170081e-06
+    CLin3.L = 29.9853049779383e-03
+    CLin3.S = 140.4880902133888e-06
+    CLin3.W = 1.327325049642137e-03
+    CLin4.L = 34.30360943307278e-03
+    CLin4.S = 132.7720090634058e-06
+    CLin4.W = 881.3724143160811e-06
+
+SP Optim1[1].SP1[37] <ece413capstonecoupledlinedesign_lib:realisticwithtuning1400mhz:schematic>  optIter=37  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #37:
+  CurrentEF: 32.348200220613
+  Optimization variables:
+    CLin1.L = 30.91994184769382e-03
+    CLin1.S = 97.58060981715855e-06
+    CLin1.W = 1.254616305881198e-03
+    CLin2.L = 30.61768201399409e-03
+    CLin2.S = 120.8415677115094e-06
+    CLin2.W = 661.1690879640091e-06
+    CLin3.L = 30.35642518467508e-03
+    CLin3.S = 123.2084337072596e-06
+    CLin3.W = 1.234102846246331e-03
+    CLin4.L = 34.8156329151226e-03
+    CLin4.S = 131.4210455488e-06
+    CLin4.W = 870.5595834919901e-06
+
+SP Optim1[1].SP1[40] <ece413capstonecoupledlinedesign_lib:realisticwithtuning1400mhz:schematic>  optIter=40  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #40:
+  CurrentEF: 26.0973715820195
+  Optimization variables:
+    CLin1.L = 33.99691576688121e-03
+    CLin1.S = 97.66592638761322e-06
+    CLin1.W = 1.182448258570702e-03
+    CLin2.L = 32.86117266666208e-03
+    CLin2.S = 132.066383190087e-06
+    CLin2.W = 691.6112953245163e-06
+    CLin3.L = 30.24149683414604e-03
+    CLin3.S = 116.7318607010251e-06
+    CLin3.W = 1.186104787048681e-03
+    CLin4.L = 32.40836843826513e-03
+    CLin4.S = 131.911383567374e-06
+    CLin4.W = 918.4351616613158e-06
+
+SP Optim1[1].SP1[41] <ece413capstonecoupledlinedesign_lib:realisticwithtuning1400mhz:schematic>  optIter=41  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #41:
+  CurrentEF: 24.0959643415605
+  Optimization variables:
+    CLin1.L = 31.10886869590227e-03
+    CLin1.S = 105.7368809601159e-06
+    CLin1.W = 1.205067814509196e-03
+    CLin2.L = 34.49564453954211e-03
+    CLin2.S = 139.4605433839895e-06
+    CLin2.W = 676.2833498314417e-06
+    CLin3.L = 31.73216415221024e-03
+    CLin3.S = 120.5193939561898e-06
+    CLin3.W = 1.123571699076009e-03
+    CLin4.L = 31.50556074374215e-03
+    CLin4.S = 114.7849296635787e-06
+    CLin4.W = 926.9720211469892e-06
+
+SP Optim1[1].SP1[44] <ece413capstonecoupledlinedesign_lib:realisticwithtuning1400mhz:schematic>  optIter=44  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #44:
+  CurrentEF: 21.7291941091053
+  Optimization variables:
+    CLin1.L = 30.06085511535343e-03
+    CLin1.S = 111.3630780374113e-06
+    CLin1.W = 1.096418531396648e-03
+    CLin2.L = 32.37380216637412e-03
+    CLin2.S = 146.1433269393874e-06
+    CLin2.W = 747.2126694559155e-06
+    CLin3.L = 29.89371932319131e-03
+    CLin3.S = 121.8172917816246e-06
+    CLin3.W = 1.078283066020729e-03
+    CLin4.L = 33.8627827141611e-03
+    CLin4.S = 114.0630304615149e-06
+    CLin4.W = 892.8174868656785e-06
+
+SP Optim1[1].SP1[49] <ece413capstonecoupledlinedesign_lib:realisticwithtuning1400mhz:schematic>  optIter=49  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #49:
+  CurrentEF: 18.3818011396224
+  Optimization variables:
+    CLin1.L = 33.58371708114009e-03
+    CLin1.S = 99.22292910277023e-06
+    CLin1.W = 1.010828967530998e-03
+    CLin2.L = 32.00132936662266e-03
+    CLin2.S = 138.5747657123765e-06
+    CLin2.W = 699.9450113216226e-06
+    CLin3.L = 30.65828299976289e-03
+    CLin3.S = 105.856500256365e-06
+    CLin3.W = 1.174563619399506e-03
+    CLin4.L = 30.16245108949557e-03
+    CLin4.S = 106.4586190969773e-06
+    CLin4.W = 853.3069790083151e-06
+
+SP Optim1[1].SP1[51] <ece413capstonecoupledlinedesign_lib:realisticwithtuning1400mhz:schematic>  optIter=51  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #51:
+  CurrentEF: 10.1263038740201
+  Optimization variables:
+    CLin1.L = 30.71495813978017e-03
+    CLin1.S = 104.2444845025074e-06
+    CLin1.W = 1.083932173829818e-03
+    CLin2.L = 33.28046203778942e-03
+    CLin2.S = 150.6298724774883e-06
+    CLin2.W = 702.1533503663942e-06
+    CLin3.L = 31.98333061493185e-03
+    CLin3.S = 89.11370117779389e-06
+    CLin3.W = 1.0675237549444e-03
+    CLin4.L = 32.46873733462789e-03
+    CLin4.S = 107.1541490753356e-06
+    CLin4.W = 1.063574303390282e-03
+
+SP Optim1[1].SP1[58] <ece413capstonecoupledlinedesign_lib:realisticwithtuning1400mhz:schematic>  optIter=58  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #58:
+  CurrentEF: 7.11226263493515
+  Optimization variables:
+    CLin1.L = 31.42448893521442e-03
+    CLin1.S = 94.54854363421871e-06
+    CLin1.W = 1.095581960534572e-03
+    CLin2.L = 32.31889401678117e-03
+    CLin2.S = 144.5433707969668e-06
+    CLin2.W = 621.7678925510217e-06
+    CLin3.L = 32.38335616455567e-03
+    CLin3.S = 89.36930429006856e-06
+    CLin3.W = 1.136535527667601e-03
+    CLin4.L = 31.68971591916293e-03
+    CLin4.S = 105.6715890708532e-06
+    CLin4.W = 1.03021200675452e-03
+
+SP Optim1[1].SP1[60] <ece413capstonecoupledlinedesign_lib:realisticwithtuning1400mhz:schematic>  optIter=60  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #60:
+  CurrentEF: 4.02498345643529
+  Optimization variables:
+    CLin1.L = 32.0515260917115e-03
+    CLin1.S = 85.26505669390362e-06
+    CLin1.W = 1.171406203221914e-03
+    CLin2.L = 31.92667836739939e-03
+    CLin2.S = 146.1976293195418e-06
+    CLin2.W = 666.8051976487632e-06
+    CLin3.L = 30.7478279944738e-03
+    CLin3.S = 82.78309809253627e-06
+    CLin3.W = 960.8956358615313e-06
+    CLin4.L = 33.00919223161887e-03
+    CLin4.S = 115.9047210117182e-06
+    CLin4.W = 1.006015343942438e-03
+
+SP Optim1[1].SP1[62] <ece413capstonecoupledlinedesign_lib:realisticwithtuning1400mhz:schematic>  optIter=62  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #62:
+  CurrentEF: 3.51348120011388
+  Optimization variables:
+    CLin1.L = 32.11273542165897e-03
+    CLin1.S = 88.5851679152176e-06
+    CLin1.W = 1.052173564288229e-03
+    CLin2.L = 31.65139211566007e-03
+    CLin2.S = 149.8784385326388e-06
+    CLin2.W = 677.3235541122757e-06
+    CLin3.L = 32.96157167071812e-03
+    CLin3.S = 90.52764510009129e-06
+    CLin3.W = 924.5270666347434e-06
+    CLin4.L = 31.44922951198645e-03
+    CLin4.S = 118.3364094736116e-06
+    CLin4.W = 968.5704289969071e-06
+
+SP Optim1[1].SP1[92] <ece413capstonecoupledlinedesign_lib:realisticwithtuning1400mhz:schematic>  optIter=92  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #92:
+  CurrentEF: 3.21442846281955
+  Optimization variables:
+    CLin1.L = 33.20962009226226e-03
+    CLin1.S = 82.08937432810441e-06
+    CLin1.W = 1.159797071302854e-03
+    CLin2.L = 34.09481666922918e-03
+    CLin2.S = 144.2159762015004e-06
+    CLin2.W = 661.3548898530555e-06
+    CLin3.L = 30.89591184681582e-03
+    CLin3.S = 85.94383401360148e-06
+    CLin3.W = 811.5769833040892e-06
+    CLin4.L = 30.66040942794705e-03
+    CLin4.S = 118.9551385390915e-06
+    CLin4.W = 858.5005943856724e-06
+
+SP Optim1[1].SP1[110] <ece413capstonecoupledlinedesign_lib:realisticwithtuning1400mhz:schematic>  optIter=110  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #110:
+  CurrentEF: 2.37065802503304
+  Optimization variables:
+    CLin1.L = 36.23680912146042e-03
+    CLin1.S = 86.21222815751391e-06
+    CLin1.W = 1.19999835186477e-03
+    CLin2.L = 34.47293860603092e-03
+    CLin2.S = 141.4761083453348e-06
+    CLin2.W = 678.6920663579033e-06
+    CLin3.L = 30.70185572277277e-03
+    CLin3.S = 89.41693017022157e-06
+    CLin3.W = 840.7307600868399e-06
+    CLin4.L = 30.56486762948037e-03
+    CLin4.S = 111.4015526964769e-06
+    CLin4.W = 811.7368425366622e-06
+
+SP Optim1[1].SP1[113] <ece413capstonecoupledlinedesign_lib:realisticwithtuning1400mhz:schematic>  optIter=113  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #113:
+  CurrentEF: 0.915191688165628
+  Optimization variables:
+    CLin1.L = 34.47410813724211e-03
+    CLin1.S = 83.01969888404556e-06
+    CLin1.W = 1.135745981825249e-03
+    CLin2.L = 34.86207732066228e-03
+    CLin2.S = 146.3574209943855e-06
+    CLin2.W = 625.0623727622612e-06
+    CLin3.L = 32.14653080475503e-03
+    CLin3.S = 93.47732479024248e-06
+    CLin3.W = 894.1568669689129e-06
+    CLin4.L = 30.64058691886173e-03
+    CLin4.S = 111.9064483838903e-06
+    CLin4.W = 732.4886979062715e-06
+
+SP Optim1[1].SP1[118] <ece413capstonecoupledlinedesign_lib:realisticwithtuning1400mhz:schematic>  optIter=118  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #118:
+  CurrentEF: 0.609853860788552
+  Optimization variables:
+    CLin1.L = 33.43858915912987e-03
+    CLin1.S = 86.41758277674124e-06
+    CLin1.W = 1.106570410763296e-03
+    CLin2.L = 33.65792422719568e-03
+    CLin2.S = 139.1234376867911e-06
+    CLin2.W = 633.762512619972e-06
+    CLin3.L = 32.71112371325496e-03
+    CLin3.S = 96.51110545174429e-06
+    CLin3.W = 883.1946175770308e-06
+    CLin4.L = 31.1933111793232e-03
+    CLin4.S = 104.1136145050106e-06
+    CLin4.W = 719.0124761580418e-06
+
+SP Optim1[1].SP1[127] <ece413capstonecoupledlinedesign_lib:realisticwithtuning1400mhz:schematic>  optIter=127  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #127:
+  CurrentEF: 0.594961179920105
+  Optimization variables:
+    CLin1.L = 33.69642436164429e-03
+    CLin1.S = 91.73905757594333e-06
+    CLin1.W = 1.081680016702802e-03
+    CLin2.L = 31.82975712193977e-03
+    CLin2.S = 146.7963841304679e-06
+    CLin2.W = 649.2159193768893e-06
+    CLin3.L = 32.41439227277867e-03
+    CLin3.S = 89.48273802686665e-06
+    CLin3.W = 885.0421788820847e-06
+    CLin4.L = 30.76178346556569e-03
+    CLin4.S = 107.2681384599575e-06
+    CLin4.W = 750.5198249648253e-06
+
+SP Optim1[1].SP1[132] <ece413capstonecoupledlinedesign_lib:realisticwithtuning1400mhz:schematic>  optIter=132  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #132:
+  CurrentEF: 0.56329656499077
+  Optimization variables:
+    CLin1.L = 34.58202266027124e-03
+    CLin1.S = 83.58454264700675e-06
+    CLin1.W = 1.035928248116828e-03
+    CLin2.L = 32.05789146567192e-03
+    CLin2.S = 151.1029013548022e-06
+    CLin2.W = 651.5019055573596e-06
+    CLin3.L = 31.95236217656248e-03
+    CLin3.S = 85.1656165144768e-06
+    CLin3.W = 874.4836047137271e-06
+    CLin4.L = 30.08414625678325e-03
+    CLin4.S = 101.952581364429e-06
+    CLin4.W = 711.5119883580059e-06
+
+SP Optim1[1].SP1[141] <ece413capstonecoupledlinedesign_lib:realisticwithtuning1400mhz:schematic>  optIter=141  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #141:
+  CurrentEF: 0.329275119115474
+  Optimization variables:
+    CLin1.L = 34.63044542979872e-03
+    CLin1.S = 82.16336239468278e-06
+    CLin1.W = 1.052540765954733e-03
+    CLin2.L = 31.25315098610584e-03
+    CLin2.S = 151.9054232864271e-06
+    CLin2.W = 609.557301349332e-06
+    CLin3.L = 31.76740485335829e-03
+    CLin3.S = 83.13930690228828e-06
+    CLin3.W = 830.5816418910944e-06
+    CLin4.L = 31.13294757012185e-03
+    CLin4.S = 111.3252774702957e-06
+    CLin4.W = 682.7660453017393e-06
+
+SP Optim1[1].SP1[242] <ece413capstonecoupledlinedesign_lib:realisticwithtuning1400mhz:schematic>  optIter=242  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #242:
+  CurrentEF: 0.221453394459671
+  Optimization variables:
+    CLin1.L = 33.67643987503616e-03
+    CLin1.S = 87.07193279404224e-06
+    CLin1.W = 1.027267570111519e-03
+    CLin2.L = 32.97941168600446e-03
+    CLin2.S = 153.4598399861112e-06
+    CLin2.W = 587.4748418677058e-06
+    CLin3.L = 31.01191501079061e-03
+    CLin3.S = 87.18788793489494e-06
+    CLin3.W = 862.6240320515215e-06
+    CLin4.L = 32.19628862579951e-03
+    CLin4.S = 116.1211216657177e-06
+    CLin4.W = 697.7326190259205e-06
+
+SP Optim1[1].SP1[245] <ece413capstonecoupledlinedesign_lib:realisticwithtuning1400mhz:schematic>  optIter=245  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #245:
+  CurrentEF: 0.133762368867569
+  Optimization variables:
+    CLin1.L = 33.44415029902632e-03
+    CLin1.S = 85.18604298011137e-06
+    CLin1.W = 997.8593330834953e-06
+    CLin2.L = 33.14314377121506e-03
+    CLin2.S = 158.1061757830037e-06
+    CLin2.W = 583.7679962261125e-06
+    CLin3.L = 31.4460042193191e-03
+    CLin3.S = 87.37029649088654e-06
+    CLin3.W = 846.4339349557467e-06
+    CLin4.L = 32.0207463025587e-03
+    CLin4.S = 110.326439383403e-06
+    CLin4.W = 703.9311619301436e-06
+
+SP Optim1[1].SP1[291] <ece413capstonecoupledlinedesign_lib:realisticwithtuning1400mhz:schematic>  optIter=291  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #291:
+  CurrentEF: 0.133475304211877
+  Optimization variables:
+    CLin1.L = 33.20159540758709e-03
+    CLin1.S = 87.7143177411472e-06
+    CLin1.W = 993.7001266156818e-06
+    CLin2.L = 32.98704495962426e-03
+    CLin2.S = 158.4365372383592e-06
+    CLin2.W = 584.5697491551494e-06
+    CLin3.L = 32.18564591585027e-03
+    CLin3.S = 85.36781924181191e-06
+    CLin3.W = 817.9640600713614e-06
+    CLin4.L = 31.4395306512855e-03
+    CLin4.S = 110.9174534381048e-06
+    CLin4.W = 706.348638124991e-06
+Random optimizer ends after 400 trials and 801 evaluations with EF=1.335e-01
+Optim1[1] reached the iteration limit. 
+
+Resource usage:
+  Total stopwatch time     =   316.57 seconds.
+

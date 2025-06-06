@@ -1,0 +1,20 @@
+(nil
+    spare_node_list(7)
+       (
+            "N__4"
+            "N__7"
+            "N__9"
+            "N__10"
+            "N__11"
+            "N__12"
+            "N__13"
+        )
+    spare_inst_list(5)
+       (
+            "Step1"
+            "Step2"
+            "Taper2"
+            "TL4"
+            "TL9"
+        )
+)

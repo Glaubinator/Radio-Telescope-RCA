@@ -1,0 +1,35 @@
+<!DOCTYPE Brd_Options>
+<BrdOptions>
+    <GeneralOptions>
+        <Option tip="Skip import and creation of discrete component designs" value="false" name="SkipComponentImport"/>
+        <Option tip="Calculate and use maximum resolution for given units and board size" value="false" name="UseMaxResolution"/>
+        <Option tip="Arc resolution" value="5000.0" name="ArcResolution1000"/>
+        <Option tip="Starting layer number for imported layers" value="1000" name="LayerNumberOffset"/>
+        <Option tip="Skip import of top level design" value="false" name="SkipTopDesignImport"/>
+        <Option tip="Enable verbose information logging" value="false" name="VerboseLogging"/>
+        <Option tip="Force path corner type to square" value="false" name="UseSquareCornerPaths"/>
+        <Option tip="Include RefDes prefix in cell name" value="true" name="CellNameRefDesPrefix"/>
+        <Option tip="Reuse existing extracta files rather than running extracta" value="false" name="ReuseExistingExtractaFiles"/>
+        <Option tip="Import only metal (etch) features - ignore other layers" value="true" name="CreateEtchOnly"/>
+        <Option tip="Delete extracta output files after import" value="false" name="DeleteExtractaFiles"/>
+        <Option tip="Skip import and creation of substrate" value="false" name="SkipSubstrateImport"/>
+        <Option tip="Do not map all etch class names to ETCH" value="false" name="PreserveEtchClassNames"/>
+        <Option tip="Include device type in cell name" value="true" name="CellNameDeviceType"/>
+        <Option tip="Stop import after reaching limit object count" value="false" name="LimitImportCount"/>
+        <Option tip="Import technology only - skip layout and component import" value="false" name="ImportTechnologyOnly"/>
+        <Option tip="Import solder mask as dielectric substrate layer" value="false" name="MaskAsDielectric"/>
+        <Option tip="No interactive features such as notification windows" value="false" name="NoInteractive"/>
+        <Option tip="Disable negative layer to positive layer conversion" value="false" name="DisableNegativeLayerProcessing"/>
+        <Option tip="Include part number in cell name" value="false" name="CellNamePartNumber"/>
+        <Option tip="Import into an existing library" value="false" name="ImportIntoExistingLib"/>
+        <Option tip="Include component class in cell name" value="false" name="CellNameComponentClass"/>
+        <Option tip="Map map cell and view names to lower case" value="true" name="MapNamesToLowerCase"/>
+        <Option tip="Include component value string in cell name" value="false" name="CellNameValue"/>
+        <Option tip="Include component tolerance string in cell name" value="false" name="CellNameTolerance"/>
+        <Option tip="Include unique sequence number in cell name" value="false" name="CellNameSequenceNumber"/>
+        <Option tip="Show all log messages, including duplicates" value="false" name="ShowDuplicateLogMessages"/>
+        <Option tip="Set empty and unconnected nets to _NONE" value="false" name="UseNetNameNone"/>
+        <Option tip="Create a Folder Tab folder for imported components" value="true" name="CreateComponentFolder"/>
+        <Option tip="Convert substrate units (if necessary) to match layout units" value="true" name="ConvertSubstrateUnits"/>
+    </GeneralOptions>
+</BrdOptions>

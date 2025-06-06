@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<AdsTranslatorSetupFile Version="1.0">
+    <Import>
+        <ZeroSuppression>Leading</ZeroSuppression>
+        <CoordMode>AbsoluteCMode</CoordMode>
+        <NumIntegerDigits>2</NumIntegerDigits>
+        <NumFractionalDigits>4</NumFractionalDigits>
+        <Unit>inch</Unit>
+        <Layers>
+        </Layers>
+    </Import>
+
+  <Export>
+    <FileFormat>RS274X</FileFormat>
+    <ZeroSuppression>Leading</ZeroSuppression>
+    <CoordMode>AbsoluteCMode</CoordMode>
+    <NumIntegerDigits>2</NumIntegerDigits>
+    <NumFractionalDigits>4</NumFractionalDigits>
+    <XOffset>0</XOffset>
+    <YOffset>0</YOffset>
+    <Scale>1</Scale>
+    <OpenLineWidth>0.025</OpenLineWidth>
+    <SingleFile>0</SingleFile>
+    <Unit>inch</Unit>
+    <Flatten>0</Flatten>
+    <PathsAsPolygons>0</PathsAsPolygons>
+    <HoleFormat>Holes As Cutlines</HoleFormat>
+    <Layers />
+  </Export>
+</AdsTranslatorSetupFile>

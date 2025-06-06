@@ -1,0 +1,22 @@
+
+--- WARNING -------------------------------------------------------------------
+
+Polyline edges and/or wires have been found on
+STRIP layer <mask 1> and will be ignored. Their
+location has been written to the DRC report.
+
+-------------------------------------------------------------------------------
+
+Using the minimal snap distance of 0.0004 mm
+(4 layout resolution points) for layout healing.
+
+--- WARNING -------------------------------------------------------------------
+
+Layout healing changed the layout. The actual
+highest aggregate snap distance was 0.0003 mm.
+Further details have been written to the DRC
+report.
+
+-------------------------------------------------------------------------------
+
+Generating mesh at 10 GHz...

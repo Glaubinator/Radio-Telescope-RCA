@@ -1,0 +1,17 @@
+
+hpeesofsim (*) 615.shp Nov  9 2024, MINT version 5
+    (64-bit windows built: Sat Nov 09, 2024 21:47:38 +0000)
+
+
+***** Simulation started at Wed Jun  4 21:12:35 2025
+      Running on host: "Brad"
+      In Directory: "C:\Users\bglau\Downloads\ece413capstonecoupledlinedesign_wrk\data"
+      Process ID: 20020
+
+
+SP SP2[1] <ece413capstonecoupledlinedesign_lib:antennaandfilterboardmeasured:schematic>   freq=(100 MHz->3 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     0.76 seconds.
+

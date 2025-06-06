@@ -1,0 +1,57 @@
+; Top Design: "RFBOARDV2_lib:1.2 Simulated:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="RFBOARDV2_lib:1.2 Simulated:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+MLIN2:TL18  N__0 N__1 Subst="Rogers4003C" W=TL50 L=10 mm Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MTAPER:Taper4  N__0 N__41 Subst="Rogers4003C" W1=TL50 W2=2 mm L=5 mm 
+#uselib "ckt" , "SnP"
+SnP:SnP4  N__3 N__1 NumPorts=2 File="C:\Users\bglau\OneDrive\Spring Term 24 25\ECE 413\RF_Board\BPF-A1340+___Plus25degC.S2P" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+MLIN2:TL40  N__2 N__37 Subst="Rogers4003C" W=0.2 mm L=1 mm Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MLIN2:TL39  N__3 N__37 Subst="Rogers4003C" W=TL50 L=1.5 mm Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MLIN2:TL53  N__14 N__23 Subst="Rogers4003C" W=1.0066 mm opt{ 1 mm to 4.97 mm } L=2 mm Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MLIN2:TL33  N__40 N__64 Subst="Rogers4003C" W=0.2 mm L=1.5 mm Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MLIN2:TL50  N__56 N__28 Subst="Rogers4003C" W=982.797 um opt{ 500 um to 1500 um } L=1 mm Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MLIN2:TL29  N__13 N__40 Subst="Rogers4003C" W=1 mm L=3 mm Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MLIN2:TL44  N__20 N__19 Subst="Rogers4003C" W=1.02727 mm opt{ 0.5 mm to 1.5 mm } L=2 mm Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+
+TL5016GHZ=3.317050 mm
+
+TL50=3.315580 mm
+MLIN2:TL52  N__15 N__14 Subst="Rogers4003C" W=944.009 um opt{ 944 um to 2830 um } L=35.9866 mm Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MLIN2:TL42  N__22 N__21 Subst="Rogers4003C" W=1.47371 mm opt{ 0.5 mm to 1.5 mm } L=1.5 mm Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MLIN2:TL43  N__21 N__18 Subst="Rogers4003C" W=1.36759 mm opt{ 0.5 mm to 1.5 mm } L=2 mm Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MLIN2:TL48  N__31 N__2 Subst="Rogers4003C" W=0.2 mm L=2.74401 mm Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MLIN2:TL51  N__19 N__15 Subst="Rogers4003C" W=1.49996 mm opt{ 0.5 mm to 1.5 mm } L=15.672400 mm Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MCURVE:Curve4  N__18 N__20 Subst="Rogers4003C" W=1.4988 mm opt{ 0.5 mm to 1.5 mm } Angle=90 Radius=1 mm / 1.5 
+MCURVE:Curve5  N__23 N__28 Subst="Rogers4003C" W=749.684 um opt{ 500 um to 1500 um } Angle=90 Radius=1 mm / 1.5 
+MTAPER:Taper8  N__56 N__31 Subst="Rogers4003C" W1=821.64 um opt{ 500 um to 1500 um } W2=0.2 mm noopt{ 0.1 mm to 0.3 mm } L=1.19629 mm 
+S_Param:SP2 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 SPSS_WSP=yes \
+SweepVar="freq" SweepPlan="SP2_stim" OutputPlan="SP2_Output" 
+
+SweepPlan: SP2_stim Start=10 MHz Stop=3 GHz Step=2.874 MHz 
+
+OutputPlan:SP2_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+MTAPER:Taper1  N__11 N__63 Subst="Rogers4003C" W1=TL50 W2=2 mm L=5 mm 
+MLIN2:TL41  N__64 N__22 Subst="Rogers4003C" W=0.2 mm L=3 mm Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MLIN2:TL10  N__11 N__13 Subst="Rogers4003C" W=TL50 L=10 mm Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+model Rogers4003C MSUB H=1.524 mm Er=3.618 Mur=1 Cond=5.813E+7 Hu=1e+36 um T=35 um TanD=0.0027 Rough=0 um DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+
+TL50142GHZ=3.316330 mm
+
+Optim:"Optim1" OptimType="random" ErrorForm="L2" SAProgressReport=0 MaxIters=5000 P=2 DesiredError=0.0 StatusLevel=4 FinalAnalysis="None" NormalizeGoals=yes SetBestValues=yes SaveSolns=yes SaveGoals=yes SaveOptimVars=no UpdateDataset=yes SaveNominal=no SaveAllIterations=no UseAllOptVars=yes UseAllGoals=yes SaveCurrentEF=no InitialTempControlMode=0 SANumTrialsPerIter=10 NumShootsPerIter=20 SATempControlAlpha=0.8 CoranaSkip=0.0 EnableCockpit=yes NormalizeError=yes SaveAllTrials=no UseAdvTermCriteria=no CostRelativeTol=1.0e-8 LimitOfContSmallImprovement=5 
+
+OptimGoal:OptimGoal1 Expr="dB(S(1,1))" SimInstanceName="SP2" Weight=1 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal1_limit1" 
+SpecLimitLine:"OptimGoal1_limit1" Type="LessThan" Max=-25 Weight=1 \
+IndepVar[1]="freq" IndepMin[1]=1.15 GHz IndepMax[1]=1.25 GHz 
+Port:TermG1  N__63 0 Num=1 Z=50 Ohm Noise=yes 
+Port:TermG2  N__41 0 Num=2 Z=50 Ohm Noise=yes 

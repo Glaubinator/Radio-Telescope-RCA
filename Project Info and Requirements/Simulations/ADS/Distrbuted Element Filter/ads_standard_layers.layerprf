@@ -1,0 +1,9 @@
+<!DOCTYPE DisplayAttributes>
+<Lpp_Differences_List>
+    <LPP purpose="drawing" layer="hpeesof_region" protect="0"/>
+    <LPP purpose="drawing" layer="momentum_box" protect="0"/>
+    <LPP purpose="drawing" layer="momentum_ref_offset" protect="0"/>
+    <LPP purpose="drawing" layer="silk_screen2" protect="0"/>
+    <LPP purpose="drawing" visible="0" layer="silk_screen" protect="1"/>
+    <LPP purpose="drawing" visible="0" layer="solder_mask"/>
+</Lpp_Differences_List>

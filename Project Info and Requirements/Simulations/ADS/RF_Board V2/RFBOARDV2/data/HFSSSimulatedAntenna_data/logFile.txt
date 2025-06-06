@@ -1,0 +1,17 @@
+
+hpeesofsim (*) 615.shp Nov  9 2024, MINT version 5
+    (64-bit windows built: Sat Nov 09, 2024 21:47:38 +0000)
+
+
+***** Simulation started at Sat Apr 19 12:09:16 2025
+      Running on host: "Brad"
+      In Directory: "C:\Users\bglau\OneDrive\Spring Term 24 25\ECE 413\RF_Board V2\RFBOARDV2\data"
+      Process ID: 9692
+
+
+SP SP1[1] <RFBOARDV2_lib:HFSSSimulatedAntenna:schematic>   freq=(600 MHz->1.8 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     0.70 seconds.
+

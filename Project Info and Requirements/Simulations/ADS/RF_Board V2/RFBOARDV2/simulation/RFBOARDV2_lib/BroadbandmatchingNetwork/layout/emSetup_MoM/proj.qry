@@ -1,0 +1,16 @@
+#Momentum: B.2025.10.433 (*) built: Oct 23 2024 
+#Momentum Date and Time: Mon Apr 28 09:45:30 2025
+
+Overall database status : 1 (file present and valid)
+
+Frequency range : from 1 GHz to 2 GHz.
+
+Requested frequency range : from 1 GHz to 2 GHz.
+
+Individual status fields : (0 = FALSE, 1 = TRUE)
+ File exists             : 1
+ Substrates match        : 1
+ Frequency-range matches : 1
+
+Corresponding potentialpath : C:\Users\bglau/
+Corresponding potentialname : C:\Users\bglau\\substrates\0003.sdb

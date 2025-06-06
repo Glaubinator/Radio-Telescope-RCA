@@ -1,0 +1,6 @@
+<!DOCTYPE DisplayAttributes>
+<Lpp_Differences_List>
+    <LPP layer="hpeesof_region" protect="0" purpose="drawing"/>
+    <LPP layer="silk_screen2" protect="0" purpose="drawing"/>
+    <LPP visible="0" layer="silk_screen" purpose="drawing"/>
+</Lpp_Differences_List>

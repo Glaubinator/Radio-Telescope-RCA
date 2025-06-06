@@ -1,0 +1,26 @@
+
+hpeesofsim (*) 615.shp Nov  9 2024, MINT version 5
+    (64-bit windows built: Sat Nov 09, 2024 21:47:38 +0000)
+
+
+***** Simulation started at Sat Apr 26 23:07:06 2025
+      Running on host: "Brad"
+      In Directory: "C:\Users\bglau\OneDrive\Spring Term 24 25\ECE 413\RF_Board V2\RFBOARDV2\data"
+      Process ID: 22344
+
+
+SP SP2[1] <RFBOARDV2_lib:tracewidthsbeingthesame:schematic>   freq=(10 MHz->3 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP2'.
+    UserValue(0.002210) < MinRecommendValue(0.002484) for 'Radius' in `Curve5'
+
+
+Warning detected by hpeesofsim during SP analysis `SP2'.
+    Data in the Touchstone file `C:/Users/bglau/OneDrive/Spring Term 24 25/ECE 413/antennaplustwoinchcoaxialcable_noportexensionandnoVNAcable.s1p'
+    does not cover the requested value of `freq'.
+    Therefore, the required data was obtained by extrapolation.
+
+
+
+Resource usage:
+  Total stopwatch time     =     0.85 seconds.
+

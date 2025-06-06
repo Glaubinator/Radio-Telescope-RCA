@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      Owner
+HostName                       DESKTOP-PHPTS71
+ProcessIdentifier              16372
+ProcessCreationTime_UTC        1745780312
+ProcessCreationTime_Readable   Sun Apr 27 11:58:32 2025 Pacific Daylight Time
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         C:\Users\Owner\ece413capstonecoupledlinedesign_wrk\ece413capstonecoupledlinedesign_lib\%Interdigital%V2\schematic\sch.oa.cdslck
+TimeEditLocked                 Sun Apr 27 11:59:19 2025 Pacific Daylight Time

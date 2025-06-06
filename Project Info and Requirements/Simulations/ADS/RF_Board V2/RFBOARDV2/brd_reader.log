@@ -1,0 +1,16 @@
+Info: Creating new options file at: C:/Users/bglau/OneDrive/Spring Term 24 25/ECE 413/RF_Board V2/RFBOARDV2/BrdOptions.xml - using default values
+Info: Importing .brd file: C:/Users/bglau/Downloads/AllegroV16_6/blank_Board.Brd
+Info: Importing into library blank_Board_lib at: ./blank_Board_lib
+Info: 
+Fri Apr 25 16:12:34 2025 (0 Minutes 0 Seconds 2 Milliseconds total): Starting import
+
+Warning: BRD Import supports only Allegro .brd files. Importing file with specified extension ".Brd" may result in incomplete import or errors. Check log and imported design carefully.
+Error: Cadence Extracta command not found in $PATH or $CDSROOT. Cadence Allegro must be installed on this machine for BRD import to function.
+Error: Failed to generate intermediate files for C:/Users/bglau/Downloads/AllegroV16_6/blank_Board.Brd
+Error: Brd import failed for file C:/Users/bglau/Downloads/AllegroV16_6/blank_Board.Brd into library ./blank_Board_lib
+Info: 
+Fri Apr 25 16:12:38 2025 (0 Minutes 3 Seconds 928 Milliseconds total): Import completed
+
+
+
+Import complete for blank_Board.Brd. 3 errors, 1 warnings.

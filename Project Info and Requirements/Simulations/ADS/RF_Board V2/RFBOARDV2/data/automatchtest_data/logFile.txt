@@ -1,0 +1,282 @@
+
+hpeesofsim (*) 615.shp Nov  9 2024, MINT version 5
+    (64-bit windows built: Sat Nov 09, 2024 21:47:38 +0000)
+
+
+***** Simulation started at Fri Apr 25 17:18:59 2025
+      Running on host: "Brad"
+      In Directory: "C:\Users\bglau\OneDrive\Spring Term 24 25\ECE 413\RF_Board V2\RFBOARDV2\data"
+      Process ID: 20212
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 1
+
+
+OPTIM Optim1[1] <RFBOARDV2_lib:automatchtest:schematic>  optIter=(0->5000)
+Optim1: Seed = 1034568286
+
+SP Optim1[1].SP1[0] <RFBOARDV2_lib:automatchtest:schematic>  optIter=0  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #0:
+  CurrentEF: 0.187904320467358
+  Optimization variables:
+    TL11.L = 7.43071e-03
+    TL11.W = 3.31608e-03
+    TL12.L = 19.9601e-03
+    TL12.W = 3.31608e-03
+
+SP Optim1[1].SP1[1] <RFBOARDV2_lib:automatchtest:schematic>  optIter=1  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #1:
+  CurrentEF: 0.153061214539699
+  Optimization variables:
+    TL11.L = 6.541002960757349e-03
+    TL11.W = 3.605183622961845e-03
+    TL12.L = 15.03483071183099e-03
+    TL12.W = 3.077356190107516e-03
+
+SP Optim1[1].SP1[3] <RFBOARDV2_lib:automatchtest:schematic>  optIter=3  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #3:
+  CurrentEF: 0.123714110512995
+  Optimization variables:
+    TL11.L = 4.963189589482112e-03
+    TL11.W = 4.529653959989956e-03
+    TL12.L = 11.10963405533202e-03
+    TL12.W = 3.499059238651632e-03
+
+SP Optim1[1].SP1[17] <RFBOARDV2_lib:automatchtest:schematic>  optIter=17  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #17:
+  CurrentEF: 0.123182001892628
+  Optimization variables:
+    TL11.L = 4.821582099949374e-03
+    TL11.W = 4.521026974426796e-03
+    TL12.L = 10.76874054657658e-03
+    TL12.W = 3.474471470625685e-03
+
+SP Optim1[1].SP1[18] <RFBOARDV2_lib:automatchtest:schematic>  optIter=18  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #18:
+  CurrentEF: 0.123045864812942
+  Optimization variables:
+    TL11.L = 4.748109876061368e-03
+    TL11.W = 4.759171185827173e-03
+    TL12.L = 10.03716092687131e-03
+    TL12.W = 3.379655824389747e-03
+
+SP Optim1[1].SP1[43] <RFBOARDV2_lib:automatchtest:schematic>  optIter=43  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #43:
+  CurrentEF: 0.123029124157106
+  Optimization variables:
+    TL11.L = 4.754392496850242e-03
+    TL11.W = 4.868642591237383e-03
+    TL12.L = 10.0604574947715e-03
+    TL12.W = 3.353727761888873e-03
+
+SP Optim1[1].SP1[56] <RFBOARDV2_lib:automatchtest:schematic>  optIter=56  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #56:
+  CurrentEF: 0.123015028578662
+  Optimization variables:
+    TL11.L = 4.760105461183669e-03
+    TL11.W = 4.902269161315789e-03
+    TL12.L = 10.03403605277716e-03
+    TL12.W = 3.360521692421152e-03
+
+SP Optim1[1].SP1[63] <RFBOARDV2_lib:automatchtest:schematic>  optIter=63  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #63:
+  CurrentEF: 0.123011469329288
+  Optimization variables:
+    TL11.L = 4.786636435269867e-03
+    TL11.W = 4.887808039168007e-03
+    TL12.L = 9.998121738139246e-03
+    TL12.W = 3.352042465915929e-03
+
+SP Optim1[1].SP1[65] <RFBOARDV2_lib:automatchtest:schematic>  optIter=65  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #65:
+  CurrentEF: 0.123010625892372
+  Optimization variables:
+    TL11.L = 4.751923903139652e-03
+    TL11.W = 4.910719940416418e-03
+    TL12.L = 10.00839862510905e-03
+    TL12.W = 3.355701098571856e-03
+
+SP Optim1[1].SP1[73] <RFBOARDV2_lib:automatchtest:schematic>  optIter=73  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #73:
+  CurrentEF: 0.123010596527631
+  Optimization variables:
+    TL11.L = 4.765291801586143e-03
+    TL11.W = 4.914050478101386e-03
+    TL12.L = 9.999702563513855e-03
+    TL12.W = 3.347867306464975e-03
+
+SP Optim1[1].SP1[77] <RFBOARDV2_lib:automatchtest:schematic>  optIter=77  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #77:
+  CurrentEF: 0.123009522885626
+  Optimization variables:
+    TL11.L = 4.750032731553772e-03
+    TL11.W = 4.911164171016266e-03
+    TL12.L = 10.00072116525638e-03
+    TL12.W = 3.357981528047218e-03
+
+SP Optim1[1].SP1[78] <RFBOARDV2_lib:automatchtest:schematic>  optIter=78  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #78:
+  CurrentEF: 0.12300871775206
+  Optimization variables:
+    TL11.L = 4.705586396569436e-03
+    TL11.W = 4.94486821278589e-03
+    TL12.L = 9.989777213347564e-03
+    TL12.W = 3.359299486991061e-03
+
+SP Optim1[1].SP1[81] <RFBOARDV2_lib:automatchtest:schematic>  optIter=81  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #81:
+  CurrentEF: 0.1230084269567
+  Optimization variables:
+    TL11.L = 4.713605661816048e-03
+    TL11.W = 4.946576801404148e-03
+    TL12.L = 9.986036340039327e-03
+    TL12.W = 3.353199568976473e-03
+
+SP Optim1[1].SP1[89] <RFBOARDV2_lib:automatchtest:schematic>  optIter=89  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #89:
+  CurrentEF: 0.123007599932904
+  Optimization variables:
+    TL11.L = 4.755376757693351e-03
+    TL11.W = 4.944622246977055e-03
+    TL12.L = 9.987381433952077e-03
+    TL12.W = 3.345159522696186e-03
+
+SP Optim1[1].SP1[111] <RFBOARDV2_lib:automatchtest:schematic>  optIter=111  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #111:
+  CurrentEF: 0.123005981734472
+  Optimization variables:
+    TL11.L = 4.743111350094053e-03
+    TL11.W = 4.9465045901984e-03
+    TL12.L = 9.981450081336643e-03
+    TL12.W = 3.353468414259346e-03
+
+SP Optim1[1].SP1[122] <RFBOARDV2_lib:automatchtest:schematic>  optIter=122  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #122:
+  CurrentEF: 0.123005975504638
+  Optimization variables:
+    TL11.L = 4.737129980581393e-03
+    TL11.W = 4.947061994635844e-03
+    TL12.L = 9.983516136420432e-03
+    TL12.W = 3.354942548092881e-03
+
+SP Optim1[1].SP1[124] <RFBOARDV2_lib:automatchtest:schematic>  optIter=124  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #124:
+  CurrentEF: 0.123005754542
+  Optimization variables:
+    TL11.L = 4.736795753879583e-03
+    TL11.W = 4.9421517546558e-03
+    TL12.L = 9.982203750769233e-03
+    TL12.W = 3.35381810715457e-03
+
+SP Optim1[1].SP1[149] <RFBOARDV2_lib:automatchtest:schematic>  optIter=149  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #149:
+  CurrentEF: 0.123005666388578
+  Optimization variables:
+    TL11.L = 4.737477782847504e-03
+    TL11.W = 4.945183065328397e-03
+    TL12.L = 9.982183834762383e-03
+    TL12.W = 3.353730539514995e-03
+
+SP Optim1[1].SP1[232] <RFBOARDV2_lib:automatchtest:schematic>  optIter=232  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #232:
+  CurrentEF: 0.123005634604492
+  Optimization variables:
+    TL11.L = 4.735199532232186e-03
+    TL11.W = 4.952687896533576e-03
+    TL12.L = 9.980789290865971e-03
+    TL12.W = 3.355127571026665e-03
+
+SP Optim1[1].SP1[288] <RFBOARDV2_lib:automatchtest:schematic>  optIter=288  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #288:
+  CurrentEF: 0.12300505982569
+  Optimization variables:
+    TL11.L = 4.735886716782319e-03
+    TL11.W = 4.952180323378788e-03
+    TL12.L = 9.980287020606667e-03
+    TL12.W = 3.351993063378827e-03
+
+SP Optim1[1].SP1[2099] <RFBOARDV2_lib:automatchtest:schematic>  optIter=2099  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #2099:
+  CurrentEF: 0.123004849329892
+  Optimization variables:
+    TL11.L = 4.726307984417696e-03
+    TL11.W = 4.956901184323364e-03
+    TL12.L = 9.980127133181589e-03
+    TL12.W = 3.351453030803897e-03
+
+SP Optim1[1].SP1[2541] <RFBOARDV2_lib:automatchtest:schematic>  optIter=2541  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #2541:
+  CurrentEF: 0.123004759747449
+  Optimization variables:
+    TL11.L = 4.729066835972464e-03
+    TL11.W = 4.958018939551775e-03
+    TL12.L = 9.980174410049293e-03
+    TL12.W = 3.350579190415869e-03
+
+SP Optim1[1].SP1[3119] <RFBOARDV2_lib:automatchtest:schematic>  optIter=3119  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #3119:
+  CurrentEF: 0.123004679164742
+  Optimization variables:
+    TL11.L = 4.731625578771291e-03
+    TL11.W = 4.959336909242001e-03
+    TL12.L = 9.980180657819743e-03
+    TL12.W = 3.350295557130128e-03
+
+SP Optim1[1].SP1[3278] <RFBOARDV2_lib:automatchtest:schematic>  optIter=3278  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #3278:
+  CurrentEF: 0.123004637321838
+  Optimization variables:
+    TL11.L = 4.730384697916916e-03
+    TL11.W = 4.958992659582054e-03
+    TL12.L = 9.980015891055313e-03
+    TL12.W = 3.351151917878895e-03
+
+SP Optim1[1].SP1[4496] <RFBOARDV2_lib:automatchtest:schematic>  optIter=4496  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #4496:
+  CurrentEF: 0.123004621454617
+  Optimization variables:
+    TL11.L = 4.719210413061697e-03
+    TL11.W = 4.963175618056028e-03
+    TL12.L = 9.981220074754462e-03
+    TL12.W = 3.353945201303716e-03
+
+SP Optim1[1].SP1[4937] <RFBOARDV2_lib:automatchtest:schematic>  optIter=4937  freq=(100 MHz->3 GHz)
+
+Iteration/Trial #4937:
+  CurrentEF: 0.123004501466139
+  Optimization variables:
+    TL11.L = 4.718965835635957e-03
+    TL11.W = 4.964774284190131e-03
+    TL12.L = 9.980370387889905e-03
+    TL12.W = 3.352282476001919e-03
+Random optimizer ends after 5000 trials and 10001 evaluations with EF=1.230e-01
+Optim1[1] reached the iteration limit. 
+
+Resource usage:
+  Total stopwatch time     =   157.26 seconds.
+

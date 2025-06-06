@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<AdsTranslatorSetupFile Version="1.0">
+    <Import>
+        <Unit>inch</Unit>
+        <Flatten>0</Flatten>
+        <Layers>
+            <Layer EecadLayer="0" AdsLayer="0" Transfer="1" />
+            <Layer EecadLayer="1" AdsLayer="1" Transfer="1" />
+            <Layer EecadLayer="18" AdsLayer="18" Transfer="1" />
+            <Layer EecadLayer="2" AdsLayer="2" Transfer="1" />
+            <Layer EecadLayer="23" AdsLayer="23" Transfer="1" />
+            <Layer EecadLayer="3" AdsLayer="3" Transfer="1" />
+            <Layer EecadLayer="6" AdsLayer="6" Transfer="1" />
+            <Layer EecadLayer="7" AdsLayer="7" Transfer="1" />
+            <Layer EecadLayer="8" AdsLayer="8" Transfer="1" />
+        </Layers>
+        <FileFormat>DXF</FileFormat>
+        <AutocadVersion>Autocad 2004</AutocadVersion>
+        <HatchConversionIn>p</HatchConversionIn>
+        <AutoMerge>0</AutoMerge>
+        <ImportNegativeLayerAsSlotLayer>0</ImportNegativeLayerAsSlotLayer>
+        <CreateComponentsInFolder>1</CreateComponentsInFolder>
+        <SelectedDesignName></SelectedDesignName>
+        <PathsAsPolygons>1</PathsAsPolygons>
+        <VectorizeText>0</VectorizeText>
+        <LayerStackup>1</LayerStackup>
+        <HoleFormat>Holes As Cutlines</HoleFormat>
+        <Polarity />
+        <Nets />
+        <Components />
+    </Import>
+    <Export>
+        <FileFormat>DXF</FileFormat>
+        <AutocadVersion>Autocad 2004</AutocadVersion>
+        <PathsAsPolygons>1</PathsAsPolygons>
+        <HoleFormat>Holes As Cutlines</HoleFormat>
+        <Layers />
+        <HatchConversionIn>p</HatchConversionIn>
+        <Unit>mil</Unit>
+        <Flatten>0</Flatten>
+        <AutoMerge>0</AutoMerge>
+        <ImportNegativeLayerAsSlotLayer>0</ImportNegativeLayerAsSlotLayer>
+        <CreateComponentsInFolder>1</CreateComponentsInFolder>
+        <SelectedDesignName />
+        <VectorizeText>0</VectorizeText>
+        <LayerStackup>1</LayerStackup>
+        <Polarity />
+        <Nets />
+        <Components />
+    </Export>
+</AdsTranslatorSetupFile>

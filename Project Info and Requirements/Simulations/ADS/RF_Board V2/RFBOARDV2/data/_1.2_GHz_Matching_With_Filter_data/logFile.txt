@@ -1,0 +1,25 @@
+
+hpeesofsim (*) 615.shp Nov  9 2024, MINT version 5
+    (64-bit windows built: Sat Nov 09, 2024 21:47:38 +0000)
+
+
+***** Simulation started at Fri Apr 18 12:43:57 2025
+      Running on host: "Brad"
+      In Directory: "C:\Users\bglau\OneDrive\Spring Term 24 25\ECE 413\RF_Board V2\RFBOARDV2\data"
+      Process ID: 6652
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 1
+
+
+SP SP2[1] <RFBOARDV2_lib:1.2 GHz Matching With Filter:schematic>   freq=(10 MHz->3 GHz)
+Warning detected by hpeesofsim during SP analysis `SP2'.
+    Data in the Touchstone file `C:/Users/bglau/OneDrive/Spring Term 24 25/ECE 413/RF MEasurements 1/remeasuringantenna.s1p'
+    does not cover the requested value of `freq'.
+    Therefore, the required data was obtained by extrapolation.
+
+
+
+Resource usage:
+  Total stopwatch time     =     1.00 seconds.
+

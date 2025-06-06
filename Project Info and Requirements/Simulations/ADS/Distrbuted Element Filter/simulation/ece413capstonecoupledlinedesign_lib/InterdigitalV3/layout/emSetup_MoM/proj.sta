@@ -1,0 +1,452 @@
+==============================================================================
+
+                  ------ MOMENTUM STATISTICS (MW mode) ------
+
+              Momentum MomEngine_64 2025.10.433 (*) built: Oct 23 2024
+                           Mon Apr 28 15:23:48 2025
+
+==============================================================================
+
+
+------------------------------------------------------------------------------
+MESH
+------------------------------------------------------------------------------
+ Frequency          : 10 GHz
+
+ Rectangular cells  : 1361
+ Quadrangular cells : 280
+ Triangular cells   : 166
+ Via cells          : 62
+
+ Edge currents      : 3306
+
+------------------------------------------------------------------------------
+SOLVER                        USER TIME      ELAPSED TIME      MEMORY         
+PROCESSES                      (h:m:s)          (h:m:s)         (MB)          
+------------------------------------------------------------------------------
+
+SIMULATION SET-UP
+-----------------
+ Initialization           |     0: 0: 0   |     0: 0: 0   |     51.22   
+ Ports analysis           |     0: 0: 0   |     0: 0: 0   |      0.04   
+ Mesh processing          |     0: 0: 0   |     0: 0: 1   |    138.61   
+
+ Matrix size : 10964
+ Reduced matrix size : 9606
+ Estimated process size : 1934.91 MB
+
+ Simulation temperature : 298.15 K
+
+1. SIMULATION FREQUENCY = 0 Hz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      1.71   
+ Basis creation           |     0: 0: 1   |     0: 0: 1   |    193.79   
+ Matrix load              |     0: 2:46   |     0: 0:18   |    389.30   
+ Matrix solve             |     0: 0:11   |     0: 0: 3   |    165.74   
+ S parameters             |     0: 0: 1   |     0: 0: 0   |      0.00   
+
+2. SIMULATION FREQUENCY = 10 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:46   |     0: 0:17   |      4.35   
+ Matrix solve             |     0: 0:49   |     0: 0: 9   |      4.46   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.04   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.01   
+
+3. SIMULATION FREQUENCY = 8.57143 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:46   |     0: 0:18   |      2.51   
+ Matrix solve             |     0: 0:47   |     0: 0: 9   |      0.62   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+4. SIMULATION FREQUENCY = 7.14286 GHz 
+-------------------------
+ Green functions          |     0: 0: 2   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:43   |     0: 0:17   |      2.48   
+ Matrix solve             |     0: 0:46   |     0: 0: 8   |      0.10   
+ S parameters             |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+5. SIMULATION FREQUENCY = 5.71429 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.01   
+ Matrix load              |     0: 2:42   |     0: 0:16   |      2.06   
+ Matrix solve             |     0: 0:41   |     0: 0: 7   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+6. SIMULATION FREQUENCY = 4.28571 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 1   |      0.00   
+ Matrix load              |     0: 2:40   |     0: 0:17   |      2.00   
+ Matrix solve             |     0: 0:17   |     0: 0: 3   |      0.06   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+7. SIMULATION FREQUENCY = 2.85714 GHz 
+-------------------------
+ Green functions          |     0: 0: 2   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:42   |     0: 0:17   |      0.26   
+ Matrix solve             |     0: 0:20   |     0: 0: 4   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+8. SIMULATION FREQUENCY = 1.42857 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:42   |     0: 0:17   |      2.09   
+ Matrix solve             |     0: 0:19   |     0: 0: 3   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.57   
+
+9. SIMULATION FREQUENCY = 5.95238 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:40   |     0: 0:16   |      0.00   
+ Matrix solve             |     0: 0:39   |     0: 0: 7   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+10. SIMULATION FREQUENCY = 9.52381 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:37   |     0: 0:14   |      0.00   
+ Matrix solve             |     0: 0:45   |     0: 0: 8   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+11. SIMULATION FREQUENCY = 8.33333 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:42   |     0: 0:17   |      1.88   
+ Matrix solve             |     0: 0:46   |     0: 0: 8   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 1   |     0: 0: 0   |      0.01   
+
+12. SIMULATION FREQUENCY = 2.14286 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:39   |     0: 0:15   |      0.29   
+ Matrix solve             |     0: 0:19   |     0: 0: 4   |      0.00   
+ S parameters             |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+13. SIMULATION FREQUENCY = 2.38095 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:40   |     0: 0:16   |      0.00   
+ Matrix solve             |     0: 0:20   |     0: 0: 4   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+14. SIMULATION FREQUENCY = 1.19048 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:42   |     0: 0:16   |      0.09   
+ Matrix solve             |     0: 0:18   |     0: 0: 3   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 1   |     0: 0: 0   |      0.00   
+
+15. SIMULATION FREQUENCY = 3.33333 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:37   |     0: 0:16   |      0.00   
+ Matrix solve             |     0: 0:17   |     0: 0: 3   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+16. SIMULATION FREQUENCY = 8.88889 GHz 
+-------------------------
+ Green functions          |     0: 0: 2   |     0: 0: 1   |      0.00   
+ Matrix load              |     0: 2:39   |     0: 0:15   |      0.01   
+ Matrix solve             |     0: 0:47   |     0: 0: 9   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+17. SIMULATION FREQUENCY = 3.96825 GHz 
+-------------------------
+ Green functions          |     0: 0: 2   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:37   |     0: 0:16   |      0.04   
+ Matrix solve             |     0: 0:24   |     0: 0: 4   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+18. SIMULATION FREQUENCY = 6.34921 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:41   |     0: 0:17   |      0.22   
+ Matrix solve             |     0: 0:52   |     0: 0: 9   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+19. SIMULATION FREQUENCY = 5.83333 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:44   |     0: 0:17   |      0.02   
+ Matrix solve             |     0: 0:47   |     0: 0: 8   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+20. SIMULATION FREQUENCY = 4.7619 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:40   |     0: 0:17   |      0.01   
+ Matrix solve             |     0: 0:21   |     0: 0: 3   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+21. SIMULATION FREQUENCY = 5.39683 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 1   |      0.00   
+ Matrix load              |     0: 2:42   |     0: 0:17   |      0.04   
+ Matrix solve             |     0: 0:45   |     0: 0: 8   |      0.00   
+ S parameters             |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+22. SIMULATION FREQUENCY = 4.12698 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:40   |     0: 0:16   |      0.12   
+ Matrix solve             |     0: 0:19   |     0: 0: 3   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 1   |      0.00   
+
+23. SIMULATION FREQUENCY = 3.75661 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:39   |     0: 0:15   |      0.00   
+ Matrix solve             |     0: 0:21   |     0: 0: 4   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+24. SIMULATION FREQUENCY = 1.30952 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:39   |     0: 0:17   |      0.00   
+ Matrix solve             |     0: 0:18   |     0: 0: 3   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 1   |     0: 0: 0   |      0.00   
+
+25. SIMULATION FREQUENCY = 1.66667 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:39   |     0: 0:17   |      0.00   
+ Matrix solve             |     0: 0:19   |     0: 0: 4   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+26. SIMULATION FREQUENCY = 7.7381 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:40   |     0: 0:16   |      0.00   
+ Matrix solve             |     0: 0:47   |     0: 0: 8   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+27. SIMULATION FREQUENCY = 595.238 MHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:36   |     0: 0:16   |      0.00   
+ Matrix solve             |     0: 0:19   |     0: 0: 3   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+28. SIMULATION FREQUENCY = 7.44048 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 1   |      0.00   
+ Matrix load              |     0: 2:39   |     0: 0:15   |      0.00   
+ Matrix solve             |     0: 0:45   |     0: 0: 8   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+29. SIMULATION FREQUENCY = 6.74603 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:38   |     0: 0:15   |      0.00   
+ Matrix solve             |     0: 0:46   |     0: 0: 8   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+30. SIMULATION FREQUENCY = 396.825 MHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:40   |     0: 0:16   |      0.00   
+ Matrix solve             |     0: 0:19   |     0: 0: 4   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+31. SIMULATION FREQUENCY = 198.413 MHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:43   |     0: 0:16   |      0.00   
+ Matrix solve             |     0: 0:22   |     0: 0: 4   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 1   |      0.00   
+
+32. SIMULATION FREQUENCY = 1.34921 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:36   |     0: 0:16   |      0.00   
+ Matrix solve             |     0: 0:20   |     0: 0: 3   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+33. SIMULATION FREQUENCY = 892.857 MHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 1   |      0.00   
+ Matrix load              |     0: 2:40   |     0: 0:15   |      0.00   
+ Matrix solve             |     0: 0:20   |     0: 0: 4   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+34. SIMULATION FREQUENCY = 1.98413 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:41   |     0: 0:16   |      0.00   
+ Matrix solve             |     0: 0:21   |     0: 0: 4   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+35. SIMULATION FREQUENCY = 3.89771 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:38   |     0: 0:16   |      0.00   
+ Matrix solve             |     0: 0:20   |     0: 0: 4   |      0.00   
+ S parameters             |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+36. SIMULATION FREQUENCY = 6.08466 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:40   |     0: 0:17   |      0.00   
+ Matrix solve             |     0: 0:41   |     0: 0: 7   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+37. SIMULATION FREQUENCY = 3.68607 GHz 
+-------------------------
+ Green functions          |     0: 0: 2   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:37   |     0: 0:16   |      0.00   
+ Matrix solve             |     0: 0:17   |     0: 0: 3   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+38. SIMULATION FREQUENCY = 1.87831 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 1   |      0.00   
+ Matrix load              |     0: 2:43   |     0: 0:16   |      0.00   
+ Matrix solve             |     0: 0:19   |     0: 0: 4   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+39. SIMULATION FREQUENCY = 6.54762 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:43   |     0: 0:16   |      0.00   
+ Matrix solve             |     0: 0:45   |     0: 0: 8   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 1   |     0: 0: 0   |      0.00   
+
+40. SIMULATION FREQUENCY = 7.24206 GHz 
+-------------------------
+ Green functions          |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:40   |     0: 0:17   |      0.00   
+ Matrix solve             |     0: 0:48   |     0: 0: 8   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+41. SIMULATION FREQUENCY = 6.61376 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:41   |     0: 0:17   |      0.00   
+ Matrix solve             |     0: 0:46   |     0: 0: 8   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+42. SIMULATION FREQUENCY = 6.65785 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:38   |     0: 0:15   |      0.00   
+ Matrix solve             |     0: 0:40   |     0: 0: 7   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+43. SIMULATION FREQUENCY = 6.17284 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:43   |     0: 0:16   |      0.00   
+ Matrix solve             |     0: 0:45   |     0: 0: 8   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+44. SIMULATION FREQUENCY = 7.8373 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:37   |     0: 0:15   |      0.00   
+ Matrix solve             |     0: 0:43   |     0: 0: 7   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+45. SIMULATION FREQUENCY = 2.53968 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:40   |     0: 0:15   |      0.00   
+ Matrix solve             |     0: 0:19   |     0: 0: 4   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 1   |     0: 0: 0   |      0.00   
+
+46. SIMULATION FREQUENCY = 9.10053 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:42   |     0: 0:15   |      0.00   
+ Matrix solve             |     0: 0:39   |     0: 0: 7   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+47. SIMULATION FREQUENCY = 9.38272 GHz 
+-------------------------
+ Green functions          |     0: 0: 2   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:36   |     0: 0:14   |      0.00   
+ Matrix solve             |     0: 0:38   |     0: 0: 7   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+48. SIMULATION FREQUENCY = 9.7619 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:37   |     0: 0:14   |      0.00   
+ Matrix solve             |     0: 0:38   |     0: 0: 7   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+49. SIMULATION FREQUENCY = 8.08532 GHz 
+-------------------------
+ Green functions          |     0: 0: 2   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:35   |     0: 0:14   |      0.00   
+ Matrix solve             |     0: 0:38   |     0: 0: 7   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 1   |     0: 0: 0   |      0.00   
+
+50. SIMULATION FREQUENCY = 5.07937 GHz 
+-------------------------
+ Green functions          |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 2:37   |     0: 0:14   |      0.00   
+ Matrix solve             |     0: 0:16   |     0: 0: 3   |      0.00   
+ S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
+
+------------------------------------------------------------------------------
+TOTALS
+------------------------------------------------------------------------------
+ Nr of Frequencies   : 50 
+
+ Physical memory :   964.77 MB
+ Virtual memory  :  1239.34 MB
+ Page faults     :      358779
+ User Time       :    2h40m50s
+ Elapsed Time    :    0h18m12s
+
+==============================================================================
+

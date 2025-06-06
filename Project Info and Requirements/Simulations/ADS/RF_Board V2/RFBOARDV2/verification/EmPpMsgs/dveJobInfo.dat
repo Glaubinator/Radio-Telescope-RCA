@@ -1,0 +1,5 @@
+jobName=EmPpMsgs
+jobType=emprep
+designName=RFBOARDV2_lib:BroadbandmatchingNetwork:layout
+ruleFilePath=
+addInfo="EM preprocessor messages displayed as DRC errors"

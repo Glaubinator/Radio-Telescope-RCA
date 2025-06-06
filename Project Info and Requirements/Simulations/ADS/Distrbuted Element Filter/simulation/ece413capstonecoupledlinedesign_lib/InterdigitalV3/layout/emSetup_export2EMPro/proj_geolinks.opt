@@ -1,0 +1,7 @@
+-bondwireSegments 4
+-lateralPortScale 3
+-verticalPortScale 3
+-outline_annular 0.003125
+-substr_ext 0.005
+-wall_boundary Radiation
+-merge_layers TRUE

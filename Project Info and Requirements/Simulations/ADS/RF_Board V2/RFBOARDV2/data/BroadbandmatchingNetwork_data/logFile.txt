@@ -1,0 +1,20 @@
+
+hpeesofsim (*) 615.shp Nov  9 2024, MINT version 5
+    (64-bit windows built: Sat Nov 09, 2024 21:47:38 +0000)
+
+
+***** Simulation started at Fri May  2 12:15:46 2025
+      Running on host: "Brad"
+      In Directory: "C:\Users\bglau\OneDrive\Spring Term 24 25\ECE 413\RF_Board V2\RFBOARDV2\data"
+      Process ID: 14944
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 3
+
+
+SP SP1[1] <RFBOARDV2_lib:BroadbandmatchingNetwork:schematic>   freq=(100 MHz->3 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =    18.01 seconds.
+

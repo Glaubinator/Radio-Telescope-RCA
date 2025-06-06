@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE ece413capstonecoupledlinedesign_lib ece413capstonecoupledlinedesign_lib
+ASSIGN ece413capstonecoupledlinedesign_lib libMode shared

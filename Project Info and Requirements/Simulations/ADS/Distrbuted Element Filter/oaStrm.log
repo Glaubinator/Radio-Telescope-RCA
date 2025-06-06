@@ -1,0 +1,48 @@
+*****************************************************************************
+Tool:		oaStrm              22.61.011
+*****************************************************************************
+Running: oaStrm -templateFile C:\Users\Owner\ece413capstonecoupledlinedesign_wrk\mfg\gdsTemplate.txt -lib ece413capstonecoupledlinedesign_lib -libDefFile none -overwrite -shared -gds C:/Users/Owner/Desktop/SMA_connectors_v1.gds -textHeight 1.000000 -hierDepth 1000 -layerMap "C:\Users\Owner\ece413capstonecoupledlinedesign_wrk\mfg\LayerMap.map"
+Started: Fri Apr 25 11:02:43 2025 (Hostname: DESKTOP-PHPTS71)
+Reading layer map C:\Users\Owner\ece413capstonecoupledlinedesign_wrk\mfg\LayerMap.map
+INFO: (OASTRM-80035): 
+	Library:				ece413capstonecoupledlinedesign_lib
+	Cell:				
+	View:					layout
+	Tech Library:				YES
+	Cell Case:				Preserve
+	Cell Map:				NO
+	Layer Map:				YES
+	Exclude Map To Via:			NO
+	Property Map:				NO
+	Property Separator:			,
+	Reference Libraries:			NO
+	Overwrite Existing Cells:		YES
+	Append to Existing Database:		NO
+	Ignore Box Records:			NO
+	Convert Paths to PathSegs:		NO
+	Hier Depth:				1000
+	DBUperUU:				10000
+	Log File:				oaStrm.log
+
+
+INFO: (OASTRM-80034): Translating STRUCTURE cell_15 as cellView ece413capstonecoupledlinedesign_lib/cell_15/layout.
+INFO: (OASTRM-80036): 
+	Instances:			0
+	CustomVias:			0
+	CustomViaDef:			0
+	Arrays:				0
+	Polygons:			2
+	Paths:				0
+	PathSegs:			0
+	Rectangles:			4
+	Text:				0
+	Cells:				1
+	Skipped Zero-Area Polygons:	0
+
+
+Finished:	oaStrm
+Time elapsed:	0.09 seconds
+CPU Time:	24.2344 seconds
+System Time:	19.8438 seconds
+Peak VM:	421203968 bytes
+Messages:	0 errors, 0 warnings

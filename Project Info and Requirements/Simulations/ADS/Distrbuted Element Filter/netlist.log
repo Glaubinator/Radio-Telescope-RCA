@@ -1,0 +1,21 @@
+; Top Design: "ece413capstonecoupledlinedesign_lib:antennaandfilterboardmeasured:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="ece413capstonecoupledlinedesign_lib:antennaandfilterboardmeasured:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+S_Param:SP2 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 SPSS_WSP=yes \
+SweepVar="freq" SweepPlan="SP2_stim" OutputPlan="SP2_Output" 
+
+SweepPlan: SP2_stim Start=100 MHz Stop=3 GHz Step=2.874 MHz 
+
+OutputPlan:SP2_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+Port:TermG1  N__13 0 Num=1 Z=50 Ohm Noise=yes 
+#uselib "ckt" , "SnP"
+SnP:SnP6  N__13 NumPorts=1 File="C:\Users\bglau\OneDrive\Spring Term 24 25\ECE 413\NewRFBoardDistribMEasurements\1 port with antenna distribfilter minus 65ps.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 

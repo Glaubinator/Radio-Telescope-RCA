@@ -1,0 +1,15 @@
+<!DOCTYPE Substrate>
+<SubstrateModel>
+    <stack BAL_NUM="0" PURPOSE_TREATMENT="USE_ALL_EXCEPT_SPECIFIED" BAL_TYPE="NONE" SPECIFIED_PURPOSES="">
+        <material BAL_NUM="0" materialname="AIR" BAL_TYPE="INHERIT"/>
+        <interface BAL_NUM="0" thick="35" materialname="Copper" groundplane="1" thickunit="micron" BAL_TYPE="NONE"/>
+        <material BAL_NUM="0" materialname="Rogers_RO4003" thick="60" thickunit="mil" BAL_TYPE="INHERIT"/>
+        <interface BAL_NUM="0" thick="" materialname="" thickunit="micron" BAL_TYPE="INHERIT"/>
+        <material BAL_NUM="0" materialname="AIR" BAL_TYPE="INHERIT"/>
+    </stack>
+    <layers>
+        <layer thick="35" materialname="Copper" negative="0" angle="90" processRole="1" toprough="" thickunit="micron" layer="1" subtype="0" bottomrough="" pinsOnly="0" sheet="0" precedence="1" expand="0" index="1"/>
+    </layers>
+    <vias/>
+    <substrates/>
+</SubstrateModel>

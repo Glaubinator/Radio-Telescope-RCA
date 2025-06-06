@@ -1,0 +1,21 @@
+
+hpeesofsim (*) 615.shp Nov  9 2024, MINT version 5
+    (64-bit windows built: Sat Nov 09, 2024 21:47:38 +0000)
+
+
+***** Simulation started at Fri Apr 25 13:13:20 2025
+      Running on host: "Brad"
+      In Directory: "C:\Users\bglau\OneDrive\Spring Term 24 25\ECE 413\RF_Board V2\RFBOARDV2\data"
+      Process ID: 2732
+
+
+SP SP1[1] <RFBOARDV2_lib:coaxialcablebyitselfmeasurement:schematic>   freq=(100 MHz->3 GHz)
+
+Warning detected by hpeesofsim during circuit set up.
+    Unable to resolve variable(s) or functions(s) in expression ` GrpDelayRipple1=ripple(S.delay21)'
+        S.delay
+
+
+Resource usage:
+  Total stopwatch time     =     1.83 seconds.
+

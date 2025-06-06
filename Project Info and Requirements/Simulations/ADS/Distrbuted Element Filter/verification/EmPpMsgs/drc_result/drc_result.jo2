@@ -1,0 +1,19 @@
+(resolution 10000)
+(line 255
+  (data -1449986 -791950 -1444986 -801950)
+  (label "drc_result/000000/ Polyline(s) and/or wire(s) containing edge (-144.9986,-79.1950) -> (-144.4986,-80.1950) on STRIP layer <mask 1> have been ignored_1" 126 -1447486 -796950))
+(line 255
+  (data -1449986 -801950 -1444986 -791950)
+  (label "drc_result/000000/ Polyline(s) and/or wire(s) containing edge (-144.9986,-80.1950) -> (-144.4986,-79.1950) on STRIP layer <mask 1> have been ignored_2" 126 -1447486 -796950))
+(line 255
+  (data -434247 -241578 -434247 -241575)
+  (label "drc_result/000000/ Layout healing: snapped a vertex/edge to a nearby vertex/edge on STRIP layer <mask 1>_3" 126 -434247 -241578))
+(polygon 255
+  (data -434251 -241582 -434243 -241582 -434243 -241574 -434251 -241574)
+  (label "drc_result/000000/ Layout healing: snapped a vertex/edge to a nearby vertex/edge on STRIP layer <mask 1>_3" 126 -434247 -241578))
+(line 255
+  (data -434247 -208422 -434247 -208425)
+  (label "drc_result/000000/ Layout healing: snapped a vertex/edge to a nearby vertex/edge on STRIP layer <mask 1>_4" 126 -434247 -208422))
+(polygon 255
+  (data -434251 -208426 -434243 -208426 -434243 -208418 -434251 -208418)
+  (label "drc_result/000000/ Layout healing: snapped a vertex/edge to a nearby vertex/edge on STRIP layer <mask 1>_4" 126 -434247 -208422))

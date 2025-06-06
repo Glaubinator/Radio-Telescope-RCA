@@ -1,0 +1,20 @@
+
+hpeesofsim (*) 615.shp Nov  9 2024, MINT version 5
+    (64-bit windows built: Sat Nov 09, 2024 21:47:38 +0000)
+
+
+***** Simulation started at Fri Apr 11 10:28:44 2025
+      Running on host: "DESKTOP-PHPTS71"
+      In Directory: "C:\Users\Owner\ece413capstonecoupledlinedesign_wrk\data"
+      Process ID: 23424
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 8
+
+
+SP SP1[1] <ece413capstonecoupledlinedesign_lib:ideal1400MHzcenterfreq:schematic>   freq=(800 MHz->2 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     1.00 seconds.
+

@@ -1,0 +1,17 @@
+
+hpeesofsim (*) 615.shp Nov  9 2024, MINT version 5
+    (64-bit windows built: Sat Nov 09, 2024 21:47:38 +0000)
+
+
+***** Simulation started at Fri May  9 17:02:46 2025
+      Running on host: "Brad"
+      In Directory: "C:\Users\bglau\OneDrive\Spring Term 24 25\ECE 413\RF_Board V2\RFBOARDV2\data"
+      Process ID: 29852
+
+
+SP SP2[1] <RFBOARDV2_lib:1.42 Simulated:schematic>   freq=(10 MHz->3 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     0.94 seconds.
+

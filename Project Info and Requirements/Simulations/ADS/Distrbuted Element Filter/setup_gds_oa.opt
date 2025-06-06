@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<AdsTranslatorSetupFile Version="1.0">
+    <Import>
+        <Layers>
+        </Layers>
+        <MapFileType>0</MapFileType>
+    </Import>
+    <Export>
+        <Layers>
+        </Layers>
+        <MapFileType>0</MapFileType>
+    </Export>
+</AdsTranslatorSetupFile>

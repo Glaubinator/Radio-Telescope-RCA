@@ -1,0 +1,34 @@
+(nil
+    spare_node_list(14)
+       (
+            "N__0"
+            "N__3"
+            "N__5"
+            "N__9"
+            "N__13"
+            "N__14"
+            "N__15"
+            "N__17"
+            "N__18"
+            "N__19"
+            "N__21"
+            "N__22"
+            "N__25"
+            "N__34"
+        )
+    spare_inst_list(12)
+       (
+            "Curve2"
+            "Curve4"
+            "Step3"
+            "Step4"
+            "Taper4"
+            "Tee1"
+            "TL14"
+            "TL15"
+            "TL16"
+            "TL22"
+            "TL23"
+            "TL26"
+        )
+)
