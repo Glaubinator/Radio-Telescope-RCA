@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "PowerDataDistribute")
-		(date "2025-03-30")
-		(rev "Version 2.1")
+		(date "2025-06-11")
+		(rev "Version 2.2")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -2738,34 +2738,10 @@
 		(uuid "1e17871e-9d1f-4ca6-b1b3-3c0b7c4faa35")
 	)
 	(junction
-		(at 63.5 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "253f95c5-c0f6-481f-9aba-99af8831b2ab")
-	)
-	(junction
 		(at 62.23 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26530906-b466-4870-8d7a-15b2ef70f395")
-	)
-	(junction
-		(at 74.93 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a87dddb-91f6-4874-b58f-9c8d425f582e")
-	)
-	(junction
-		(at 88.9 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2fa97317-a286-437e-9198-e1608a5fe549")
-	)
-	(junction
-		(at 74.93 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "360919b4-09be-4956-9e16-cfbcda32eea7")
 	)
 	(junction
 		(at 105.41 139.7)
@@ -2876,12 +2852,6 @@
 		(uuid "a78e3fe0-cfb8-40c7-9a9e-1b2a674a5572")
 	)
 	(junction
-		(at 85.09 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "adf9e00a-032c-412c-a772-d7a1c23357b6")
-	)
-	(junction
 		(at 128.27 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2947,6 +2917,26 @@
 		(color 0 0 0 0)
 		(uuid "fb3c8907-3d0a-4114-9798-f3e702131e8e")
 	)
+	(no_connect
+		(at 57.15 147.32)
+		(uuid "04fab234-e6c9-400f-aad4-98afd6a1a7c4")
+	)
+	(no_connect
+		(at 120.65 147.32)
+		(uuid "0fe379f4-ceff-43e1-ae07-32745e89669e")
+	)
+	(no_connect
+		(at 57.15 144.78)
+		(uuid "398603b3-1fb0-480b-b463-edec39086b6e")
+	)
+	(no_connect
+		(at 151.13 144.78)
+		(uuid "433637eb-4f41-4115-93a6-53ef2df6264d")
+	)
+	(no_connect
+		(at 120.65 144.78)
+		(uuid "57455646-6147-42e3-95de-165ea893783e")
+	)
 	(wire
 		(pts
 			(xy 62.23 81.28) (xy 62.23 88.9)
@@ -2956,26 +2946,6 @@
 			(type default)
 		)
 		(uuid "00df5d2a-73e6-473f-9389-6de6778450a2")
-	)
-	(wire
-		(pts
-			(xy 74.93 146.05) (xy 74.93 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "026959c3-3c00-4120-9022-7ab580de7bcc")
-	)
-	(wire
-		(pts
-			(xy 74.93 144.78) (xy 85.09 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "040784ec-1069-49cf-9b66-ad049d0ffe75")
 	)
 	(wire
 		(pts
@@ -3016,16 +2986,6 @@
 			(type default)
 		)
 		(uuid "0b09f047-2021-43d4-9b01-475b14a8240d")
-	)
-	(wire
-		(pts
-			(xy 168.91 144.78) (xy 151.13 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dcaa18f-0e21-4c49-a872-acab5008094b")
 	)
 	(wire
 		(pts
@@ -3136,16 +3096,6 @@
 			(type default)
 		)
 		(uuid "2be731ae-ff83-4a84-b7f6-85f848b89075")
-	)
-	(wire
-		(pts
-			(xy 69.85 143.51) (xy 74.93 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2db115a1-9a21-4e77-a3db-af214cb29309")
 	)
 	(wire
 		(pts
@@ -3339,16 +3289,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 137.16) (xy 88.9 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5122ae8c-f78f-4c54-a36d-2af896866acb")
-	)
-	(wire
-		(pts
 			(xy 68.58 81.28) (xy 68.58 88.9)
 		)
 		(stroke
@@ -3419,26 +3359,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 143.51) (xy 74.93 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65f77c48-7592-4036-aff0-77b36705e061")
-	)
-	(wire
-		(pts
-			(xy 69.85 146.05) (xy 74.93 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "699ce3d2-a69b-4e31-8df0-6c230a8ed7d2")
-	)
-	(wire
-		(pts
 			(xy 144.78 102.87) (xy 234.95 102.87)
 		)
 		(stroke
@@ -3456,16 +3376,6 @@
 			(type default)
 		)
 		(uuid "6bfab8cc-598f-4f5d-a8bd-ebe7cee78214")
-	)
-	(wire
-		(pts
-			(xy 63.5 134.62) (xy 63.5 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cc00dfb-4c06-4e93-8477-1219401e426a")
 	)
 	(wire
 		(pts
@@ -3536,16 +3446,6 @@
 			(type default)
 		)
 		(uuid "85dcaab0-39fb-4233-9579-2a9155e16d10")
-	)
-	(wire
-		(pts
-			(xy 59.69 134.62) (xy 63.5 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "860dd527-546d-4e53-a17b-3df6c46cb27b")
 	)
 	(wire
 		(pts
@@ -3799,16 +3699,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 147.32) (xy 74.93 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcba9e10-700a-48b6-b574-6d5bb5b16e9f")
-	)
-	(wire
-		(pts
 			(xy 212.09 78.74) (xy 212.09 82.55)
 		)
 		(stroke
@@ -3829,16 +3719,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 133.35) (xy 85.09 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfde4cf8-736e-4086-9604-ee1693d34158")
-	)
-	(wire
-		(pts
 			(xy 134.62 77.47) (xy 134.62 80.01)
 		)
 		(stroke
@@ -3856,26 +3736,6 @@
 			(type default)
 		)
 		(uuid "c31686e8-37e1-4e39-9602-d1b2c48d1ce0")
-	)
-	(wire
-		(pts
-			(xy 85.09 144.78) (xy 120.65 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c32697ba-5137-4eef-b957-92b784a5bda0")
-	)
-	(wire
-		(pts
-			(xy 74.93 147.32) (xy 88.9 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c69c45f0-b184-4a39-8ade-a616e2164ed4")
 	)
 	(wire
 		(pts
@@ -3979,16 +3839,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 139.7) (xy 105.41 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db056c68-022c-4ba2-adad-c302593a107e")
-	)
-	(wire
-		(pts
 			(xy 69.85 157.48) (xy 129.54 157.48)
 		)
 		(stroke
@@ -4049,16 +3899,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 144.78) (xy 74.93 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7c0d732-3c6c-42e8-950b-4191a794b58f")
-	)
-	(wire
-		(pts
 			(xy 116.84 86.36) (xy 128.27 86.36)
 		)
 		(stroke
@@ -4106,16 +3946,6 @@
 			(type default)
 		)
 		(uuid "f25c6623-6fb6-4935-87f8-1a6e039591d1")
-	)
-	(wire
-		(pts
-			(xy 88.9 147.32) (xy 120.65 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2ac1c3f-00a9-44f6-8a41-20e6cecd96fb")
 	)
 	(wire
 		(pts
@@ -4189,7 +4019,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 139.7) (xy 63.5 139.7)
+			(xy 57.15 139.7) (xy 105.41 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4301,7 +4131,6 @@
 	(hierarchical_label "VDD"
 		(shape input)
 		(at 21.59 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -4312,22 +4141,9 @@
 		)
 		(uuid "0a022f11-9345-434b-a9b1-c75b9093407f")
 	)
-	(hierarchical_label "USB_D-_IN"
-		(shape bidirectional)
-		(at 69.85 146.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1aa15337-86c9-437e-b062-a29f695e8d8c")
-	)
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 212.09 82.55 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4336,22 +4152,9 @@
 		)
 		(uuid "2c88cb53-3c10-498f-ba31-d116eede9612")
 	)
-	(hierarchical_label "USB_D+_IN"
-		(shape bidirectional)
-		(at 69.85 143.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "34a608d8-aed8-42bc-873e-5abbb885caf9")
-	)
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 134.62 80.01 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4363,7 +4166,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 203.2 82.55 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4372,24 +4174,9 @@
 		)
 		(uuid "3973c8ea-3e3e-41a7-9398-f82c959dce4d")
 	)
-	(hierarchical_label "USB_5V_IN"
-		(shape output)
-		(at 59.69 134.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-				(thickness 0.3048)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "740482de-be8e-4242-a67b-f3eeb10791a0")
-	)
 	(hierarchical_label "USB_GND_IN"
 		(shape output)
 		(at 44.45 157.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4403,7 +4190,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 116.84 132.08 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4415,7 +4201,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 43.18 88.9 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4427,7 +4212,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 62.23 91.44 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4439,7 +4223,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 132.08 158.75 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4451,7 +4234,6 @@
 	(hierarchical_label "VOUT_3V"
 		(shape output)
 		(at 261.62 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -4465,7 +4247,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 71.12 105.41 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4474,24 +4255,9 @@
 		)
 		(uuid "c1c71ba5-b9c5-4034-989f-e64957ecc553")
 	)
-	(hierarchical_label "USB_OUT"
-		(shape bidirectional)
-		(at 168.91 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.778 1.778)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "cf472717-5a01-495b-80d8-c46a363c43d2")
-	)
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 124.46 105.41 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4503,7 +4269,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 158.75 78.74 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4515,7 +4280,6 @@
 	(hierarchical_label "VOUT_5V"
 		(shape output)
 		(at 260.35 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -4587,73 +4351,6 @@
 			(project "RCA Radio Telescope"
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/27e6aa46-cfac-490f-80c1-5c0f7cb6c2e8"
 					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 85.09 133.35 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1756fec3-fc2f-4ae1-b76d-d243061ec3ec")
-		(property "Reference" "TP9"
-			(at 82.55 128.7779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D+USB"
-			(at 82.55 131.3179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Library:TestPoint_Pad_D1.0mm_Edit"
-			(at 80.01 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 85.09 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d9b4ede-2598-4d6d-97d7-e94c796b8d4b")
-		)
-		(instances
-			(project "RCA Radio Telescope"
-				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/27e6aa46-cfac-490f-80c1-5c0f7cb6c2e8"
-					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -6302,73 +5999,6 @@
 			(project "RCA Radio Telescope"
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/27e6aa46-cfac-490f-80c1-5c0f7cb6c2e8"
 					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 88.9 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c115f1c2-4940-4d19-9bd2-6472fa943d9d")
-		(property "Reference" "TP10"
-			(at 91.44 132.5879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D-USB"
-			(at 91.44 135.1279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Library:TestPoint_Pad_D1.0mm_Edit"
-			(at 93.98 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 88.9 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e697c6f0-829a-4a28-a685-ee7dd594f02e")
-		)
-		(instances
-			(project "RCA Radio Telescope"
-				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd/27e6aa46-cfac-490f-80c1-5c0f7cb6c2e8"
-					(reference "TP10")
 					(unit 1)
 				)
 			)

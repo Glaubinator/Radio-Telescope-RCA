@@ -2911,7 +2911,6 @@
 	)
 	(label "+3V3"
 		(at 81.28 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2922,7 +2921,6 @@
 	)
 	(label "INT_CTRL_V1"
 		(at 77.47 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2933,7 +2931,6 @@
 	)
 	(label "FILTERA_IN"
 		(at 118.11 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2944,7 +2941,6 @@
 	)
 	(label "INT_CTRL_V1"
 		(at 189.23 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2955,7 +2951,6 @@
 	)
 	(label "FILTERB_IN"
 		(at 118.11 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2966,7 +2961,6 @@
 	)
 	(label "INT_CTRL_V1"
 		(at 119.38 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2977,7 +2971,6 @@
 	)
 	(label "INT_CTRL_V2"
 		(at 119.38 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2988,7 +2981,6 @@
 	)
 	(label "FILTERB_OUT"
 		(at 171.45 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2999,7 +2991,6 @@
 	)
 	(label "+3V3"
 		(at 114.3 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3010,7 +3001,6 @@
 	)
 	(label "+1V8"
 		(at 143.51 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3021,7 +3011,6 @@
 	)
 	(label "FILTERC_OUT"
 		(at 171.45 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3032,7 +3021,6 @@
 	)
 	(label "+3V3"
 		(at 118.11 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3043,7 +3031,6 @@
 	)
 	(label "FILTERB_IN"
 		(at 156.21 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3054,7 +3041,6 @@
 	)
 	(label "FILTERA_OUT"
 		(at 81.28 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3065,7 +3051,6 @@
 	)
 	(label "+1V8"
 		(at 114.3 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3076,7 +3061,6 @@
 	)
 	(label "INT_CTRL_V2"
 		(at 189.23 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3087,7 +3071,6 @@
 	)
 	(label "FILTERC_IN"
 		(at 118.11 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3098,7 +3081,6 @@
 	)
 	(label "FILTERC_IN"
 		(at 156.21 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3109,7 +3091,6 @@
 	)
 	(label "FILTERC_OUT"
 		(at 81.28 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3120,7 +3101,6 @@
 	)
 	(label "FILTERB_OUT"
 		(at 81.28 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3131,7 +3111,6 @@
 	)
 	(label "INT_CTRL_V2"
 		(at 77.47 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3142,7 +3121,6 @@
 	)
 	(label "FILTERA_OUT"
 		(at 171.45 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3153,7 +3131,6 @@
 	)
 	(label "FILTERA_IN"
 		(at 156.21 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3165,7 +3142,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 119.38 54.61 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3177,7 +3153,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 69.85 45.72 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3189,7 +3164,6 @@
 	(hierarchical_label "5V_IN"
 		(shape input)
 		(at 63.5 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3203,7 +3177,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 151.13 78.74 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3215,7 +3188,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 78.74 88.9 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3227,7 +3199,6 @@
 	(hierarchical_label "FILTER_OUT"
 		(shape bidirectional)
 		(at 186.69 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3239,7 +3210,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 62.23 158.75 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3251,7 +3221,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 62.23 134.62 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3263,7 +3232,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 187.96 73.66 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3275,7 +3243,6 @@
 	(hierarchical_label "VDD_REF"
 		(shape input)
 		(at 143.51 138.43 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -3289,7 +3256,6 @@
 	(hierarchical_label "ANT"
 		(shape bidirectional)
 		(at 38.1 30.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3301,7 +3267,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 193.04 149.86 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3313,7 +3278,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 114.3 135.89 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3325,7 +3289,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 127 80.01 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3337,7 +3300,6 @@
 	(hierarchical_label "CNTR_V2"
 		(shape input)
 		(at 161.29 148.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -3351,7 +3313,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 114.3 160.02 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3363,7 +3324,6 @@
 	(hierarchical_label "CNTR_V1"
 		(shape input)
 		(at 161.29 146.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.397 1.397)
@@ -3377,7 +3337,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 35.56 50.8 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

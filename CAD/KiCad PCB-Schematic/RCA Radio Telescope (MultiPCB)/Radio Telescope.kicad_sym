@@ -2724,10 +2724,10 @@
 			)
 		)
 		(symbol "Ethernet_Dongle_1_1"
-			(pin power_in line
-				(at 10.16 -5.08 180)
+			(pin bidirectional line
+				(at 10.16 -8.89 180)
 				(length 2.54)
-				(name "5V"
+				(name "USB"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2735,60 +2735,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 10.16 -7.62 180)
-				(length 2.54)
-				(name "D+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 10.16 -10.16 180)
-				(length 2.54)
-				(name "D-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 10.16 -12.7 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2806,7 +2752,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4761,7 +4707,7 @@
 			)
 		)
 		(symbol "PoE_Injector_1_1"
-			(text "Input: 44-56V\nOutput: PoE (44-56V)"
+			(text "Input: 12V-60V\nOutput: PoE (44-56V)"
 				(at 0.254 -12.954 0)
 				(effects
 					(font

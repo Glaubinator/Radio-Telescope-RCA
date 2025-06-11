@@ -289,7 +289,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 35.56 62.23 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -301,7 +300,6 @@
 	(hierarchical_label "SIGNAL_OUT"
 		(shape output)
 		(at 77.47 49.53 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -313,7 +311,6 @@
 	(hierarchical_label "SIGNAL_IN"
 		(shape input)
 		(at 43.18 50.8 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -325,7 +322,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 85.09 62.23 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -6,8 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "Skylark Shed System")
-		(date "2025-03-30")
-		(rev "v1.0")
+		(date "2025-06-11")
+		(rev "v1.1")
 	)
 	(lib_symbols
 		(symbol "Device:Battery_Cell"
@@ -660,7 +660,7 @@
 				)
 			)
 			(symbol "PoE_Injector_1_1"
-				(text "Input: 44-56V\nOutput: PoE (44-56V)"
+				(text "Input: 12V-60V\nOutput: PoE (44-56V)"
 					(at 0.254 -12.954 0)
 					(effects
 						(font
@@ -1234,7 +1234,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 74.93 68.58 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1246,7 +1245,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 105.41 68.58 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1258,7 +1256,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 44.45 68.58 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1270,7 +1267,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 78.74 68.58 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1282,7 +1278,6 @@
 	(hierarchical_label "Ethernet"
 		(shape input)
 		(at 172.72 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1294,7 +1289,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 24.13 68.58 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1306,7 +1300,6 @@
 	(hierarchical_label "V_Out"
 		(shape input)
 		(at 172.72 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

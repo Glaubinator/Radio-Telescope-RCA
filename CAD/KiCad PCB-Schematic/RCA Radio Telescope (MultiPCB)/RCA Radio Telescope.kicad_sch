@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "RCA Radio Telescope System")
-		(date "2025-04-29")
-		(rev "Version 2.1")
+		(date "2025-06-11")
+		(rev "Version 2.2")
 	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
@@ -1074,10 +1074,10 @@
 				)
 			)
 			(symbol "Ethernet_Dongle_1_1"
-				(pin power_in line
-					(at 10.16 -5.08 180)
+				(pin bidirectional line
+					(at 10.16 -8.89 180)
 					(length 2.54)
-					(name "5V"
+					(name "USB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1085,60 +1085,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -10.16 180)
-					(length 2.54)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 -12.7 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1156,7 +1102,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1833,7 +1779,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 93.98) (xy 127 96.52)
+			(xy 264.16 67.31) (xy 264.16 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1893,16 +1839,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 87.63) (xy 175.26 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2810c279-39b2-42b9-aaa0-a171b44fffe9")
-	)
-	(wire
-		(pts
 			(xy 209.55 134.62) (xy 231.14 134.62)
 		)
 		(stroke
@@ -1910,16 +1846,6 @@
 			(type default)
 		)
 		(uuid "28bc6911-556c-4be8-a9db-04f06c9675f0")
-	)
-	(wire
-		(pts
-			(xy 189.23 140.97) (xy 189.23 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b25936a-a646-4c5a-afc3-7d4fe42ff964")
 	)
 	(wire
 		(pts
@@ -1953,16 +1879,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 140.97) (xy 181.61 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4581ed9d-5bbb-46df-b2a8-0fae0583e67c")
-	)
-	(wire
-		(pts
 			(xy 153.67 124.46) (xy 156.21 124.46)
 		)
 		(stroke
@@ -1973,7 +1889,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 78.74) (xy 120.65 74.93)
+			(xy 257.81 52.07) (xy 257.81 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1993,23 +1909,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 81.28) (xy 133.35 91.44)
+			(xy 270.51 54.61) (xy 270.51 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4a3a0155-8e1e-4907-a61b-538829dcc8e5")
-	)
-	(wire
-		(pts
-			(xy 139.7 148.59) (xy 186.69 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bbc18bf-2ca3-42bc-a373-43cdf3e6d6e3")
 	)
 	(wire
 		(pts
@@ -2063,7 +1969,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 74.93) (xy 121.92 74.93)
+			(xy 257.81 48.26) (xy 259.08 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2080,16 +1986,6 @@
 			(type default)
 		)
 		(uuid "6176c01b-29a2-4e8b-89b9-1c43157808cf")
-	)
-	(wire
-		(pts
-			(xy 186.69 140.97) (xy 186.69 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64330825-4c02-412d-bf3f-fe38e0e9047f")
 	)
 	(wire
 		(pts
@@ -2123,7 +2019,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 81.28) (xy 129.54 96.52)
+			(xy 266.7 54.61) (xy 266.7 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2223,7 +2119,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 135.89) (xy 106.68 147.32)
+			(xy 88.9 95.25) (xy 88.9 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2233,13 +2129,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 135.89) (xy 106.68 135.89)
+			(xy 175.26 95.25) (xy 175.26 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8fb3fd1a-2a9d-454c-a86a-54b67feebedd")
+		(uuid "90654700-dff0-4c4e-b9fe-82da5dec242b")
 	)
 	(wire
 		(pts
@@ -2273,7 +2169,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 81.28) (xy 138.43 91.44)
+			(xy 275.59 54.61) (xy 275.59 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2313,7 +2209,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 147.32) (xy 119.38 147.32)
+			(xy 88.9 95.25) (xy 123.19 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2330,16 +2226,6 @@
 			(type default)
 		)
 		(uuid "bc18f05e-3539-413b-a52f-891b38df4939")
-	)
-	(wire
-		(pts
-			(xy 139.7 143.51) (xy 181.61 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf03f525-8802-4565-9059-3e8a28f593df")
 	)
 	(wire
 		(pts
@@ -2363,7 +2249,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 78.74) (xy 120.65 78.74)
+			(xy 255.27 52.07) (xy 257.81 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2393,7 +2279,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 93.98) (xy 127 93.98)
+			(xy 261.62 67.31) (xy 264.16 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2413,7 +2299,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 85.09) (xy 140.97 85.09)
+			(xy 280.67 58.42) (xy 278.13 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2443,7 +2329,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 81.28) (xy 135.89 91.44)
+			(xy 273.05 54.61) (xy 273.05 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2463,13 +2349,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 151.13) (xy 189.23 151.13)
+			(xy 143.51 95.25) (xy 175.26 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee68bb4a-54b4-4d6c-93cc-6727f6d8a998")
+		(uuid "f4ce3ef6-3ab5-47cc-bb12-1c83b4734522")
 	)
 	(wire
 		(pts
@@ -2503,26 +2389,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 146.05) (xy 184.15 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8d5f5bc-1324-4ad5-9aac-d9bc11af189e")
-	)
-	(wire
-		(pts
-			(xy 184.15 140.97) (xy 184.15 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa9b50c7-db3a-46be-acd6-d008510560a5")
-	)
-	(wire
-		(pts
 			(xy 180.34 63.5) (xy 181.61 63.5)
 		)
 		(stroke
@@ -2543,7 +2409,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 85.09) (xy 140.97 91.44)
+			(xy 278.13 58.42) (xy 278.13 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2591,8 +2457,8 @@
 		(uuid 5fea97db-8ac0-4b8a-9351-76a01f4ce2c0)
 	)
 	(rectangle
-		(start 118.11 134.62)
-		(end 142.24 157.48)
+		(start 119.634 81.534)
+		(end 143.764 104.394)
 		(stroke
 			(width 0)
 			(type default)
@@ -2627,7 +2493,7 @@
 	)
 	(text "Ethernet Dongle"
 		(exclude_from_sim no)
-		(at 126.746 136.906 0)
+		(at 128.27 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2635,19 +2501,6 @@
 			)
 		)
 		(uuid "bc3dbf37-b641-4b01-9c98-1529d1e5b030")
-	)
-	(text "TODO:\n- Fix ERC Problems\n- Add 5V Source from SDR\n"
-		(exclude_from_sim no)
-		(at 22.86 190.5 0)
-		(effects
-			(font
-				(size 3.048 3.048)
-				(thickness 0.4064)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "d5d02aba-1fed-4e9d-8cbc-0ab05a742f85")
 	)
 	(text "Software Defined Radio (SDR)"
 		(exclude_from_sim no)
@@ -2662,7 +2515,6 @@
 	)
 	(label "SDR_GPO_0"
 		(at 209.55 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2673,7 +2525,6 @@
 	)
 	(label "POWERDATA_GND"
 		(at 229.87 137.16 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2683,8 +2534,7 @@
 		(uuid "1c1a43f9-e9e9-41e0-be44-6ac534819e41")
 	)
 	(label "RFS_GND"
-		(at 124.46 93.98 180)
-		(fields_autoplaced yes)
+		(at 261.62 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2695,7 +2545,6 @@
 	)
 	(label "SDR_GPO_GND"
 		(at 209.55 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2706,7 +2555,6 @@
 	)
 	(label "POWERDATA_GND"
 		(at 222.25 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2717,7 +2565,6 @@
 	)
 	(label "SDR_GPO_1"
 		(at 209.55 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2728,7 +2575,6 @@
 	)
 	(label "SDR_GPO_VDD"
 		(at 209.55 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2739,7 +2585,6 @@
 	)
 	(label "POWERDATA_GND"
 		(at 229.87 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2750,7 +2595,6 @@
 	)
 	(label "POWERDATA_GND"
 		(at 156.21 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2760,8 +2604,7 @@
 		(uuid "b2828c4e-22c3-4431-8bcc-19ba9e19f0f8")
 	)
 	(label "RFS_GND"
-		(at 143.51 85.09 0)
-		(fields_autoplaced yes)
+		(at 280.67 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2771,8 +2614,7 @@
 		(uuid "d7baef28-8937-4b20-a996-df9ae8fd76be")
 	)
 	(label "RFS_GND"
-		(at 118.11 78.74 180)
-		(fields_autoplaced yes)
+		(at 255.27 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3237,7 +3079,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 138.43 96.52 270)
+		(at 275.59 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3245,7 +3087,7 @@
 		(dnp no)
 		(uuid "5d14c295-9e58-492b-93c9-6880aa87586c")
 		(property "Reference" "J1"
-			(at 151.13 94.488 90)
+			(at 288.29 67.818 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3253,7 +3095,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x04"
-			(at 153.67 96.774 90)
+			(at 290.83 70.104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3261,7 +3103,7 @@
 			)
 		)
 		(property "Footprint" "Library:PHOENIX_1729144"
-			(at 138.43 96.52 0)
+			(at 275.59 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3270,7 +3112,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 96.52 0)
+			(at 275.59 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3279,7 +3121,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 138.43 96.52 0)
+			(at 275.59 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3464,7 +3306,7 @@
 	)
 	(symbol
 		(lib_id "Radio Telescope:Ethernet_Dongle")
-		(at 129.54 138.43 0)
+		(at 133.35 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3472,7 +3314,7 @@
 		(dnp no)
 		(uuid "d476c332-9a71-4659-b306-99aeee44d53b")
 		(property "Reference" "U8"
-			(at 129.794 139.446 0)
+			(at 133.604 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,7 +3322,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 129.54 139.7 0)
+			(at 133.35 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3488,7 +3330,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 138.43 0)
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3497,7 +3339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 138.43 0)
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3506,7 +3348,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 138.43 0)
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3516,15 +3358,6 @@
 		)
 		(pin "1"
 			(uuid "aa8ba4a2-a3e4-4dd5-86cd-a62ee62cc1d0")
-		)
-		(pin "3"
-			(uuid "c87bbec8-a4ec-44c6-b3a6-096a4e9d9c2f")
-		)
-		(pin "4"
-			(uuid "2a76fa0f-2fdb-4cff-8ef3-9ee339be2e58")
-		)
-		(pin "5"
-			(uuid "8daa0b58-9de9-4c5f-b6f8-b44f6adb3bc2")
 		)
 		(pin "2"
 			(uuid "911052da-74e9-4dcb-a54d-6cbfe5846b72")
@@ -3540,7 +3373,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 129.54 101.6 270)
+		(at 266.7 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3549,7 +3382,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4cbff22-f47c-48a1-bf78-f7795d9081a3")
 		(property "Reference" "J5"
-			(at 132.08 100.3299 90)
+			(at 269.24 73.6599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3558,7 +3391,7 @@
 			)
 		)
 		(property "Value" "5V From SDR"
-			(at 132.08 102.8699 90)
+			(at 269.24 76.1999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3567,7 +3400,7 @@
 			)
 		)
 		(property "Footprint" "Library:CONN_1729128_PXC"
-			(at 129.54 101.6 0)
+			(at 266.7 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3576,7 +3409,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 101.6 0)
+			(at 266.7 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3585,7 +3418,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 129.54 101.6 0)
+			(at 266.7 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3766,53 +3599,13 @@
 			)
 		)
 		(property "Sheetfile" "PowerDataDistribute.kicad_sch"
-			(at 191.516 143.764 0)
+			(at 175.006 143.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
-		)
-		(pin "USB_5V_IN" output
-			(at 181.61 140.97 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "61ee2436-667d-44a2-b673-6482460d6964")
-		)
-		(pin "USB_GND_IN" output
-			(at 189.23 140.97 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "6da5ce70-129b-41be-941b-085507bb1470")
-		)
-		(pin "USB_D+_IN" bidirectional
-			(at 184.15 140.97 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "eb5dc9da-4dd2-43b8-b099-7d0448b9d911")
-		)
-		(pin "USB_D-_IN" bidirectional
-			(at 186.69 140.97 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "1f53ef7c-4202-4c57-bc5b-fee003d65a82")
 		)
 		(pin "GND" passive
 			(at 209.55 123.19 0)
@@ -3854,16 +3647,6 @@
 			)
 			(uuid "1b752019-dcf1-478e-859d-cce0838bdc4b")
 		)
-		(pin "USB_OUT" bidirectional
-			(at 175.26 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "c42ba193-2e39-4b94-9220-8c71f93863d7")
-		)
 		(instances
 			(project "RCA Radio Telescope"
 				(path "/1630c5ee-b70a-455e-85ba-86a73955b8fd"
@@ -3873,7 +3656,7 @@
 		)
 	)
 	(sheet
-		(at 121.92 63.5)
+		(at 259.08 36.83)
 		(size 30.48 17.78)
 		(stroke
 			(width 0.1524)
@@ -3884,7 +3667,7 @@
 		)
 		(uuid "36b9572c-8d84-4f1d-b9ca-fcb79e1d463b")
 		(property "Sheetname" "RFSwitchFilter"
-			(at 121.92 62.7884 0)
+			(at 259.08 36.1184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,7 +3676,7 @@
 			)
 		)
 		(property "Sheetfile" "rfswitchFilter.kicad_sch"
-			(at 122.936 64.262 0)
+			(at 260.096 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3902,7 +3685,7 @@
 			)
 		)
 		(pin "GND" passive
-			(at 121.92 74.93 180)
+			(at 259.08 48.26 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,7 +3695,7 @@
 			(uuid "251792f1-09fd-4d12-bf27-7840895e18fa")
 		)
 		(pin "ANT" bidirectional
-			(at 121.92 68.58 180)
+			(at 259.08 41.91 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,7 +3705,7 @@
 			(uuid "f5a28089-04a1-4afe-b8b4-2f521f5027f8")
 		)
 		(pin "FILTER_OUT" bidirectional
-			(at 152.4 68.58 0)
+			(at 289.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3932,7 +3715,7 @@
 			(uuid "4f8afb8e-e1e2-4713-b9d5-f000bc4496d8")
 		)
 		(pin "CNTR_V1" input
-			(at 135.89 81.28 270)
+			(at 273.05 54.61 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3942,7 +3725,7 @@
 			(uuid "6b3c8ae5-d575-482b-a205-01b0b33b8028")
 		)
 		(pin "CNTR_V2" input
-			(at 138.43 81.28 270)
+			(at 275.59 54.61 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3952,7 +3735,7 @@
 			(uuid "763e20e4-96b8-4312-87f0-cd529eca006b")
 		)
 		(pin "5V_IN" input
-			(at 129.54 81.28 270)
+			(at 266.7 54.61 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3962,7 +3745,7 @@
 			(uuid "4c4c0f93-3592-4607-b41e-8aaf6d3bb532")
 		)
 		(pin "VDD_REF" input
-			(at 133.35 81.28 270)
+			(at 270.51 54.61 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,7 +3763,7 @@
 		)
 	)
 	(sheet
-		(at 25.4 54.61)
+		(at 311.15 34.29)
 		(size 27.94 17.78)
 		(fields_autoplaced yes)
 		(stroke
@@ -3992,7 +3775,7 @@
 		)
 		(uuid "b1bd03bb-513c-4075-8ea8-0ed535b26dec")
 		(property "Sheetname" "SMDFilter"
-			(at 25.4 53.8984 0)
+			(at 311.15 33.5784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4001,7 +3784,7 @@
 			)
 		)
 		(property "Sheetfile" "RF Boards/SMDFilter.kicad_sch"
-			(at 25.4 72.9746 0)
+			(at 311.15 52.6546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4010,7 +3793,7 @@
 			)
 		)
 		(pin "GND" passive
-			(at 25.4 67.31 180)
+			(at 311.15 46.99 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4020,7 +3803,7 @@
 			(uuid "5bfb35a4-6895-48f7-9f49-c5b86eda4055")
 		)
 		(pin "SIGNAL_OUT" output
-			(at 53.34 62.23 0)
+			(at 339.09 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4030,7 +3813,7 @@
 			(uuid "a027e61e-3bd7-4852-b3c8-de47bf743801")
 		)
 		(pin "SIGNAL_IN" input
-			(at 25.4 62.23 180)
+			(at 311.15 41.91 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4087,7 +3870,7 @@
 			(uuid "862c10f7-23f7-4561-a59d-32c97e68fb96")
 		)
 		(pin "Ethernet" input
-			(at 99.06 135.89 0)
+			(at 88.9 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4115,7 +3898,7 @@
 		)
 	)
 	(sheet
-		(at 26.67 87.63)
+		(at 312.42 67.31)
 		(size 27.94 17.78)
 		(fields_autoplaced yes)
 		(stroke
@@ -4127,7 +3910,7 @@
 		)
 		(uuid "d56a2cda-b123-4fba-9e43-f9d7e5baedc8")
 		(property "Sheetname" "Matched SMD Filter"
-			(at 26.67 86.9184 0)
+			(at 312.42 66.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4136,7 +3919,7 @@
 			)
 		)
 		(property "Sheetfile" "RF Boards/matchedSMDFilter.kicad_sch"
-			(at 26.67 105.9946 0)
+			(at 312.42 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4145,7 +3928,7 @@
 			)
 		)
 		(pin "GND" passive
-			(at 26.67 100.33 180)
+			(at 312.42 80.01 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4155,7 +3938,7 @@
 			(uuid "bdb54e8d-33da-4eba-ad24-14ef0ffb41cc")
 		)
 		(pin "SIGNAL_OUT" output
-			(at 54.61 95.25 0)
+			(at 340.36 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4165,7 +3948,7 @@
 			(uuid "4788ce65-d2f7-4375-a42a-ac0265d57d8d")
 		)
 		(pin "SIGNAL_IN" input
-			(at 26.67 95.25 180)
+			(at 312.42 74.93 180)
 			(effects
 				(font
 					(size 1.27 1.27)
